@@ -1,0 +1,123 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: Episciences - Documentation
+site_url: https://doc.episciences.org/
+copyright: CC BY 4.0 - Centre pour la communication scientifique directe
+dev_addr: '0.0.0.0:8000'
+site_dir: site
+site_favicon: images/favicon.png
+repo_url: https://github.com/CCSDForge/episciences-documentation
+edit_uri: edit/main/docs/
+theme:
+  name: material
+  custom_dir: docs/overrides
+  font:
+    text: Manrope
+    code: Roboto Mono
+  logo: assets/episciences.svg
+  features:
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - toc.follow
+    - content.action.edit
+    - content.action.view
+    #- toc.integrate
+    #- header.autohide
+    #- navigation.tabs
+    #- navigation.expand
+
+  palette:
+    # Palette toggle for light mode
+    # customs defined in assets/episciences.css see 'extra_css'
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    # customs defined in assets/episciences.css see 'extra_css'
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra:
+  generator: true
+  social:
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/episciences
+    - icon: fontawesome/brands/github
+      link: https://github.com/CCSDForge/episciences
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/ccsd-science-ouverte
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Français
+      link: /fr/
+      lang: fr
+
+extra_css:
+  - assets/episciences.css
+
+# Navigation
+# Can be used to rename Pages in Navigation, /!\ if used, see nav_translations for translations
+nav:
+#  - Home: index.md
+#  - Accounts: account.md
+
+plugins:
+  - print-site
+  - search:
+      lang:
+        - en
+        - fr
+  - i18n:
+      docs_structure: folder
+      reconfigure_material: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: fr
+          name: Français
+          build: true
+          nav_translations:
+            Accueil: Home
+
+
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+      enable_creation_date: true
+  
+  #- encriptmail:
+  #      placeholderAt:  (at)
+
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+      cache_safe: true
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
+  - def_list
+  - tables
+
+

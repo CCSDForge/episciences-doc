@@ -1,6 +1,6 @@
 # Repository for Episciences Documentation
 
-Made with  [Material for MkDocs](https://www.sphinx-doc.org/)
+Made with  [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 
 [Latest version on doc.episciences.org](https://doc.episciences.org/)
 

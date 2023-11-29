@@ -76,7 +76,6 @@ nav:
 #  - Accounts: account.md
 
 plugins:
-  - print-site
   - search:
       lang:
         - en
@@ -110,6 +109,7 @@ plugins:
       htmlmin_opts:
         remove_comments: true
       cache_safe: true
+  - print-site
 
 markdown_extensions:
   - abbr

@@ -27,13 +27,13 @@ Cliquer sur le titre du document voulu puis, dans l’onglet “Liens publicatio
 
 ![Liens publications - données - logiciels](img/software-1.png "Liens publications - données - logiciels")
 
-Indiquer l’identifiant Software Heritage (SoftWare Hash IDentifier, SWHID) puis cliquer sur “Ajouter”.
-
 > Sur Software Heritage, le SWHID se trouve dans l’onglet rouge “Permalinks”, situé à droite de l’écran.
 
 ![Où trouver le SWHID ?](img/software-2.png "Où trouver le SWHID ?")
 
 Choisir le code correspondant à “Directory” (qui permettra d’afficher la prévisualisation sur l’article) puis cliquer sur “Copy identifier”.
+
+Indiquer l’identifiant Software Heritage (SoftWare Hash IDentifier, SWHID) puis cliquer sur “Ajouter”.
 
 ![Ajouter un logiciel](img/software-3.png "Ajouter un logiciel")
 
@@ -41,7 +41,7 @@ Une prévisualisation du logiciel tel qu’archivé dans Software Heritage s’a
 
 ![Ajouter un logiciel : visualisation](img/software-4.png "Ajouter un logiciel : visualisation")
 
-> À noter: l’ajout d’un logiciel est possible à tout moment. Il sera visible par les évaluateurs et les évaluatrices 
+> À noter : l’ajout d’un logiciel est possible à tout moment. Il sera visible par les évaluateurs et les évaluatrices 
 > qui pourront ainsi évaluer le document en ayant accès au code.
 
 ## Citer un logiciel dans sa publication

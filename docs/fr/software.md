@@ -28,7 +28,8 @@ Cliquer sur le titre du document voulu puis, dans l’onglet “Liens publicatio
 ![Liens publications - données - logiciels](img/software-1.png "Liens publications - données - logiciels")
 
 Indiquer l’identifiant Software Heritage (SoftWare Hash IDentifier, SWHID) puis cliquer sur “Ajouter”.
-Le SWHID se trouve dans l’onglet rouge “Permalinks”, situé à droite de l’écran.
+
+> Sur Software Heritage, le SWHID se trouve dans l’onglet rouge “Permalinks”, situé à droite de l’écran.
 
 ![Où trouver le SWHID ?](img/software-2.png "Où trouver le SWHID ?")
 

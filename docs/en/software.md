@@ -26,13 +26,13 @@ Click on the title of the document you want and then, in the “Linked publicati
 
 ![Linked publications - datasets - softwares](img/software-1.png "Linked publications - datasets - softwares")
 
-Enter the SoftWare Hash IDentifier (SWHID) then click on “Add”.
-
-> On Software Heritage, the SWHID is in the red “Permalinks” tab on the right of the screen.
+> On Software Heritage, the SoftWare Hash IDentifier (SWHID) is in the red “Permalinks” tab on the right of the screen.
 
 ![Where to find SWHID?](img/software-2.png "Where to find SWHID?")
 
 Choose the code corresponding to “Directory” (which will display the preview on the item) then click on “Copy identifier”.
+
+Enter the SWHID then click on “Add”.
 
 ![Add software](img/software-3.png "Add software")
 

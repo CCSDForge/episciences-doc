@@ -22,9 +22,9 @@ Once the document has been submitted, you can link it to a software application.
 
 To do this, go to “My Account” > “My submissions”.
 
-Click on the title of the document you want and then, in the “Linked publications - datasets - softwares” tab, click on “Add software”.
+Click on the title of the document you want and then, in the “Linked publications - datasets - software” tab, click on “Add software”.
 
-![Linked publications - datasets - softwares](img/software-1.png "Linked publications - datasets - softwares")
+![Linked publications - datasets - software](img/software-1.png "Linked publications - datasets - software")
 
 > On Software Heritage, the SoftWare Hash IDentifier (SWHID) is in the red “Permalinks” tab on the right of the screen.
 

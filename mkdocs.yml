@@ -7,8 +7,8 @@ site_dir: site
 site_favicon: images/favicon.png
 repo_url: https://github.com/CCSDForge/episciences-doc
 edit_uri: edit/main/docs/
-extra_javascript:
-  - ../js/matomo.js
+#extra_javascript:
+#  - ../js/matomo.js
 
 theme:
   name: material
@@ -74,7 +74,7 @@ extra_css:
 
 # Navigation
 # Can be used to rename Pages in Navigation, /!\ if used, see nav_translations for translations
-nav:
+#nav:
 #  - Home: index.md
 #  - Accounts: account.md
 

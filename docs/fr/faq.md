@@ -6,6 +6,7 @@ dans Episciences.
 Les numéros de version d’un document correspondent aux versions proposées par l’auteur : elles suivent le schéma de numérotation de l’archive ouverte source.
 
 Exemple :
+
    - Version 5
    - Version 2
 
@@ -17,6 +18,7 @@ mais n’a pas été proposée par l’auteur sur le site de la revue. On passe 
 Les versions intermédiaires (documents mis à jour sur le site de la revue mais ne provenant pas d’une archive) sont numérotées avec des points.
 
 Exemple :
+
    - Version 2
    - version 1.02
    - version 1.01

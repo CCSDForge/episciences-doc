@@ -15,7 +15,8 @@ The first version submitted to the journal was the article Version 2 (V2). Then,
 ### 2. Intermediate versions from Episciences
 Intermediate versions (articles updated directly on the website of the journal but not coming from an open repository) are numbers with dots.
 
-Example :
+Example : 
+
 - Version 2
 - version 1.02
 - version 1.01

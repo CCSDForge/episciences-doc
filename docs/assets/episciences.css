@@ -1,13 +1,14 @@
 
 :root {
     --md-primary-fg-color: #00005f;
-    --md-primary-fg-color--light: #0AA0BE;
+    --md-primary-fg-color--light: #00005f;
     --md-primary-fg-color--dark: #00005f;
+
 }
 
 [data-md-color-scheme="slate"] {
     --md-primary-fg-color: #00005f;
-    --md-primary-fg-color--light: #0AA0BE;
+    --md-primary-fg-color--light: #00005f;
     --md-primary-fg-color--dark: #00005f;
 
     --md-typeset-a-color: #0AA0BE;
@@ -15,6 +16,12 @@
     --md-typeset-a-color--dark: #0AA0BE;
 
 }
+
+.md-footer-meta {
+    background-color: #00005f;
+
+}
+
 img {
     /*border: 1px solid #e0e0e0;*/
 }
@@ -26,4 +33,8 @@ h1,h2,h3,h4,h5 {
 
 .md-header__button.md-logo img, .md-header__button.md-logo svg {
     height: 2.5rem;
+}
+
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+    height: 40px;
 }

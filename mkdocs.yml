@@ -57,10 +57,15 @@ extra:
   social:
     - icon: fontawesome/brands/x-twitter
       link: https://twitter.com/episciences
+    - icon: mastodon
+      link: https://social.numerique.gouv.fr/@episciences
     - icon: fontawesome/brands/github
       link: https://github.com/CCSDForge/episciences
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/ccsd-science-ouverte
+    - icon: canal-u
+      link: https://www.canal-u.tv/chaines/ccsd
+
   alternate:
     - name: English
       link: /
@@ -101,6 +106,7 @@ plugins:
   - git-revision-date-localized:
       fallback_to_build_date: true
       enable_creation_date: true
+
   
   #- encriptmail:
   #      placeholderAt:  (at)

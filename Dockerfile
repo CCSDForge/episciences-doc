@@ -1,4 +1,3 @@
-#FROM python:3.11-alpine3.18
 FROM python:3.12-alpine
 #FROM squidfunk/mkdocs-material
 
@@ -13,7 +12,8 @@ RUN pip install mkdocs  \
     mkdocs-git-revision-date-localized-plugin  \
     mkdocs-minify-plugin \
     mkdocs-material \
-    mkdocs-print-site-plugin
-#   mkdocs-encriptmail-plugin BeautifulSoup4
+    mkdocs-print-site-plugin \
+    mkdocs-video \
+    mkdocs-encriptmail-plugin BeautifulSoup4
 
 EXPOSE 8000

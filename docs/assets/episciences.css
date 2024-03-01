@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 :root {
     --md-primary-fg-color: #00005f;
@@ -22,13 +23,38 @@
 
 }
 
-img {
-    /*border: 1px solid #e0e0e0;*/
+body {
+    font-family: "Noto sans", sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    line-height: 1.6;
 }
-h1,h2,h3,h4,h5 {
- /*   color: #00005f;*/
 
+h1,h2 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
 }
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-family: "Noto sans", sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+h4 {
+    font-family: "Noto sans", sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
 
 
 .md-header__button.md-logo img, .md-header__button.md-logo svg {

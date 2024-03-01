@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://doc.episciences.org/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/account/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/account/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/account/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/copyediting/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/copyediting/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/copyediting/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/faq/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/faq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/faq/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/grids/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/grids/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/grids/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/mailing/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/mailing/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/mailing/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/reminders/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/reminders/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/reminders/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/review/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/review/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/review/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/roles/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/roles/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/roles/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/settings/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/settings/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/settings/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/software/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/software/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/software/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/submission/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/submission/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/submission/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/users/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/users/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/users/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/volumes/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/volumes/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/volumes/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/website/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/website/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/website/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/fr/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/fr/account/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/account/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/account/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/fr/copyediting/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/copyediting/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/copyediting/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/fr/faq/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/faq/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/fr/grids/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/grids/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/grids/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/fr/mailing/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/mailing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/mailing/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/fr/reminders/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/reminders/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/reminders/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/fr/review/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/review/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/review/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/fr/roles/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/roles/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/roles/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/fr/settings/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/settings/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/settings/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/fr/software/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/software/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/software/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/fr/submission/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/submission/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/submission/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/fr/users/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/users/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/users/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/fr/volumes/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/volumes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/volumes/"/>
+    </url>
+    <url>
+        <loc>https://doc.episciences.org/fr/website/</loc>
+        <lastmod>2024-03-01</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/website/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/website/"/>
+    </url>
+</urlset>

@@ -118,8 +118,8 @@ plugins:
       htmlmin_opts:
         remove_comments: true
       cache_safe: true
-  - print-site
   - mkdocs-video
+  - print-site
 
 
 markdown_extensions:

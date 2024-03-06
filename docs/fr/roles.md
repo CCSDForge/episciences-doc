@@ -24,6 +24,7 @@ Les rôles ayant le plus de droits sont mentionnés par un astérisque.
 + **Webmaster** : responsable du site web de la revue. Cela inclut le paramétrage (configuration générale du site) et l’accès à la feuille de styles.
 
 
-Les fonctionnalités liées à chaque rôle sont mentionnée de façon synthétique dans un tableau, accessible en mode connecté : Mon espace > Permissions
+Les fonctionnalités liées à chaque rôle sont mentionnées de façon synthétique dans un tableau, accessible en mode 
+connecté : Mon espace > Permissions
 
 ![Alt text](img/roles-2.png "Permissions")

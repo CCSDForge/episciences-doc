@@ -78,6 +78,6 @@ Les métadonnées d’une rubrique :
 
 - **Nom** : champ obligatoire 
 - **Description** : ne sera pas affichée sur le site 
-- **Statut** : ouvert/fermé
+- **Statut** : ouvert/fermé 
 
 Si le site de la revue est en plusieurs langues, le nom de la rubrique doit être saisi pour chacune des langues. Cliquer sur + pour afficher le champ.

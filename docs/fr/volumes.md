@@ -22,6 +22,7 @@ Pour créer un volume, cliquer sur “Créer un volume”.
 ![Alt text](img/volumes-2.png "Créer un volume : formulaire")
 
 Un volume est composé de 7 éléments :
+
 - **Nom** (obligatoire) : titre du volume
 - **Description** : description du volume
 - **Référence bibliographique du volume** : indiquer ici l’identifiant du volume (ex : 18, vol. 2, vol.24:1). Cette 
@@ -29,7 +30,7 @@ Un volume est composé de 7 éléments :
 - **Statut** (ouvert/fermé) : un statut ouvert permet d’ajouter des articles au fil de l’eau
 - **Volume en cours** (oui/non) : en sélectionnant l’option “oui” et le statut “ouvert”, ce volume est proposé lors du 
   dépôt
-- **Volume spécial** (oui/non) : volume accessible uniquement sur code d’accès
+- **Volume spécial** (oui/non) : volume accessible uniquement avec un code d’accès
 - **Métadonnées** : permet d’ajouter un fichier PDF, comme un édito, un erratum, un addendum, des remerciements, un 
   hommage, etc.
 
@@ -74,6 +75,7 @@ Le nombre de rubriques n’est pas limité.
 ![Alt text](img/sections-2.png "Créer une rubrique : champs à renseigner")
 
 Les métadonnées d’une rubrique :
+
 - **Nom** : champ obligatoire
 - **Description** : ne sera pas affichée sur le site
 - **Statut** : ouvert/fermé

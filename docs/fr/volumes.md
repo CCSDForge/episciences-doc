@@ -76,8 +76,8 @@ Le nombre de rubriques n’est pas limité.
 
 Les métadonnées d’une rubrique :
 
-- **Nom** : champ obligatoire
-- **Description** : ne sera pas affichée sur le site
+- **Nom** : champ obligatoire 
+- **Description** : ne sera pas affichée sur le site 
 - **Statut** : ouvert/fermé
 
 Si le site de la revue est en plusieurs langues, le nom de la rubrique doit être saisi pour chacune des langues. Cliquer sur + pour afficher le champ.

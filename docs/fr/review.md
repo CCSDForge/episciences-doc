@@ -31,7 +31,8 @@ Après avoir cliqué sur “J’accepte de relire cet article”, un mail est en
 ## Connexion
 Se connecter avec son login et mot de passe sur le site de la revue.
 
-Note : il n’est pas nécessaire d’ouvrir plusieurs comptes sur Episciences si le relecteur est sollicité par plusieurs revues hébergées sur la plateforme.
+Note : il n’est pas nécessaire de créer plusieurs comptes sur Episciences si le relecteur est sollicité par plusieurs 
+revues hébergées sur la plateforme.
 
 ## Tableau de bord
 Le tableau de bord affiche les actions en cours sur le site : les relectures mais également les articles si l’utilisateur en a soumis.

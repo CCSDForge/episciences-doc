@@ -23,3 +23,10 @@ Example :
 - Version 1
 
 Versions 1.01 and 1.02 are working versions, derived from Version 1: they do not come from an open repository. They were updated directly on the journal website by the author.
+
+### 3. Stopping the addition of the arXiv stamp
+arXiv offers a feature for omitting the arXiv stamp, for example if it creates a layout problem for published versions of journals.
+
+If you wish to remove the arXiv stamp, you can do so by adding a 00README.XXX file with the content ‘nostamp’.
+
+Source: https://info.arxiv.org/help/00README.html#nostamp

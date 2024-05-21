@@ -29,4 +29,4 @@ arXiv offers a feature for omitting the arXiv stamp, for example if it creates a
 
 If you wish to remove the arXiv stamp, you can do so by adding a 00README.XXX file with the content ‘nostamp’.
 
-Source: https://info.arxiv.org/help/00README.html#nostamp
+Source: [https://info.arxiv.org/help/00README.html#nostamp](https://doc.episciences.org/faq/#3-stopping-the-addition-of-the-arxiv-stamp)

@@ -32,4 +32,4 @@ arXiv propose une fonctionnalité pour omettre le tampon arXiv, par exemple s'il
 
 Si vous souhaitez supprimer le tampon arXiv, vous pouvez le faire en ajoutant un fichier 00README.XXX avec le contenu 'nostamp'
 
-Source: [https://info.arxiv.org/help/00README.html#nostamp](https://doc.episciences.org/faq/#3-stopping-the-addition-of-the-arxiv-stamp)
+Source : [https://info.arxiv.org/help/00README.html#nostamp](https://doc.episciences.org/faq/#3-stopping-the-addition-of-the-arxiv-stamp)

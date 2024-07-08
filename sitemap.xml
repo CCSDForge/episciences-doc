@@ -64,6 +64,13 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/roles/"/>
     </url>
     <url>
+        <loc>https://doc.episciences.org/sections/</loc>
+        <lastmod>2024-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/sections/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/sections/"/>
+    </url>
+    <url>
         <loc>https://doc.episciences.org/settings/</loc>
         <lastmod>2024-07-08</lastmod>
         <changefreq>daily</changefreq>
@@ -169,6 +176,13 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/roles/"/>
     </url>
     <url>
+        <loc>https://doc.episciences.org/fr/sections/</loc>
+        <lastmod>2024-07-08</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/sections/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/sections/"/>
+    </url>
+    <url>
         <loc>https://doc.episciences.org/fr/settings/</loc>
         <lastmod>2024-07-08</lastmod>
         <changefreq>daily</changefreq>
@@ -209,11 +223,5 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/website/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://doc.episciences.org/website/"/>
-    </url>
-    <url>
-        <loc>https://doc.episciences.org/fr/sections/</loc>
-        <lastmod>2024-07-08</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://doc.episciences.org/fr/sections/"/>
     </url>
 </urlset>

@@ -25,3 +25,11 @@ Exemple :
    - Version 1
 
 Les versions 1.01 et 1.02 sont des versions de travail, dérivées de la version 1, qui ne proviennent pas d’une archive ouverte : elles ont été téléversées directement sur le site de la revue par l’auteur.
+
+### 3. Omettre le tampon arXiv
+
+arXiv propose une fonctionnalité pour omettre le tampon arXiv, par exemple s'il crée un problème de mise en page pour les versions publiées des revues.
+
+Si vous souhaitez supprimer le tampon arXiv, vous pouvez le faire en ajoutant un fichier 00README.XXX avec le contenu 'nostamp'
+
+Source : [https://info.arxiv.org/help/00README.html#nostamp](https://doc.episciences.org/faq/#3-stopping-the-addition-of-the-arxiv-stamp)

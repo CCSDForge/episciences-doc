@@ -1,10 +1,10 @@
-# Volumes and sections
+# Volumes
 
 > **Rights**: Administrator, Editor in Chief, Editorial secretary
 
-It is possible to create volumes and sections.
-
 Volumes are similar to journal issues and can be used to collect thematic articles.
+
+It is possible to create standard volumes and special volumes.
 
 ## Volumes
 To create and manage volumes, go to the menu: Journal management > Journal > Volumes.
@@ -21,16 +21,33 @@ To create a volume, click on "Create a new volume".
 
 ![Alt text](img/volumes-2.png "Create a new volume")
 
-A volume is composed of 7 elements:
-- **Name*** (required field): title of the volume
+A volume is composed of 10 elements. Fields marked with an asterisk are required:
+
+- **Name***: title of the volume
 - **Description**: description of the volume
 - **Volume’s bibliographical reference**: indicate here the identifier of the volume (e.g. 18 ; vol. 2 ; vol.24:1). This reference is used in the mail templates.
+- **Volume Number***: publication number (e.g. 18 ; 24:1 ; XII)
+- **Year of the volume***: year of publication of the volume in YYYY format
 - **Status** (open/closed): an open status allows articles to be added as they come in.
 - **Current volume** (yes/no): by selecting the "yes" option and the "open" status, this volume is proposed at the time of submission
 - **Special issue** (yes/no): volume accessible only by access code
-- **Metadata**: allows you to add a PDF file, such as an editorial, an erratum, an addendum, thanks, a tribute, etc.
+  - **Proceedings act**: see below
+- **Metadata**: allows you to add a PDF file, such as an editorial, an erratum, an addendum, thanks, a tribute, etc. and also a cover image in .png or .jpg format
 
 If the journal site is in multiple languages, the volume name and its description must be entered for each language. Click on + to display the field.
+
+## Proceedings act
+By ticking the dedicated box, new parameters are displayed.
+
+- **Conference title***
+- **Conference theme**
+- **Conference acronym**
+- **Conference number**
+- **Conference location**: indicate city and country (e.g. Lyon, France)
+- **Conference start date***: a calendar for selecting the date in YYYY-MM-DD format 
+- **Conference end date***
+- **Proceeding DOI**
+
 
 ##  Special issue
 The operation of a special issue is linked to the special issue settings defined in Journal > Settings > Special issues settings:
@@ -51,26 +68,3 @@ If in Journal > Settings > Special issues settings you have selected the item "R
 
 This code is sent to contributors inviting them to submit an article to the special issue.
 
-## Sections
-To create and manage sections, go to the menu: Journal management > Journal > Sections.
-
-![Alt text](img/sections-1.png "Sections")
-
-Several sections can be open at the same time. An author can submit an article to any section.
-
-During the proofreading process, an article may be assigned to another section by the editor (not possible after publication).
-
-An article cannot be submitted to a "closed" section.
-
-The number of sections is not limited.
-
-To create a section, click on "Create a new section".
-
-![Alt text](img/sections-2.png "Create a new section")
-
-The metadata of a section:
-- **Name*** (required field): title of the section
-- **Description**: will not be displayed on the site
-- **Status**: open/closed
-
-If the journal site is in multiple languages, the section name and its description must be entered for each language. Click on + to display the field.

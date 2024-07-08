@@ -16,6 +16,7 @@ To create a section, click on "Create a new section".
 ![Alt text](img/sections-2.png "Create a new section")
 
 The metadata of a section:
+
 - **Name*** (required field): title of the section
 - **Description**: will not be displayed on the site
 - **Status**: open/closed

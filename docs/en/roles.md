@@ -20,7 +20,7 @@ The roles with the most rights are indicated by an asterisk.
 + **Copy editor**: manages the copy editing process, alone or in conjunction with the author, to produce a final 
   version for publication in the journal.
 + **Editorial secretary***: makes an initial selection of the articles submitted. Can refuse an article (if it 
-  does not correspond to the journal’s editorial line, for example) but cannot accept it automatically. Can manage 
+  does not correspond to the journal’s editorial line, for example). Can manage 
   users (creation of accounts).
 + **Webmaster**: responsible for the journal’s website. This includes setting up the general configuration of the site 
   and access to the style sheet.

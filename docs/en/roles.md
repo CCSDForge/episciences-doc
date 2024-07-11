@@ -1,7 +1,4 @@
 # User roles
-
-> **Rights**: Editor in Chief, Administrator, Editorial secretary, Editor, Webmaster, Guest editor, Copy editor, Reviewer, Author
-
 There are **fourteen roles** in Episciences, nine with rights associated with features.
 
 The roles associated with the profile are displayed in the top right-hand corner when you hover the mouse over your username and in the Dashboard section.

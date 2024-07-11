@@ -16,7 +16,7 @@ Les rôles ayant le plus de droits sont mentionnés par un astérisque.
 + **Rédacteur en chef*** : possède tous les droits sur la revue. Il gère les utilisateurs et leur attribue des rôles. Il gère les relecteurs et les articles. Il peut aussi configurer ou modifier le site web de la revue.
 + **Rédacteur invité** : a les mêmes droits que le rédacteur mais seulement sur une rubrique ou un volume.
 + **Relecteur** : permet de relire l’article pour lequel il a été sollicité et de renseigner une évaluation. En fonction du paramétrage de la revue, ce rôle permet de communiquer avec l’auteur.
-+ **Secrétaire de rédaction*** : fait un premier tri dans les articles soumis. Il peut refuser un article (s’il ne correspond pas à la ligne éditoriale de la revue par exemple) mais ne peut pas l’accepter automatiquement. Il peut gérer les utilisateurs (création de compte).
++ **Secrétaire de rédaction*** : fait un premier tri dans les articles soumis. Il peut refuser un article (s’il ne correspond pas à la ligne éditoriale de la revue par exemple). Il peut gérer les utilisateurs (création de compte).
 + **Webmaster** : responsable du site web de la revue. Cela inclut le paramétrage (configuration générale du site) et l’accès à la feuille de styles.
 
 Il existe également cinq rôles sans droits associés. Ils peuvent se combiner aux autres rôles et sont utilisés pour afficher les fonctions dans la revue sur les pages dédiées.

@@ -110,6 +110,16 @@ Les références validées sont précédées d’une coche verte. Cela signifie 
 
 Les liens (DOI, URL) qui ont été ajoutés dans le champ dédié sont cliquables.
 
+### Importer un fichier BibTeX
+Sur la page du document, dans l’onglet “Références bibliographiques”, cliquer sur “Import BibTeX”.
+
+![Références : Import BibTeX](img/References-11.png "Références : Import BibTeX")
+
+L’application “Episciences Citations” s’ouvre dans un nouvel onglet. Cliquer sur le bouton “Import BibTeX” en haut à droite : une fenêtre s’ouvre permettant de charger un fichier .bibtext
+
+![Références : chargement du fichier BibTeX](img/References-12.png "Références : chargement du fichier BibTeX")
+
+
 ## Visualiser les références
 Les références sont désormais visibles dans l’onglet “Références bibliographiques” sur la page publique du document.
 

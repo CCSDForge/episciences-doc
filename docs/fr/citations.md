@@ -20,4 +20,77 @@ upgrade Finite Element or spectral codes”, *Journal of Theoretical, Computatio
 
 ![Références : exemple de rendu public](img/References-0.png "Références : exemple de rendu public")
 
+## Gérer les références
+Seules les personnes ayant les droits de gérer les documents (rôles : administrateur, auteur, rédacteur, rédacteur en chef, secrétaire de rédaction) ont accès à cette fonctionnalité.
 
+La modification manuelle des références extraites est accessible au niveau des documents ayant le statut “accepté et prêt à publier” ou “publié”.
+
+Pour vérifier et modifier les références, se rendre sur la page de gestion d’un article.
+
+Dans l’onglet “Références bibliographiques”, cliquer sur “Gérer”.
+
+![Références : Gérer les références bibliographiques](img/References-1.png "Références : Gérer les références bibliographiques")
+
+L’application “Episciences Citations” s’ouvre dans un nouvel onglet. Par défaut, l’interface est en anglais :cliquer en haut à droite sur “fr” pour afficher celle-ci en français.
+
+L’interface présente deux parties distinctes :
+- à gauche, le PDF en mode prévisualisation ;
+- à droite, les références identifiées et extraites automatiquement via Grobid.
+
+![Episciences Citations](img/References-2.png "Episciences Citations")
+
+Plusieurs actions sont possibles :
+
+1. Accepter toutes les références
+2. Refuser toutes les références
+3. Modifier une référence
+4. Ajouter une référence
+5. Ordonner les références
+6. Extraire à nouveau les références
+7. Importer un fichier BibTeX
+
+Voyons en détail chacune des actions proposées.
+
+### Accepter toutes les références
+Cliquez sur le bouton “Accepter toutes les références”. Les coches à droite de chaque référence passent au vert. Cliquez sur “Enregistrer”.
+
+![Accepter toutes les références](img/References-3.png "Accepter toutes les références")
+
+### Refuser toutes les références
+Cliquez sur le bouton “Refuser toutes les références”. Les coches à droite de chaque référence se grisent. Cliquez sur “Enregistrer”.
+
+![Refuser toutes les références](img/References-4.png "Refuser toutes les références")
+
+### Modifier une référence
+Pour modifier une référence, cliquez sur le bouton “Modifier” en regard de la référence.
+
+Le champ de la référence est désormais éditable ce qui permet de modifier les informations. Un champ dédié permet d’ajouter le DOI du document ou encore une URL.
+
+![Modifier une référence](img/References-5.png "Modifier une référence")
+
+Cliquez sur “Confirmer” pour valider les corrections.
+
+La référence modifiée apparaît désormais en noir et la coche passe au vert pour confirmer la modification.
+
+![Affichage d’une référence modifiée](img/References-6.png "Affichage d’une référence modifiée")
+
+Vous pouvez modifier à nouveau la référence en cliquant sur “Modifier”, autant de fois que nécessaire.
+
+Cliquez ensuite sur “Enregistrer” pour sauvegarder les modifications.
+
+### Ajouter une référence
+Il peut arriver que l’extraction automatique manque une référence ou bien fusionne plusieurs références en une (cas ci-dessous).
+
+![Fusion de plusieurs références](img/References-7.png "Fusion de plusieurs références")
+
+Dans ce cas, l’option “Ajouter une référence” permet de dissocier les références fusionnées.
+
+Cliquez sur le bouton “Ajouter une référence”. Une fenêtre s’ouvre avec deux champs à compléter : “Référence” et “DOI, URL”.
+Note : pour que l’URL soit cliquable, il faut qu'elle commence impérativement par http ou https.
+
+![Ajout d’une référence](img/References-8.png "Ajout d’une référence")
+
+Une fois les champs de la référence renseignés, cliquez sur “Ajouter une référence”.
+La nouvelle référence est ajoutée en fin de liste et automatiquement validée. La mention “UTILISATEUR” sur fond vert apparaît sur le côté droit de la référence ce qui permet de la distinguer des références extraites du PDF.
+
+![Affichage de la nouvelle référence](img/References-8.1.png "Affichage de la nouvelle référence")

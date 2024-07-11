@@ -1,7 +1,4 @@
 # Rôles
-
-> **Rôles** : administrateur, auteur, préparateur de copie, rédacteur, rédacteur en chef, rédacteur invité, relecteur, secrétaire de rédaction, webmaster
-
 Il existe **quatorze rôles** dans Episciences, neuf ayant des droits associés à des fonctionnalités.
 
 Les rôles associés au profil s’affichent en haut à droite lorsque l’on passe la souris sur son nom d’utilisateur et dans le Tableau de bord, dans la partie “Mon compte”.

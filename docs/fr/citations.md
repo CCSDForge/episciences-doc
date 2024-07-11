@@ -115,7 +115,7 @@ Sur la page du document, dans l’onglet “Références bibliographiques”, cl
 
 ![Références : Import BibTeX](img/References-11.png "Références : Import BibTeX")
 
-L’application “Episciences Citations” s’ouvre dans un nouvel onglet. Cliquer sur le bouton “Import BibTeX” en haut à droite : une fenêtre s’ouvre permettant de charger un fichier .bibtext
+L’application “Episciences Citations” s’ouvre dans un nouvel onglet. Cliquer sur le bouton “Import BibTeX” en haut à droite : une fenêtre s’ouvre permettant de charger un fichier .bibtex
 
 ![Références : chargement du fichier BibTeX](img/References-12.png "Références : chargement du fichier BibTeX")
 

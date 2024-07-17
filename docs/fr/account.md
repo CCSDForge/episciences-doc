@@ -1,6 +1,4 @@
 # Compte et profil
-> **Rôles** : auteur, rédacteur, administrateur, rédacteur en chef, secrétaire de rédaction, webmaster, rédacteur invité, préparateur de copie, relecteur, membre, invité
-
 
 !!! tip
 
@@ -8,6 +6,7 @@
 
 ## Créer un compte
 La création d’un compte se fait en deux étapes :
+
 1. renseigner les informations nécessaires à la création du compte dans le formulaire dédié sur le site de la revue ;
 2. valider la création du compte en cliquant sur le lien d’activation reçu par mail.
 
@@ -18,9 +17,10 @@ Les champs marqués d’un astérisque sont obligatoires.
 ![Alt text](img/account-1.png "Créer un compte")
 
 Saisir les informations :
+
 + **login*** : il s’agit de votre nom d’utilisateur. Il doit comporter au minimum 3 caractères et ne pourra pas être modifié par la suite ;
 + **mot de passe*** : il doit comporter au minimum 7 caractères ;
-+ mot de passe (confirmation)* ;
++ **mot de passe (confirmation)*** : confirmer le mot de passe ;
 + **nom de famille*** : avec une majuscule à l’initiale (ex : Dupont) ;
 + **prénom*** : avec une majuscule à l’initiale (ex : Camille) ;
 + **nom à afficher** : par défaut, vos prénom et nom seront affichés ;
@@ -41,6 +41,7 @@ Une fois le compte créé, vous pouvez vous connecter au site.
 Pour modifier son profil, se connecter puis cliquer sur “Modifier mon profil” en haut à droite.
 ![Alt text](img/account-3.png "Modifier mon profil")
 Les informations suivantes peuvent être ajoutées à votre compte après sa création :
+
 + **civilité** : Mme, M., Dr, Pr, etc. ;
 + **complément de nom** ;
 + **photo** : au format .jpg, .gif ou .png).
@@ -57,6 +58,7 @@ Le nouveau mot de passe doit comporter 7 caractères minimum.
 ## Login ou mot de passe oublié
 En cas d’oubli de votre mot de passe ou de votre login, cliquez sur “Mot de passe oublié ?” ou “Login oublié ?” en haut à droite du bouton “Connexion”.
 ![Alt text](img/account-5.png "Login ou mot de passe oublié")
+
 + Si vous avez oublié votre **mot de passe**, saisissez votre login puis cliquer sur “Demander un nouveau mot de passe”. Vous recevrez un courriel contenant un lien vers une page où vous pourrez vous créer un nouveau mot de passe.
 + Si vous avez oublié votre **login** (nom d’utilisateur), saisissez l’adresse mail associée à votre compte. Vous recevrez un courriel contenant votre nom d’utilisateur.
 

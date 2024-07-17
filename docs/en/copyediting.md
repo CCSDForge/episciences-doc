@@ -4,10 +4,12 @@
 Copy editing is a step that takes place after the article has been accepted.
 
 This stage allows you to entrust the final formatting either:
+
 - to a person with a dedicated role (copy editor);
 - to the author.
 
 Copy editing can also be done by the following roles:
+
 - administrator
 - editor in chief
 - editorial secretary
@@ -22,6 +24,7 @@ The person with the copy editor role should then be added to the articles on whi
 
 ## Activity of the copy editor
 The first choice to be made on an accepted article is to select the type of workflow desired:
+
 - **Option 1**: the journal does the formatting. The author provides the sources to the copy editor who will edit the final version;
 - **Option 2**: the author formats the final version themself.
 

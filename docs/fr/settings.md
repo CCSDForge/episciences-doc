@@ -15,7 +15,8 @@ Les champs marqués d’un astérisque sont obligatoires.
 + **Page de contact de la revue** : indiquer ici une URL
 + **Page de contact du support technique** : indiquer ici une URL
 + **Courriel de contact de la revue** : indiquer ici une adresse de courriel
-+ **Courriel de contact du support technique** : indiquer ici une adresse de courriel
++ **Courriel de contact du support technique** : adresse mail du support renseignée par l’équipe Episciences
+
 
 ## Paramètres de soumission
 ![Alt text](img/settings-2.png "Paramètres de soumission")
@@ -24,18 +25,21 @@ Les champs marqués d’un astérisque sont obligatoires.
 
 D’autres paramètres peuvent être activés :
 
-**Choix de section** :
-+ l’auteur **ne peut pas** choisir la section ;
-+ l’auteur **peut** choisir la section ;
-+ l’auteur **doit** choisir la section.
+**Choix de rubrique** :
+
++ l’auteur **ne peut pas** choisir la rubrique ;
++ l’auteur **peut** choisir la rubrique ;
++ l’auteur **doit** choisir la rubrique.
 
 **Choix du rédacteur** :
+
 + l’auteur **ne peut pas** choisir de rédacteurs ;
 + l’auteur **peut** choisir des rédacteurs ;
 + l’auteur **doit** choisir **des** rédacteurs ;
 + l’auteur **doit** choisir **un seul** rédacteur.
 
 Il est également possible de permettre aux **auteurs** :
+
 + de **suggérer des relecteurs** (ce paramètre n’assigne pas automatiquement le manuscrit à un relecteur, ce n’est qu’une suggestion) ;
 + d’indiquer par qui ils ne souhaitent pas être relus ;
 + de répondre à une demande de modifications par une version temporaire ;
@@ -54,10 +58,12 @@ Il est également possible de permettre aux **auteurs** :
 Les relances automatiques sont calculées à partir de ces paramètres.
 
 Autres options :
+
 + Permettre aux relecteurs d’envoyer des messages à l’auteur
 + Afficher les rapports de relecture sur la page de consultation d’un article
 
 Réassigner automatiquement les mêmes relecteurs quand une nouvelle version est soumise :
+
 + En cas de demande de modifications majeures
 + En cas de demande de modifications mineures
 
@@ -69,6 +75,7 @@ Réassigner automatiquement les mêmes relecteurs quand une nouvelle version est
 **Autres options** :
 
 Cloisonner les rédacteurs : s’ils sont cloisonnés, les rédacteurs ne peuvent voir que les articles qui leur sont assignés
+
 + Les rédacteurs peuvent accepter les articles
 + Les rédacteurs peuvent publier les articles
 + Les rédacteurs peuvent refuser les articles
@@ -76,8 +83,9 @@ Cloisonner les rédacteurs : s’ils sont cloisonnés, les rédacteurs ne peuven
 + Permettre aux rédacteurs de modifier les templates de mails
 
 Lorsqu’un article est soumis, assigner les :
+
 + Rédacteurs en chef
-+ Rédacteurs de section
++ Rédacteurs de rubrique
 + Rédacteurs de volume (hors volume spécial)
 + Rédacteurs suggérés par le contributeur
 + Rédacteurs de volume spécial

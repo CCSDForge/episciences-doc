@@ -23,30 +23,30 @@ Les champs marqués d’un astérisque sont obligatoires.
 
 + **Type** : sélectionner le type de relance dans la liste déroulante. Au choix :
 
-  + Invitation de relecteur sans réponse 
-  + Rappel avant date de livraison de relecture 
-  + Relance après date de livraison de relecture 
-  + Rappel avant date limite de modification 
-  + Relance après date limite de modification 
-  + Pas assez de relecteurs 
-  + Article bloqué à l’état accepté
+  - Invitation de relecteur sans réponse 
+  - Rappel avant date de livraison de relecture 
+  - Relance après date de livraison de relecture 
+  - Rappel avant date limite de modification 
+  - Relance après date limite de modification 
+  - Pas assez de relecteurs 
+  - Article bloqué à l’état accepté
 
 + **Destinataire** : sélectionner le rôle concerné dans la liste déroulante. Au choix :
 
-  + Rédacteur en chef 
-  + Rédacteur 
-  + Relecteur 
-  + Auteur
+  - Rédacteur en chef 
+  - Rédacteur 
+  - Relecteur 
+  - Auteur
 
 + **Délai*** : saisir un nombre correspondant au nombre de jours (la relance sera envoyée X jours après l’expiration du délai paramétré dans la revue).
 
 + **Répétition** : sélectionner la fréquence des relances dans la liste déroulante. Au choix :
 
-  + Jamais 
-  + Quotidienne 
-  + Hebdomadaire 
-  + Toutes les deux semaines 
-  + Mensuelles
+  - Jamais 
+  - Quotidienne 
+  - Hebdomadaire 
+  - Toutes les deux semaines 
+  - Mensuelles
 
 + **Personnalisation** : sélectionner “Template par défaut” (non modifiable) ou “Template personnalisé” afin de pouvoir modifier le sujet du mail et le texte du message.
 

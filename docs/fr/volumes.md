@@ -47,7 +47,7 @@ En cochant la case dédiée, de nouveaux paramètres s’affichent.
 - **Acronyme de la conférence**
 - **Numéro de la conférence**
 - **Lieu de la conférence** : indiquer la ville et le pays (ex : Lyon, France)
-- **Date de début de la conférence*** : un calendrier permet de sélectionner la date au format AAA-MM-JJ
+- **Date de début de la conférence*** : un calendrier permet de sélectionner la date au format AAAA-MM-JJ
 - **Date de fin de la conférence***
 - **DOI de l'acte de conférence**
 

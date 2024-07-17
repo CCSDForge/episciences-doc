@@ -35,6 +35,7 @@ L’application “Episciences Citations” s’ouvre dans un nouvel onglet. Par
 cliquer en haut à droite sur “fr” pour afficher celle-ci en français.
 
 L’interface présente deux parties distinctes :
+
 - à gauche, le PDF en mode prévisualisation ;
 - à droite, les références identifiées et extraites automatiquement via Grobid.
 

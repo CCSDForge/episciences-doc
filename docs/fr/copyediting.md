@@ -4,10 +4,12 @@
 La préparation de copie (ou copy editing) est une étape qui intervient après l’acceptation de l’article.
 
 Cette étape permet de confier la mise en forme finale soit :
+
 - à une personne avec un rôle dédié (préparateur de copie) ;
 - à l’auteur.
 
 La préparation de copie peut également être faite par les rôles suivants :
+
 - administrateur
 - rédacteur en chef
 - secrétaire de rédaction
@@ -22,6 +24,7 @@ La personne disposant du rôle de préparateur de copie doit ensuite être ajout
 
 ## Activité du préparateur de copie
 Le premier choix à faire sur un article accepté est de sélectionner le type de flux de travail souhaité :
+
 - **Option 1** : la revue se charge de la mise en forme. L’auteur fournit les sources au préparateur de copie qui 
 s’occupera de la mise en forme de la version finale ;
 - **Option 2** : l’auteur met lui-même en forme la version finale.

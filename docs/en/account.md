@@ -1,7 +1,4 @@
 # Account and user profiles
-> **Rights** : Editor in Chief, Administrator, Editorial secretary, Editor, Webmaster, Guest editor, Copy editor, Reviewer, Author, Member
-
-
 <!-- https://squidfunk.github.io/mkdocs-material/reference/admonitions/ -->
 !!! tip
 
@@ -9,6 +6,7 @@
 
 ## Create an account
 There are two steps to creating an account:
+
 1. Fill in the information required to create the account in the dedicated form on the journal’s website;
 2. Validate the creation of the account by clicking on the activation link received by e-mail.
 
@@ -19,6 +17,7 @@ Fields marked with an asterisk are required.
 ![Alt text](img/account-1.png "Create account")
 
 Enter the information:
+
 + **Login***: this is your user name. It must be at least 3 characters long and cannot be changed afterwards;
 + **Password***: this must be at least 7 characters long;
 + **Password (confirm)***: confirm password;
@@ -47,6 +46,7 @@ To modify your profile, log in and click on “Edit profile” at the top right.
 ![Alt text](img/account-3.png "Edit profile")
 
 The following information can be added to your account after its creation:
+
 + **Title**: Mrs, Mr, Dr, Prof, etc.;
 + **Middle Name**;
 + **Picture**: jpg, .gif or .png format.

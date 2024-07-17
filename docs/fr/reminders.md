@@ -41,7 +41,6 @@ Les champs marqués d’un astérisque sont obligatoires.
 + **Délai*** : saisir un nombre correspondant au nombre de jours (la relance sera envoyée X jours après l’expiration du délai paramétré dans la revue).
 
 + **Répétition** : sélectionner la fréquence des relances dans la liste déroulante. Au choix :
-
   - Jamais 
   - Quotidienne 
   - Hebdomadaire 

@@ -69,7 +69,7 @@ The information in the message should allow the author to have access to all the
 > **Important** The site administrator must have previously created a .zip archive (named according to the format: 
 > short_journal_title.zip) in the “Resources” directory (Journal management > Website > Resources). This archive contains the files to be used for the formatting, for example the different graphic elements, the style sheet, etc.
 
-C’est ensuite à l’auteur de téléverser ses sources.
+It is then up to the author to upload their sources.
 
 #### Uploading of formatted version by the author
 The author uploads their formatted version to the site.

@@ -37,6 +37,7 @@ The interface has two distinct sections:
 ![Episciences Citations](img/citations-2.png "Episciences Citations")
 
 There are several possible actions:
+
 1. Accept all references 
 2. Decline all references 
 3. Edit a reference 
@@ -45,3 +46,4 @@ There are several possible actions:
 6. Extract references from PDF 
 7. Import BibTeX
 
+### Accept all references

@@ -23,7 +23,8 @@ upgrade Finite Element or spectral codes”, *Journal of Theoretical, Computatio
 ## Gérer les références
 Seules les personnes ayant les droits de gérer les documents (rôles : administrateur, auteur, rédacteur, rédacteur en chef, secrétaire de rédaction) ont accès à cette fonctionnalité.
 
-La modification manuelle des références extraites est accessible au niveau des documents ayant le statut “accepté et prêt à publier” ou “publié”.
+La modification manuelle des références extraites est accessible pour les documents ayant le statut “accepté et prêt à 
+publier” ou “publié”.
 
 Pour vérifier et modifier les références, se rendre sur la page de gestion d’un article.
 

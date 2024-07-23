@@ -42,9 +42,10 @@ There are several possible actions:
 2. Decline all references 
 3. Edit a reference 
 4. Add a reference 
-5. Sort the references 
-6. Extract references from PDF 
-7. Import BibTeX
+5. Delete a reference 
+6. Sort the references 
+7. Extract references from PDF 
+8. Import BibTeX
 
 ### Accept all references
 Click on the ‘Accept all references’ button. The ticks to the right of each reference will turn green. Click on ‘Save’.
@@ -90,3 +91,44 @@ Once you have filled in the reference fields, click on ‘Add reference’.
 The new reference is added to the end of the list and automatically validated. The word ‘USER’ on a green background appears on the right-hand side of the reference, to distinguish it from references extracted from the PDF.
 
 ![Displaying the new reference](img/citations-8.1.png "Displaying the new reference")
+
+### Delete a reference
+Grobid may not be able to extract a reference correctly or a reference may appear as a duplicate. In this case, it is possible to delete the incorrect or duplicate reference.
+
+Click on ‘Remove references’.
+
+![Remove references](img/citations-13.png "Remove references")
+
+Select the references to be deleted by ticking the boxes to the right of the references.
+
+![Remove references: selection](img/citations-14.png "Remove references: selection")
+
+To confirm the deletion of the selected references, click on ‘Save’ at the bottom of the page.
+
+### Sort the references
+To move an accepted reference, click and hold the block and drag it up or down. Release the block at the desired location and click ‘Save’.
+
+### Confirm references
+To validate your work on the references and return to the document management page, click on ‘Save’ and then close the ‘Episciences Citations’ tab.
+
+To display the references on the document management page, you need to refresh the page.
+
+![Viewing references](img/citations-9.png "Viewing references")
+
+Validated references are preceded by a green tick. This means that only these references will appear on the document’s public page.
+
+Links (DOI, URL) added in the dedicated field are clickable.
+
+### Import BibTeX
+On the document page, in the ‘Bibliographic References’ tab, click on ‘BibTeX import’.
+
+![BibTeX import](img/citations-11.png "BibTeX import")
+
+The ‘Episciences Citations’ application opens in a new tab. Click on the ‘Import BibTeX’ button at the top right: a window will open allowing you to load a .bibtex file.
+
+![Loading the BibTeX file](img/citations-12.png "Loading the BibTeX file")
+
+## View references
+The references are now visible in the ‘Bibliographic References’ tab on the document’s public page.
+
+![Public display of references](img/citations-10.png "Public display of references")

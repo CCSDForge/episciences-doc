@@ -34,6 +34,7 @@ sur + pour afficher un champ supplémentaire.
 - **Coefficient** : un coefficient peut être attribué au critère. Le chiffre le plus élevé correspond au niveau de 
   pondération le plus haut. La somme des coefficients des différents critères déterminera une note finale.
 - **Type de notation** :
+
   - quand le type d’évaluation sélectionné est “Quantitatif”, trois types de notation sont proposés (notation sur 10, 
   sur 5 ou personnalisée)
   - quand le type d’évaluation sélectionné est “Qualitatif”, il est possible de choisir entre une “notation classique 

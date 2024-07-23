@@ -47,3 +47,28 @@ There are several possible actions:
 7. Import BibTeX
 
 ### Accept all references
+Click on the ‘Accept all references’ button. The ticks to the right of each reference will turn green. Click on ‘Save’.
+
+![Accept all references](img/citations-3.png "Accept all references")
+
+### Decline all references
+Click on the ‘Decline all references’ button. The ticks to the right of each reference will be greyed out. Click on ‘Save’.
+
+![Decline all references](img/citations-4.png "Decline all references")
+
+### Edit a reference
+To modify a reference, click on the ‘Edit’ button next to the reference.
+
+The reference field can now be edited, allowing you to change the information. A dedicated field allows you to add the DOI of the document or a URL.
+
+![Edit a reference](img/citations-5.png "Edit a reference")
+
+Click on ‘Confirm’ to confirm the corrections.
+
+The modified reference now appears in black and the tick changes to green to confirm the change.
+
+![Displaying a modified reference](img/citations-6.png "Displaying a modified reference")
+
+You can change the reference again by clicking on ‘Edit’, as many times as necessary.
+
+Then click on ‘Save’ to save the changes.

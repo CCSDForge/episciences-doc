@@ -48,11 +48,10 @@ Plusieurs actions sont possibles :
 2. Refuser toutes les références
 3. Modifier une référence
 4. Ajouter une référence
-5. Ordonner les références
-6. Extraire à nouveau les références
-7. Importer un fichier BibTeX
-
-Voyons en détail chacune des actions proposées.
+5. Supprimer une référence
+6. Ordonner les références
+7. Extraire à nouveau les références
+8. Importer un fichier BibTeX
 
 ### Accepter toutes les références
 Cliquez sur le bouton “Accepter toutes les références”. Les coches à droite de chaque référence passent au vert. Cliquez sur “Enregistrer”.
@@ -97,6 +96,20 @@ Une fois les champs de la référence renseignés, cliquez sur “Ajouter une r�
 La nouvelle référence est ajoutée en fin de liste et automatiquement validée. La mention “UTILISATEUR” sur fond vert apparaît sur le côté droit de la référence ce qui permet de la distinguer des références extraites du PDF.
 
 ![Affichage de la nouvelle référence](img/References-8.1.png "Affichage de la nouvelle référence")
+
+### Supprimer une référence
+Il peut arriver que Grobid ne parvienne pas à extraire correctement une référence ou encore qu’une référence apparaisse en double. Dans ce cas, il est possible de supprimer la référence incorrecte ou en double.
+
+Cliquez sur “Effacer des références”.
+
+![Supprimer une référence](img/References-13.png "Supprimer une référence")
+
+Sélectionnez les références à supprimer en cochant les cases à droite des références.
+
+![Supprimer une référence : sélection](img/References-14.png "Supprimer une référence : sélection")
+
+Pour valider la suppression des références sélectionnées, cliquez sur “Enregistrer” en bas de page.
+
 
 ### Ordonner les références
 Pour déplacer une référence acceptée, cliquez dans le bloc de celle-ci et maintenez-le appuyé en le glissant vers le haut ou le bas. Relâchez le bloc à l’endroit souhaité puis cliquez sur “Enregistrer”.

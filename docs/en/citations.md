@@ -72,3 +72,21 @@ The modified reference now appears in black and the tick changes to green to con
 You can change the reference again by clicking on ‘Edit’, as many times as necessary.
 
 Then click on ‘Save’ to save the changes.
+
+### Add a reference
+Automatic extraction may miss a reference or merge several references into one (see below).
+
+![Merging several references](img/citations-7.png "Merging several references")
+
+In this case, the ‘Add reference’ option allows you to separate the merged references.
+
+Click on the ‘Add reference’ button. A window opens with two fields to fill in: ‘Reference’ and ‘DOI, URL’.
+Note: for the URL to be clickable, it must begin with http or https.
+
+![Add a reference](img/citations-8.png "Add a reference")
+
+Once you have filled in the reference fields, click on ‘Add reference’.
+
+The new reference is added to the end of the list and automatically validated. The word ‘USER’ on a green background appears on the right-hand side of the reference, to distinguish it from references extracted from the PDF.
+
+![Displaying the new reference](img/citations-8.1.png "Displaying the new reference")

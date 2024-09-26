@@ -103,8 +103,10 @@ Permet d’attribuer un code d’accès afin de permettre la soumission dans les
 ## Préparation de copie
 Permet de cloisonner les préparateurs de copie, c'est-à-dire de leur donner accès seulement aux articles qui leur sont assignés.
 
-## Conflit d’intérêts
-Il est possible d’activer une option pour permettre aux rédacteurs de déclarer un conflit d’intérêts avant l’évaluation.
+## Conflit d’intérêt
+Il est possible d’activer une option pour permettre aux rédacteurs de déclarer un conflit d’intérêt avant l’évaluation.
+
+L’activation du mode conflit d’intérêt a les effets suivants : toutes les informations non publiques concernant une soumission ne sont pas accessibles aux éditeurs en chef et aux éditeurs tant qu’ils n'auront pas déclaré l’absence de tout conflit d’intérêt.
 
 ## Article - décision finale
 Permet de modifier certaines choses sur un article déjà accepté.

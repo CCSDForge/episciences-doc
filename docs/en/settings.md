@@ -102,7 +102,7 @@ Allows you to assign an access code to enable submission in special volumes and 
 Allows partitioning of copy editors, i.e. giving them access only to items assigned to them.
 
 ## Additional settings
-+ Allows reviewers to **declare a conflict of interest** (COI) before the assessment.
++ Allows reviewers to **declare a conflict of interest** (COI) before the assessment. This mode will have the following effects: all non-public information about a submission is not accessible to an editor in chief and an editor until they have declared the absence of any COI.
 + Allows you to change certain things on an already accepted article.
 + **Statistics visibility**: hidden (default option)/public/administrators only
 + **Redirection address**: Select the address that will receive the failed emails.

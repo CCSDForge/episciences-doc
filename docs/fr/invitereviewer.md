@@ -19,7 +19,7 @@ Dans l’onglet “Relecteurs connus par la revue”, renseigner le nom du relec
 Si le relecteur a déjà un compte, sélectionner son nom pour l’inviter à relire l’article.
 ![Alt text](img/invitereviewer-4.png "Inviter ce relecteur")
 
-Un mail s’ouvre vous permettant de paramétrer la date limite de la relecture et de personnaliser le message si besoin.
+Un mail s’ouvre permettant de paramétrer la date limite de la relecture et de personnaliser le message si besoin.
 ![Alt text](img/invitereviewer-5.png "Inviter ce relecteur : mail paramétrable")
 
 Si la recherche du relecteur ne renvoie aucun résultat, cliquer sur le bouton “Nouveau relecteur” en bas à droite.
@@ -29,10 +29,13 @@ Si le relecteur est inconnu de la revue, renseigner son nom ou son adresse mail 
 ![Alt text](img/invitereviewer-7.png "Inviter un utilisateur connu")
 
 Si le relecteur a un ou plusieurs comptes CCSD, sélectionner le compte choisi. Le mail d’invitation à relire la soumission s’ouvre.
+![Alt text](img/invitereviewer-8.png "Inviter un utilisateur connu : sélectionner le compte")
+
 Un compte pour le relecteur sera créé sur la revue quand celui-ci se connectera sur le site avec ses identifiants CCSD, grâce au lien envoyé avec l’invitation (le relecteur n’aura pas besoin de se créer un nouveau compte).
 
 Attention ! Si vous sautez cette étape, vous allez créer un compte temporaire. Le relecteur, qui se connectera avec son compte CCSD, ne pourra pas accepter la relecture car le système considérera qu’il s’agit d’une personne différente.
 
 Si le relecteur n’a pas de compte CCSD, renseigner le formulaire “Inviter un nouvel utilisateur” avec son adresse mail, son nom complet et la langue choisie pour la correspondance (anglais ou français).
+![Alt text](img/invitereviewer-9.png "Inviter un nouvel utilisateur")
 
 L’invitation d’un nouvel utilisateur, jusqu’alors inconnu du service d’authentification du CCSD, permet la création d’un compte temporaire que l’utilisateur pourra activer en créant un compte sur le site de la revue grâce au lien envoyé avec l’invitation.

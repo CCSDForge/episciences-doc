@@ -36,9 +36,9 @@ Si le relecteur a un ou plusieurs comptes CCSD, sélectionner le compte choisi. 
 
 Un compte pour le relecteur sera créé sur la revue quand celui-ci se connectera sur le site avec ses identifiants CCSD, grâce au lien envoyé avec l’invitation (le relecteur n’aura pas besoin de se créer un nouveau compte).
 
-!!! tip
-
-    Si vous sautez cette étape, vous allez créer un compte temporaire. Le relecteur, qui se connectera avec son compte CCSD, ne pourra pas accepter la relecture car le système considérera qu’il s’agit d’une personne différente.
+{{% notice warning %}
+Si vous sautez cette étape, vous allez créer un compte temporaire. Le relecteur, qui se connectera avec son compte CCSD, ne pourra pas accepter la relecture car le système considérera qu’il s’agit d’une personne différente.
+{{% /notice %}}
 
 ### Le relecteur n’a pas de compte CCSD
 Si le relecteur n’a pas de compte CCSD, renseigner le formulaire “Inviter un nouvel utilisateur” avec son adresse mail, son nom complet et la langue choisie pour la correspondance (anglais ou français).

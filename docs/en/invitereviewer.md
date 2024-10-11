@@ -32,10 +32,8 @@ If the reviewer has one or more CCSD accounts, select the desired account. The e
 
 An account for the reviewer will be created on the journal when the reviewer logs in to the site with their CCSD credentials using the link sent in the invitation (the reviewer does not need to create a new account).
 
-{{% notice warning %}} 
-If you skip this step, you will be creating a temporary account. The reviewer who logs in with their CCSD account will not be able to accept the review because the system will think they are a different person.
-{{% /notice %}} 
-
+**Please note!** If you skip this step, you will be creating a temporary account. The reviewer who logs in with their 
+CCSD account will not be able to accept the review because the system will think they are a different person.
 
 ### The reviewer does not have a CCSD account
 If the reviewer does not have a CCSD account, fill in the ‘Invite a new user’ form with their email address, full name and the language you wish to use for correspondence (English or French).

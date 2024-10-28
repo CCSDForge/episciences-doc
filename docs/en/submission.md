@@ -1,6 +1,10 @@
-# Article submission
+# Submission
 
 > **Rights**: Author
+
+!!! tip
+
+    If you already have an account on HAL, you do not need to create a specific account to reach Episciences. You just have to fill in your login/password of your HAL account.
 
 ## Prerequisite
 The HAL account is used to connect to the journals’ websites. In case of a first deposit or if you do not have a HAL account, you must create an account.
@@ -8,6 +12,7 @@ The HAL account is used to connect to the journals’ websites. In case of a fir
 Submitting an article to a journal is a two-step process:
 1. deposit of the article proposal (preprint) in an open archive (arXiv, HAL, Zenodo or CWI);
 2. submission of the preprint on the Episciences website of the journal.
+
 
 ## Logging in to the site
 To connect to a journal’s website, click on the “Sign in” button at the top right.

@@ -2,11 +2,15 @@
 
 > **Rôle** : auteur
 
-
 La soumission d’un document à une revue se fait en deux étapes :
 
 1. dépôt du document (pré-print) dans une archive ouverte compatible à savoir arXiv, HAL, Zenodo, bioRxiv, medRxiv, DaRUS (University of Stuttgart), Recherche Data Gouv ;
 2. soumission du pré-print sur le site Episciences de la revue.
+
+!!! tip
+
+    Si le dépôt du pré-print se fait sur HAL, il est possible d’utiliser la passerelle HAL2Episciences qui permet de transférer automatiquement le pré-print sur le site de la revue. Pour plus d’information, se reporter à la documentation HAL : [Soumettre une pré-publication à un service de publication ou de relecture](https://doc.hal.science/en/deposer/soumettre-une-prepublication-a-relecture/ "Soumettre une pré-publication à Episciences directement depuis HAL").
+
 
 ## Déposer un document dans une archive ouverte
 Pour vous accompagner dans le dépôt d’un document, nous avons élaboré des tutoriels vidéos (réalisation Alice 
@@ -18,7 +22,9 @@ Fritsch, en anglais) :
 
 ## Soumettre le document sur le site de la revue
 ### Se connecter au site
-Le compte HAL est utilisé pour se connecter sur les sites des revues. En cas de premier dépôt ou si vous ne disposez pas de compte HAL, vous devez vous créer un compte.
+Le compte HAL est utilisé pour se connecter sur les sites des revues. En cas de premier dépôt ou si vous ne disposez 
+pas de compte HAL, vous devez vous [créer un compte](https://doc.episciences.org/fr/account/ "Créer un compte sur un
+site de revue").
 
 Pour se connecter au site d’une revue, cliquer sur le bouton “Connexion” en haut à droite.
 
@@ -52,7 +58,7 @@ Cliquer sur “Proposer cet article” pour valider le dépôt de la soumission.
 ### Lier un jeu de données, un logiciel ou une publication
 Après le dépôt du document, il est possible de lui ajouter un jeu de données, un logiciel ou une autre publication.
 
-Pour consulter le détail de la procédure, consulter la page Lien publications / données / logiciels.
+Pour consulter le détail de la procédure, consulter la page [Lien publications / données / logiciels](https://doc.episciences.org/fr/software/ "Lien publications / données / logiciels").
 
 
 ## Soumettre un document dans un volume spécial
@@ -68,9 +74,9 @@ Finaliser la procédure de dépôt en cliquant sur “Proposer cet article”.
 ## Demande de modifications
 Après évaluation de son article, l’auteur peut recevoir une demande de modification de la part de la revue. Il est alors invité à retravailler son article et à soumettre une nouvelle version.
 
-Deux possibilités de dépôt existent :
+Deux possibilités : soit l’auteur dépose une version remaniée de son article dans l’archive ouverte (option 1), soit il soumet une version temporaire sur le site de la revue (option 2).
 
-- **Option 1 : dépôt de la version remaniée dans l’archive ouverte**
+### Option 1 : déposer la version remaniée dans l’archive ouverte
 
 Se connecter sur HAL et se rendre sur le dépôt initial. Cliquer sur le bouton “Déposer une nouvelle version” en bas de page.
 ![Alt text](img/submission_submit-HAL.png "Déposer une nouvelle version")
@@ -85,7 +91,7 @@ compte.
 
 La nouvelle version est transmise pour relecture.
 
-- **Option 2 : soumettre une version temporaire** (la version modifiée n’est pas présente dans l’archive)
+### Option 2 : soumettre une version temporaire (la version modifiée n’est pas présente dans l’archive)
 
 Cette option est à privilégier en cas de modifications mineures.
 
@@ -103,4 +109,5 @@ Cette version est uniquement présente sur Episciences et non visible dans l’a
 
 L’article publié est consultable sur le site de la revue. Ses références bibliographiques sont mises à jour automatiquement dans l’archive ouverte.
 
-En cas de besoin, vous pouvez contacter le support technique à l’adresse suivante : support [at] episciences.org
+En cas de besoin, vous pouvez contacter le support technique à l’adresse indiquée dans le pied de page du site de la 
+revue.

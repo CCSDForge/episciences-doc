@@ -2,16 +2,15 @@
 
 > **Rôle** : auteur
 
-La soumission d’un document à une revue se fait en deux étapes :
-
-1. dépôt du document (pré-print) dans une archive ouverte compatible à savoir arXiv, HAL, Zenodo, bioRxiv, medRxiv, DaRUS (University of Stuttgart), Recherche Data Gouv ;
-2. soumission du pré-print sur le site Episciences de la revue.
-
 !!! tip
 
     Si le dépôt du pré-print se fait sur HAL, il est possible d’utiliser la passerelle HAL2Episciences qui permet de transférer automatiquement le pré-print sur le site de la revue. Pour plus d’information, se reporter à la documentation HAL : [Soumettre une pré-publication à un service de publication ou de relecture](https://doc.hal.science/en/deposer/soumettre-une-prepublication-a-relecture/ "Soumettre une pré-publication à Episciences directement depuis HAL").
 
+La soumission d’un document à une revue se fait en deux étapes :
 
+1. dépôt du document (pré-print) dans une archive ouverte compatible à savoir arXiv, HAL, Zenodo, bioRxiv, medRxiv, DaRUS (University of Stuttgart), Recherche Data Gouv ;
+2. soumission du pré-print sur le site Episciences de la revue.
+3. 
 ## Déposer un document dans une archive ouverte
 Pour vous accompagner dans le dépôt d’un document, nous avons élaboré des tutoriels vidéos (réalisation Alice 
 Fritsch, en anglais) :

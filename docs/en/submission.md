@@ -4,7 +4,8 @@
 
 !!! tip
 
-    If the preprint is deposited on HAL, it is possible to use the HAL2Episciences gateway, which allows the automatic transfer of the pre-print to the journal website. Please refer to the [HAL documentation](https://doc.hal.science/en/deposit/submitting-preprint-to-publishing-service/ "Submitting a preprint to a publishing or a peer-review service)" for further information.
+    If the preprint is deposited on HAL, it is possible to use the HAL2Episciences gateway, which allows the 
+automatic transfer of the pre-print to the journal website. Please refer to the [HAL documentation](https://doc.hal.science/en/deposit/submitting-preprint-to-publishing-service/ "Submitting a preprint to a publishing or a peer-review service") for further information.
 
 Submitting a preprint to a journal is a two-step process:
 

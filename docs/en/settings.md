@@ -52,6 +52,7 @@ It is also possible to allow contributors to:
 + abandon the publication process.
 
 A new option allows the author to delegate to the journal the updating of their submission published on arXiv:
+
 + Contributors can share arXiv paper password: No/Optional/Required.
 
 

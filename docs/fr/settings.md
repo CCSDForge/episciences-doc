@@ -9,9 +9,13 @@ Les champs marqués d’un astérisque sont obligatoires.
 ## Paramètres généraux (affichés dans le pied de page)
 ![Alt text](img/settings-1.png "Paramètres généraux")
 
-+ **ISSN (online)** : compléter avec l’e-ISSN de la revue au format XXXX-XXXX
++ **eISSN (online)** : compléter avec l’e-ISSN de la revue au format XXXX-XXXX
 + **ISSN (print)** : compléter avec l’ISSN de la revue au format XXXX-XXXX
-+ **DOI** : à renseigner si la revue possède un DOI
++ **Le DOI de votre revue** : à renseigner si la revue possède un DOI
++ **Page de la notice dans le catalogue** : URL de la notice dans le catalogue des revues renseignée par l’équipe 
+  Episciences 
++ **Éditeur** : nom de l’éditeur de la revue 
++ **Lieu de publication** : sous la forme “Ville, Pays”
 + **Page de contact de la revue** : indiquer ici une URL
 + **Page de contact du support technique** : indiquer ici une URL
 + **Courriel de contact de la revue** : indiquer ici une adresse de courriel

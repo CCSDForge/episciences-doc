@@ -46,7 +46,7 @@ By ticking the dedicated box, new parameters are displayed.
 - **Conference location**: indicate city and country (e.g. Lyon, France)
 - **Conference start date***: a calendar for selecting the date in YYYY-MM-DD format 
 - **Conference end date***
-- **Proceeding DOI**
+- **Proceedings DOI**
 
 
 ##  Special issue

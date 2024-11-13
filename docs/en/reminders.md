@@ -28,7 +28,7 @@ To set up, click on “Add a new reminder”. A screen appears with a list of pa
 
 Fields marked with an asterisk are required.
 
-+ **Type**: Select the type of dunning from the drop-down list. You can choose from the following:
+**Type**: Select the type of dunning from the drop-down list. You can choose from the following:
 
   + Unanswered reviewer invitation 
   + Reminder before reviewing deadline 
@@ -41,17 +41,19 @@ Fields marked with an asterisk are required.
   + Article blocked in reviewed state
 
 
-+ **Recipient**: Select the relevant role from the drop-down list. You can choose one of the following:
+**Recipient**: Select the relevant role from the drop-down list. You can choose one of the following:
+
   + Editor in Chief 
   + Editor 
   + Reviewer: for this recipient, deadlines are determined by other deadlines set in  Journal management > Journal > Settings > Review settings.
   + Author
 
 
-+ **Delay***: enter a number corresponding to the number of days (the reminder will be sent X days after the deadline set in the journal).
+**Delay***: enter a number corresponding to the number of days (the reminder will be sent X days after the deadline set in the journal).
 
 
-+ **Repetition**: select the frequency of the reminders from the drop-down list. Choice of:
+**Repetition**: select the frequency of the reminders from the drop-down list. Choice of:
+
   + Never
   + Daily
   + Weekly
@@ -59,7 +61,7 @@ Fields marked with an asterisk are required.
   + Monthly
 
 
-+ **Customization**: select “Default template” (cannot be changed) or “Custom template” in order to be able to change the subject of the mail and the text of the message.
+**Customization**: select “Default template” (cannot be changed) or “Custom template” in order to be able to change the subject of the mail and the text of the message.
 
 Click on “Submit” to save your changes. An automatic dunning is created. It is possible to modify it.
 

@@ -28,11 +28,13 @@ Fields marked with an asterisk are required.
 Other parameters can be activated:
 
 **Section choice**:
+
 + Contributors **can’t** choose a section;
 + Contributors **can** choose a section;
 + Contributors **have to** choose a section.
 
 **Editor selection**:
+
 + Contributors **can’t** choose editors;
 + Contributors **can** choose editors;
 + Contributors **have to** choose editors;
@@ -41,6 +43,7 @@ Other parameters can be activated:
 When the author has the option to propose an editor at the time of submission, it is possible to select this option: “Do not allow the selection of an editor in chief”.
 
 It is also possible to allow contributors to:
+
 + **suggest reviewers** (this parameter does not automatically assign the manuscript to a reviewer, it is only a suggestion);
 + specify unwanted reviewers;
 + answer revision requests with a temporary version;
@@ -65,10 +68,12 @@ For each option, indicate a number of day(s)/week(s)/month(s).
 Automatic dunning is calculated from these parameters.
 
 Others options:
+
 + Reviewers can send messages to the author;
 + Display rating reports on the article's consultation page (this option concerns only published articles).
 
 Automatically reassign the same reviewers when a new version is submitted:
+
 + In the event of a request for major modifications;
 + In the event of a request for minor modifications.
 
@@ -78,6 +83,7 @@ Automatically reassign the same reviewers when a new version is submitted:
 **Minimum ratings count**: indicate here the minimum number of reviews before an article can be accepted.
 
 **Others options**:
+
 + Encapsulate editors: Encapsulated editors can only see articles assigned to them.
 + Editors can accept articles
 + Editors can publish articles
@@ -86,6 +92,7 @@ Automatically reassign the same reviewers when a new version is submitted:
 + Editors can edit the journal mail templates
 
 When an article is submitted, assign the:
+
 + Editors in Chief
 + Section editors
 + Volume editors (except special volume)

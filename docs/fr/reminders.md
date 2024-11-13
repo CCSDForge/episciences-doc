@@ -30,7 +30,7 @@ Pour paramétrer, cliquer sur “Créer une relance automatique”. Un écran s�
 
 Les champs marqués d’un astérisque sont obligatoires.
 
-+ **Type** : sélectionner le type de relance dans la liste déroulante. Au choix :
+**Type** : sélectionner le type de relance dans la liste déroulante. Au choix :
 
   - Invitation de relecteur sans réponse 
   - Rappel avant date de livraison de relecture 
@@ -43,23 +43,24 @@ Les champs marqués d’un astérisque sont obligatoires.
   - Article bloqué à l’état relu
 
 
-+ **Destinataire** : sélectionner le rôle concerné dans la liste déroulante. Au choix :
+**Destinataire** : sélectionner le rôle concerné dans la liste déroulante. Au choix :
 
   - Rédacteur en chef 
   - Rédacteur 
   - Relecteur : pour ce rôle, les délais de relances sont conditionnés par les délais paramétrés dans Gérer la revue > Revue > Paramètres > Paramètres de relecture. Se référer à la page Paramètres de la revue de la documentation.
   - Auteur
 
-+ **Délai*** : saisir un nombre correspondant au nombre de jours (la relance sera envoyée X jours après l’expiration du délai paramétré dans la revue).
+**Délai*** : saisir un nombre correspondant au nombre de jours (la relance sera envoyée X jours après l’expiration du délai paramétré dans la revue).
 
-+ **Répétition** : sélectionner la fréquence des relances dans la liste déroulante. Au choix :
+**Répétition** : sélectionner la fréquence des relances dans la liste déroulante. Au choix :
+
   - Jamais 
   - Quotidienne 
   - Hebdomadaire 
   - Toutes les deux semaines 
   - Mensuelles
 
-+ **Personnalisation** : sélectionner “Template par défaut” (non modifiable) ou “Template personnalisé” afin de pouvoir modifier le sujet du mail et le texte du message.
+**Personnalisation** : sélectionner “Template par défaut” (non modifiable) ou “Template personnalisé” afin de pouvoir modifier le sujet du mail et le texte du message.
 
 Cliquer sur “Valider” pour enregistrer vos modifications. Une relance automatique est créée. Il est possible de la modifier.
 

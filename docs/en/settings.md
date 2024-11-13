@@ -9,10 +9,13 @@ Fields marked with an asterisk are required.
 ## General settings (displayed in the footer)
 ![Alt text](img/settings-1.png "General settings")
 
-+ **ISSN (online)**: To be completed with the e-ISSN of the journal (XXXX-XXXX)
++ **eISSN (online)**: To be completed with the e-ISSN of the journal (XXXX-XXXX)
 + **ISSN (print)**: To be completed with the ISSN of the journal (XXXX-XXXX)
-+ Your journal’s **DOI**: To be filled in if the journal has a DOI
++ **Journal’s DOI**: To be filled in if the journal has a DOI
 + **Journal contact URL**: Enter a URL here
++ **Catalogue notice URL**: URL
++ **Publisher**: Journal’s publisher name
++ **Location of the publisher**: City, Country
 + **Journal technical contact URL**: Enter a URL here
 + **Journal contact email**: Enter an e-mail address here
 + **Journal technical contact email**: Enter an e-mail address here

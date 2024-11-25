@@ -1,7 +1,10 @@
 # FAQ
 ##Comment sont numérotées les versions d’un document ?
-Il existe deux types de numérotation de versions de documents : 1) versions de l’archive ; 2) versions intermédiaires 
-dans Episciences.
+Il existe deux types de numérotation de versions de documents : 
+
+1) versions de l’archive ; 
+2) versions intermédiaires dans Episciences.
+
 ### 1. Versions de l’archive ouverte
 Les numéros de version d’un document correspondent aux versions proposées par l’auteur : elles suivent le schéma de numérotation de l’archive ouverte source.
 
@@ -26,10 +29,22 @@ Exemple :
 
 Les versions 1.01 et 1.02 sont des versions de travail, dérivées de la version 1, qui ne proviennent pas d’une archive ouverte : elles ont été téléversées directement sur le site de la revue par l’auteur.
 
-### 3. Omettre le tampon arXiv
+## Pointer vers la dernière version
+Il peut arriver que la version publiée ne soit pas la dernière version en ligne sur l’archive ouverte.
 
+Pour permettre de pointer directement vers la dernière version déposée sur l’archive ouverte, se rendre sur la page de gestion de l’article dans l’onglet “Versions”.
+
+Cliquer sur “Modifier” et sélectionner la dernière version.
+
+![FAQ : Pointer vers la dernière version](img/faq-1.png "FAQ : Pointer vers la dernière version")
+
+La mise à jour est automatique.
+
+
+## Omettre le tampon arXiv
 arXiv propose une fonctionnalité pour omettre le tampon arXiv, par exemple s'il crée un problème de mise en page pour les versions publiées des revues.
 
-Si vous souhaitez supprimer le tampon arXiv, vous pouvez le faire en ajoutant un fichier 00README.XXX avec le contenu 'nostamp'
+Si vous souhaitez supprimer le tampon arXiv, vous pouvez le faire en ajoutant un fichier 00README.XXX avec le 
+contenu 'nostamp'.
 
-Source : [https://info.arxiv.org/help/00README.html#nostamp](https://doc.episciences.org/faq/#3-stopping-the-addition-of-the-arxiv-stamp)
+Source : [https://info.arxiv.org/help/00README.html#nostamp](https://info.arxiv.org/help/00README.html#nostamp)

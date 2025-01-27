@@ -12,13 +12,15 @@ There are two steps to creating an account:
 
 On the journal’s website, click on "+ Create account" at the top right.
 
+![Alt text](img/account-0.png "Create account")
+
 Fields marked with an asterisk are required.
 
-![Alt text](img/account-1.png "Create account")
+![Alt text](img/account-1.png "Create account: form")
 
 Enter the information:
 
-+ **Login***: this is your user name. It must be at least 3 characters long and cannot be changed afterwards;
++ **Login***: this is your username. It must be at least 3 characters long and cannot be changed afterwards;
 + **Password***: this must be at least 7 characters long;
 + **Password (confirm)***: confirm password;
 + **Last Name***: with a capital letter in the first letter (e.g. Jones);
@@ -26,9 +28,9 @@ Enter the information:
 + **Screen Name**: by default, your first and last name will be displayed;
 + **ORCID**: if you already have one, enter your 16-digit ID here;
 + **Affiliation(s)**: name or acronym of your organisation(s) (only one per line: use the + button to add more lines);
-+ **Twitter username or Mastodon**: enter your Twitter account (e.g @anonymous) or Mastodon account (e.g 
-  @username@server);
-  **Web Site(s)**: enter the website you wish to add (only one per line: use the + button to add more lines);
++ **Mastodon, Bluesky, X handle**: if you wish to add your account to one of these social networks;
++ **Web Site(s)**: enter the website you wish to add (only one per line: use the + button to add more lines);
++ **Biography**: a short presentation of yourself (700 characters allowed);
 + **Default Language**: choose English or French as the language to be displayed in the interface;
 + **E-mail***: indicate here a valid address to which the validation link will be sent.
 
@@ -51,7 +53,7 @@ The following information can be added to your account after its creation:
 + **Middle Name**;
 + **Picture**: jpg, .gif or .png format.
 
-You can also add your **ORCID**, fill in your **affiliations** and change the **default language** of the interface.
+You can also add your **ORCID**, fill in your **affiliations**, your **Mastodon, Bluesky, X handle**, your **website(s)** or your **biography** and change the **default language** of the interface.
 
 ## Changing your password
 To change your password, log in and click on “Change my password” in the top right-hand corner.

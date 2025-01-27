@@ -16,7 +16,7 @@ Sur le site de la revue, cliquer sur “+ Créer un compte” en haut à droite.
 
 Les champs marqués d’un astérisque sont obligatoires.
 
-![Alt text](img/account-1.png "Créer un compte")
+![Alt text](img/account-1.png "Créer un compte : formulaire à renseigner")
 
 Saisir les informations :
 
@@ -47,7 +47,9 @@ Une fois le compte créé, vous pouvez vous connecter au site.
 
 ## Modifier son profil
 Pour modifier son profil, se connecter puis cliquer sur “Modifier mon profil” en haut à droite.
+
 ![Alt text](img/account-3.png "Modifier mon profil")
+
 Les informations suivantes peuvent être ajoutées à votre compte après sa création :
 
 + **civilité** : Mme, M., Dr, Pr, etc. ;

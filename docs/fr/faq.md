@@ -30,6 +30,5 @@ Les versions 1.01 et 1.02 sont des versions de travail, dérivées de la version
 
 arXiv propose une fonctionnalité pour omettre le tampon arXiv, par exemple s'il crée un problème de mise en page pour les versions publiées des revues.
 
-Si vous souhaitez supprimer le tampon arXiv, vous pouvez le faire en ajoutant un fichier 00README.XXX avec le contenu 'nostamp'
+Si vous souhaitez supprimer le tampon arXiv, vous pouvez le faire en vous référant à la page d'aide d'arXiv [The 00README File Format](https://info.arxiv.org/help/00README.html#00readmexxx)
 
-Source : [https://info.arxiv.org/help/00README.html#nostamp](https://doc.episciences.org/faq/#3-stopping-the-addition-of-the-arxiv-stamp)

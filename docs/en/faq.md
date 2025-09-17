@@ -27,6 +27,5 @@ Versions 1.01 and 1.02 are working versions, derived from Version 1: they do not
 ### 3. Stopping the addition of the arXiv stamp
 arXiv offers a feature for omitting the arXiv stamp, for example if it creates a layout problem for published versions of journals.
 
-If you wish to remove the arXiv stamp, you can do so by adding a 00README.XXX file with the content ‘nostamp’.
+If you wish to remove the arXiv stamp please refer to the arXiv help about [The 00README File Format](https://info.arxiv.org/help/00README.html#00readmexxx)
 
-Source: [https://info.arxiv.org/help/00README.html#nostamp](https://doc.episciences.org/faq/#3-stopping-the-addition-of-the-arxiv-stamp)

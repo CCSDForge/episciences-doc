@@ -4,10 +4,12 @@
 Copy editing is a step that takes place after the article has been accepted.
 
 This stage allows you to entrust the final formatting either:
+
 - to a person with a dedicated role (copy editor);
 - to the author.
 
 Copy editing can also be done by the following roles:
+
 - administrator
 - editor in chief
 - editorial secretary
@@ -22,6 +24,7 @@ The person with the copy editor role should then be added to the articles on whi
 
 ## Activity of the copy editor
 The first choice to be made on an accepted article is to select the type of workflow desired:
+
 - **Option 1**: the journal does the formatting. The author provides the sources to the copy editor who will edit the final version;
 - **Option 2**: the author formats the final version themself.
 
@@ -69,7 +72,7 @@ The information in the message should allow the author to have access to all the
 > **Important** The site administrator must have previously created a .zip archive (named according to the format: 
 > short_journal_title.zip) in the “Resources” directory (Journal management > Website > Resources). This archive contains the files to be used for the formatting, for example the different graphic elements, the style sheet, etc.
 
-C’est ensuite à l’auteur de téléverser ses sources.
+It is then up to the author to upload their sources.
 
 #### Uploading of formatted version by the author
 The author uploads their formatted version to the site.

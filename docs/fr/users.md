@@ -4,9 +4,10 @@
 
 Pour gérer les utilisateurs de la revue (création de compte, ajout de rôles, etc.), aller dans : Gérer la revue > Utilisateurs > Liste.
 
-**Bonne pratique**
+!!! Conseil
 
-Avant de créer un compte pour un nouvel utilisateur, veuillez vérifier que celui-ci n’existe pas déjà dans la base des utilisateurs. Pour vérifier que l’utilisateur n’a pas déjà des droits dans la revue, renseignez le nom de la personne dans le champ de recherche situé en haut à droite de la liste des utilisateurs.
+    Avant de créer un compte pour un nouvel utilisateur, veuillez vérifier que celui-ci n’existe pas déjà dans la base des utilisateurs. Pour vérifier que l’utilisateur n’a pas déjà des droits dans la revue, renseignez le nom de la personne dans le champ de recherche situé en haut à droite de la liste des utilisateurs.
+
 
 ![Alt text](img/users-1.png "Ajouter un utilisateur")
 Il est possible d’inviter de nouveaux utilisateurs (auteurs, relecteurs ou rédacteurs) sur le site de la revue. Pour cela, indiquez le nom de l’utilisateur à ajouter dans le champ dédié. Si la recherche ne retourne aucun résultat, il est possible de créer un compte pour l’utilisateur en cliquant sur le bouton “Créer un nouveau compte”. 
@@ -14,6 +15,7 @@ Il est possible d’inviter de nouveaux utilisateurs (auteurs, relecteurs ou ré
 ![Alt text](img/users-2.png "Créer un compte")
 
 Champs obligatoires pour la création d’un compte :
+
 - **Login** : au moins 3 caractères. Attention : le login ne peut pas être modifié une fois le compte créé ;
 - **Mot de passe** : 7 caractères minimum
 - **Nom**

@@ -1,12 +1,13 @@
 # Managing users
 
-> Rights: Administrator, Editor in Chief, Editorial secretary
+> **Rights:** Administrator, Editor in Chief, Editorial secretary
 
 To manage the users of the journal (create an account, add roles, etc.), go to the menu: Journal management > Users > List.
 
-**Good practice**
+!!! tip
 
-Before creating an account for a new user, please check that the user does not already exist in the user database. To check that the user does not already have rights in the journal, enter the person’s name in the search field at the top right of the user list.
+    Before creating an account for a new user, please check that the user does not already exist in the user database. To check that the user does not already have rights in the journal, enter the person’s name in the search field at the top right of the user list.
+
 
 ![Alt text](img/users-1.png "Add a new user")
 It is possible to invite new users (authors, reviewers or editors) to the journal site. To do this, enter the name of the user to be added in the dedicated field. If the search does not return any results, it is possible to create an account for the user by clicking on the “Create a new account” button.
@@ -14,6 +15,7 @@ It is possible to invite new users (authors, reviewers or editors) to the journa
 ![Alt text](img/users-2.png "Create a new account")
 
 Required fields for account creation:
+
 - **Login**: at least 3 characters. Attention: the login cannot be changed once the account has been created.
 - **Password**: minimum 7 characters
 - **Password (confirm)**

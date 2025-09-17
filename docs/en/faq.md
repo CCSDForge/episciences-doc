@@ -1,6 +1,9 @@
 # FAQ
 ## What are the document version numbering conventions?
-There are 2 types of version numbering for documents: 1. Versions from the open repository; 2. Intermediate versions from Episciences.
+There are 2 types of version numbering for documents: 
+
+1. Versions from the open repository;
+2. Intermediate versions from Episciences.
 
 ### 1. Versions from the open archive
 Version numbers are corresponding to the numbers of the versions submitted by the author. Thus they follow the numbering scheme of the open repository where the article comes from.
@@ -24,7 +27,19 @@ Example :
 
 Versions 1.01 and 1.02 are working versions, derived from Version 1: they do not come from an open repository. They were updated directly on the journal website by the author.
 
-### 3. Stopping the addition of the arXiv stamp
+## Pointing to the latest version
+Sometimes the published version is not the latest version online in the open repository.
+
+To point directly to the latest version deposited on the open repository, go to the Versions tab on the article management page.
+
+Click on “Edit” then select the latest version.
+
+![FAQ: Pointing to the latest version](img/faq-1.png "FAQ: Pointing to the latest version")
+
+Update is automatic.
+
+
+## Stopping the addition of the arXiv stamp
 arXiv offers a feature for omitting the arXiv stamp, for example if it creates a layout problem for published versions of journals.
 
 If you wish to remove the arXiv stamp please refer to the arXiv help about [The 00README File Format](https://info.arxiv.org/help/00README.html#00readmexxx)

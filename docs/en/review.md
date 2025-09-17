@@ -52,6 +52,7 @@ The user can filter by article status, review status, volume, section, editors, 
 By clicking on the title of the article, a new page opens to access the article to be reviewed and the form to be filled in for the evaluation.
 
 There are two ways to access the article:
+
 1. **Download the file** ;
 2. **Visit the article page**: allows you to consult and download the article on the open archive site where it has been deposited. There may be several versions of the text, as well as annexed documents (dataset, video file, slide show, etc.).
 
@@ -66,5 +67,6 @@ The exchanges between the reviewer and the author are saved on the platform. By 
 
 ### Validation of reviewing
 During the assessment, two options are available:
+
 1. **Save evaluation**: save the information entered during the review if the review is not completed.
 2. **Complete the evaluation**: allows you to validate the information entered and to send it to the editor in charge of the article.

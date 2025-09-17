@@ -42,5 +42,5 @@ Update is automatic.
 ## Stopping the addition of the arXiv stamp
 arXiv offers a feature for omitting the arXiv stamp, for example if it creates a layout problem for published versions of journals.
 
-If you wish to remove the arXiv stamp please refer to the arXiv help about [The 00README File Format](https://info.arxiv.org/help/00README.html#00readmexxx)
+If you wish to remove the arXiv stamp please refer to the arXiv help about [The 00README File Format](https://info.arxiv.org/help/00README.html)
 

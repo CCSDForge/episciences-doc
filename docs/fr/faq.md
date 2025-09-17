@@ -44,5 +44,5 @@ La mise à jour est automatique.
 ## Omettre le tampon arXiv
 arXiv propose une fonctionnalité pour omettre le tampon arXiv, par exemple s'il crée un problème de mise en page pour les versions publiées des revues.
 
-Si vous souhaitez supprimer le tampon arXiv, vous pouvez le faire en vous référant à la page d'aide d'arXiv [The 00README File Format](https://info.arxiv.org/help/00README.html#00readmexxx)
+Si vous souhaitez supprimer le tampon arXiv, vous pouvez le faire en vous référant à la page d'aide d'arXiv [The 00README File Format](https://info.arxiv.org/help/00README.html)
 

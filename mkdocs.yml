@@ -55,8 +55,8 @@ theme:
 extra:
   generator: true
   social:
-    - icon: fontawesome/brands/x-twitter
-      link: https://twitter.com/episciences
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/episciences.bsky.social
     - icon: fontawesome/brands/mastodon
       link: https://social.numerique.gouv.fr/@episciences
     - icon: fontawesome/brands/github

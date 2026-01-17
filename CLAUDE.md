@@ -12,9 +12,29 @@ All commands use Docker. Build the image first with `make build`.
 
 ```bash
 make build        # Build Docker image (required first)
-make doc-serve    # Start dev server at http://localhost:8000
-make doc-build    # Generate static site in ./site/
+make serve        # Start dev server at http://localhost:8000
+make build-site   # Generate static site in ./site/
+make clean        # Remove generated site/ folder
 make version      # Show MkDocs version
+```
+
+### Docker Compose commands (cross-platform, Windows-friendly)
+
+```bash
+make up           # Start container in background
+make down         # Stop and remove container
+make stop         # Stop container without removing
+make restart      # Restart container
+make logs         # Show container logs
+```
+
+On Windows without Make, use docker-compose directly:
+```bash
+docker-compose up -d      # Start
+docker-compose stop       # Stop
+docker-compose down       # Remove
+docker-compose restart    # Restart
+docker-compose logs -f    # Logs
 ```
 
 ## Architecture

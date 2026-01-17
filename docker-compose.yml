@@ -1,6 +1,7 @@
 services:
   docs:
     build: .
+    container_name: episciences-docs
     ports:
       - "8000:8000"
     volumes:

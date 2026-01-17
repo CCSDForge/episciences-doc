@@ -18,7 +18,7 @@ make clean        # Remove generated site/ folder
 make version      # Show MkDocs version
 ```
 
-### Docker Compose commands (cross-platform, Windows-friendly)
+### Docker Compose commands (cross-platform, supports V1 and V2)
 
 ```bash
 make up           # Start container in background
@@ -28,14 +28,16 @@ make restart      # Restart container
 make logs         # Show container logs
 ```
 
-On Windows without Make, use docker-compose directly:
+The Makefile auto-detects `docker compose` (V2) or `docker-compose` (V1).
+
+On Windows without Make, use docker compose directly:
 
 ```bash
-docker-compose up -d      # Start
-docker-compose stop       # Stop
-docker-compose down       # Remove
-docker-compose restart    # Restart
-docker-compose logs -f    # Logs
+docker compose up -d      # Start (or docker-compose for V1)
+docker compose stop       # Stop
+docker compose down       # Remove
+docker compose restart    # Restart
+docker compose logs -f    # Logs
 ```
 
 ## Architecture

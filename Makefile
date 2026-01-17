@@ -3,6 +3,9 @@
 DOCS_BUILD_IMAGE ?= documentation-episciences-mkdocs
 DOCKER_RUN_DOC_OPTS := --rm -v .:/docs -p 8000:8000
 
+# Auto-detect docker compose command (V2 "docker compose" or V1 "docker-compose")
+DOCKER_COMPOSE := $(shell docker compose version > /dev/null 2>&1 && echo "docker compose" || echo "docker-compose")
+
 # Colors for display
 CYAN  := \033[36m
 GREEN := \033[32m
@@ -35,21 +38,21 @@ clean: ## Remove generated site/ folder
 version: ## Show MkDocs version
 	@docker run $(DOCKER_RUN_DOC_OPTS) $(DOCS_BUILD_IMAGE) mkdocs --version
 
-# Docker Compose commands (cross-platform)
-up: ## Start container in background (docker-compose)
-	@docker-compose up -d
+# Docker Compose commands (cross-platform, supports both V1 and V2)
+up: ## Start container in background
+	@$(DOCKER_COMPOSE) up -d
 
-down: ## Stop and remove container (docker-compose)
-	@docker-compose down
+down: ## Stop and remove container
+	@$(DOCKER_COMPOSE) down
 
-stop: ## Stop container without removing (docker-compose)
-	@docker-compose stop
+stop: ## Stop container without removing
+	@$(DOCKER_COMPOSE) stop
 
-restart: ## Restart container (docker-compose)
-	@docker-compose restart
+restart: ## Restart container
+	@$(DOCKER_COMPOSE) restart
 
-logs: ## Show container logs (docker-compose)
-	@docker-compose logs -f
+logs: ## Show container logs
+	@$(DOCKER_COMPOSE) logs -f
 
 # Prettier commands (requires: npm install)
 format: ## Format all files with Prettier

@@ -1,0 +1,8 @@
+.git
+.gitignore
+site/
+*.md
+!docs/**/*.md
+CLAUDE.md
+README.md
+LICENSE

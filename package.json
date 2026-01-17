@@ -1,0 +1,16 @@
+{
+  "name": "episciences-doc",
+  "version": "1.0.0",
+  "description": "Documentation for Episciences platform",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "format:md": "prettier --write \"docs/**/*.md\" \"*.md\"",
+    "format:yaml": "prettier --write \"*.yml\" \"*.yaml\" \".github/**/*.yml\"",
+    "format:css": "prettier --write \"docs/**/*.css\""
+  },
+  "devDependencies": {
+    "prettier": "^3.5.0"
+  }
+}

@@ -8,7 +8,6 @@ To manage the users of the journal (create an account, add roles, etc.), go to t
 
     Before creating an account for a new user, please check that the user does not already exist in the user database. To check that the user does not already have rights in the journal, enter the person’s name in the search field at the top right of the user list.
 
-
 ![Alt text](img/users-1.png "Add a new user")
 It is possible to invite new users (authors, reviewers or editors) to the journal site. To do this, enter the name of the user to be added in the dedicated field. If the search does not return any results, it is possible to create an account for the user by clicking on the “Create a new account” button.
 

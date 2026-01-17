@@ -1,4 +1,5 @@
 # Copy editing
+
 > **Rights**: Author, Copy editor
 
 Copy editing is a step that takes place after the article has been accepted.
@@ -16,6 +17,7 @@ Copy editing can also be done by the following roles:
 - editor (for their assigned articles)
 
 ## The role of the copy editor
+
 The copy editor role can be assigned to one or more people. To add this role to one or more users, go to: Journal management > Users > List.
 
 The person with the copy editor role should then be added to the articles on which they have to work.
@@ -23,6 +25,7 @@ The person with the copy editor role should then be added to the articles on whi
 ![Alt text](img/copyediting-1.png "Add a copy editor")
 
 ## Activity of the copy editor
+
 The first choice to be made on an accepted article is to select the type of workflow desired:
 
 - **Option 1**: the journal does the formatting. The author provides the sources to the copy editor who will edit the final version;
@@ -31,6 +34,7 @@ The first choice to be made on an accepted article is to select the type of work
 ![Alt text](img/copyediting-2.png "Change article status")
 
 ### Option 1: The journal takes care of the copy editing
+
 Choose the option “Ask the author for the sources (copy editing by the journal)”.
 
 A window allows you to customise the message to be sent to the author to ask him/her to deposit their sources on the journal’s website.
@@ -46,6 +50,7 @@ The message contains a link allowing the author to submit, after deposit in the 
 The work of copy editing is then complete.
 
 #### Adding sources by the author
+
 To upload the sources files, click on the “Add source files” button.
 
 ![Alt text](img/copyediting-3.png "Add source files")
@@ -61,6 +66,7 @@ Once you have selected the file(s), click on “Send” to send them. A summary 
 If necessary, further shipments are possible with other files. Each time, a notification is sent to the copy editor.
 
 ### Option 2: The author takes care of the copy editing
+
 Choose the option “Ask for the final version (copy editing by the author)”.
 
 A window allows you to customise the message to be sent to the author. The message is pre-filled according to a template that can be customised by the journal, which automatically adds the information the author needs, as well as elements allowing the manuscript to be styled for its final version.
@@ -69,12 +75,13 @@ The information in the message should allow the author to have access to all the
 
 ![Alt text](img/copyediting-7.png "Example of a message ready to be sent to the author to ask them to format their article")
 
-> **Important** The site administrator must have previously created a .zip archive (named according to the format: 
+> **Important** The site administrator must have previously created a .zip archive (named according to the format:
 > short_journal_title.zip) in the “Resources” directory (Journal management > Website > Resources). This archive contains the files to be used for the formatting, for example the different graphic elements, the style sheet, etc.
 
 It is then up to the author to upload their sources.
 
 #### Uploading of formatted version by the author
+
 The author uploads their formatted version to the site.
 
 Once the file has been selected, click on “Send” to send it. A summary of the e-mail and the file sent is displayed.
@@ -84,6 +91,7 @@ If necessary, other subsequent transmissions are possible with other files. Each
 The copy editor receives an email notification when the author has uploaded their formatted version. It is then possible to proceed to the stage of accepting the author version or requesting another formatted version.
 
 ### Acceptance
+
 If the submitted version is not suitable, the copy editor can contact the author to request changes.
 
 If the version is suitable, accept the author’s version: in “Article status”, select “Accept as final version”.

@@ -1,7 +1,9 @@
 # Mailing module
+
 > **Rights**: Administrator, Editor, Editor in Chief, Editorial secretary, Webmaster
 
 ## Mailing
+
 To manage the sending of emails to certain roles, go to: Journal management > Mail > Mailing.
 
 ![Alt text](img/mailing-1.png "Mailing")
@@ -13,6 +15,7 @@ To select the recipient(s), click on “To”, “Cc” or “Bcc” and then on
 ![Alt text](img/mailing-2.png "Select the recipients")
 
 ## Templates
+
 A number of pre-configured emails (templates) are available on the site.
 
 To consult and modify these templates, go to: Journal management > Mail > Templates.
@@ -28,6 +31,7 @@ The name of the template, its subject and its content can be customised.
 To customise the templates, see the list of variables to be inserted in the templates.
 
 ## History
+
 All messages sent via the site (automatic notifications as well as emails), are accessible via the history available in Journal management > Mails > History.
 
 By default, exchanges are displayed by date sent, with the most recent exchanges displayed first.

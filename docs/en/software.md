@@ -7,17 +7,21 @@ In order to promote and encourage the reproducibility of science, Episciences fa
 This documentation page explains step-by-step how to link software. The procedure is similar for linking a dataset or a publication.
 
 ## Linking software
+
 Before linking a software to a document submitted to an Episciences journal, it is advisable to deposit it in HAL or in Software Heritage in order to allow its permanent archiving.
 
 If the software is not available in a repository (github or other) or if we wish to have rich metadata to describe it, it is possible to deposit it in HAL. If the software is already available in a repository, we recommend using Software Heritage.
 
 ### Submit software to HAL
+
 The deposit of a software via HAL allows its sustainable archiving in Software Heritage. The complete procedure of the deposit is detailed in the documentation HAL, [Deposit software source code](https://doc.archives-ouvertes.fr/en/deposit-2/deposit-software-source-code/ "Deposit software source code").
 
 ### Deposit software in Software Heritage
+
 The procedure for archiving software is available on the Software Heritage website, [Save and reference research software](https://www.softwareheritage.org/save-and-reference-research-software/ "Save and reference research software").
 
 ### Link the software to Episciences publication
+
 Once the document has been submitted, you can link it to a software application.
 
 To do this, go to “My Account” > “My submissions”.
@@ -43,4 +47,5 @@ A preview of the software as archived in Software Heritage is displayed (provide
 > Please note: software can be added at any time. It will be visible to the reviewers, who will be able to review the document with access to the code.
 
 ## Citing software in your publication
+
 On the Software Heritage website you will find full documentation on how to cite software in a publication: [Citing software with style](https://www.softwareheritage.org/2020/05/26/citing-software-with-style/ "Citing software with style").

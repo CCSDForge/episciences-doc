@@ -28,11 +28,11 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs  \
-               mkdocs-static-i18n  \
-               mkdocs-git-revision-date-localized-plugin  \
-               mkdocs-minify-plugin \
-               mkdocs-material \
-               mkdocs-print-site-plugin
-               mkdocs-video \
-               mkdocs-encriptmail-plugin BeautifulSoup4
+          mkdocs-static-i18n  \
+          mkdocs-git-revision-date-localized-plugin  \
+          mkdocs-minify-plugin \
+          mkdocs-material \
+          mkdocs-print-site-plugin
+          mkdocs-video \
+          mkdocs-encriptmail-plugin BeautifulSoup4
       - run: mkdocs gh-deploy --force

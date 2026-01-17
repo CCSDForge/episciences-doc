@@ -1,4 +1,13 @@
+# Generated
 site/
-.idea
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
 .DS_Store
+
+# Claude
 /.claude/

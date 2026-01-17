@@ -2,7 +2,7 @@
 site_name: Episciences - Documentation
 site_url: https://doc.episciences.org/
 copyright: CC BY 4.0 - Centre pour la communication scientifique directe
-dev_addr: '0.0.0.0:8000'
+dev_addr: "0.0.0.0:8000"
 site_dir: site
 site_favicon: images/favicon.png
 repo_url: https://github.com/CCSDForge/episciences-doc
@@ -102,14 +102,12 @@ plugins:
           nav_translations:
             Accueil: Home
 
-
   - git-revision-date-localized:
       fallback_to_build_date: true
       enable_creation_date: true
 
-  
   - encriptmail:
-        placeholderAt: (at)
+      placeholderAt: (at)
 
   - minify:
       minify_html: true
@@ -121,7 +119,6 @@ plugins:
   - mkdocs-video
   - print-site
 
-
 markdown_extensions:
   - abbr
   - admonition
@@ -131,5 +128,3 @@ markdown_extensions:
   - def_list
   - attr_list
   - tables
-
-

@@ -3,27 +3,32 @@
 > **Rôles** : administrateur, auteur, rédacteur en chef, secrétaire de rédaction
 
 ## L’application “Episciences Citations”
-Episciences est dotée d’une application d’extraction des références bibliographiques, “Episciences Citations”. 
+
+Episciences est dotée d’une application d’extraction des références bibliographiques, “Episciences Citations”.
 
 ### Qu’est-ce que “Episciences Citations” ?
+
 L’application permet d’extraire automatiquement et de gérer manuellement les références bibliographiques contenues dans les documents acceptés pour publication. Une fois validées, ces références sont affichées sur les pages publiques des documents/articles. Elles sont également ajoutées aux exports pour CrossRef et ZbMath Open.
 
 ### Fonctionnement
-L’application extrait les références bibliographiques du PDF du document via l’outil [Grobid](https://grobid.readthedocs.io/en/latest/ "Grobid") (*GeneRation Of 
-BIbliographic Data*).
+
+L’application extrait les références bibliographiques du PDF du document via l’outil [Grobid](https://grobid.readthedocs.io/en/latest/ "Grobid") (_GeneRation Of
+BIbliographic Data_).
 
 ### Affichage
-Voici un exemple d’affichage des références extraites d’un article (source : Stéphane André et Camille Noûs, 
-“Solving viscoelastic problems with a Laplace transform approach supplanted by ARX models, suggesting a way to 
-upgrade Finite Element or spectral codes”, *Journal of Theoretical, Computational and Applied Mechanics*, publié le 
+
+Voici un exemple d’affichage des références extraites d’un article (source : Stéphane André et Camille Noûs,
+“Solving viscoelastic problems with a Laplace transform approach supplanted by ARX models, suggesting a way to
+upgrade Finite Element or spectral codes”, _Journal of Theoretical, Computational and Applied Mechanics_, publié le
 10 octobre 2023, [https://doi.org/10.46298/jtcam.10304](https://doi.org/10.46298/jtcam.10304 "Visualiser l'article")).
 
 ![Références : exemple de rendu public](img/References-0.png "Références : exemple de rendu public")
 
 ## Gérer les références
+
 Seules les personnes ayant les droits de gérer les documents (rôles : administrateur, auteur, rédacteur, rédacteur en chef, secrétaire de rédaction) ont accès à cette fonctionnalité.
 
-La modification manuelle des références extraites est accessible pour les documents ayant le statut “accepté et prêt à 
+La modification manuelle des références extraites est accessible pour les documents ayant le statut “accepté et prêt à
 publier” ou “publié”.
 
 Pour vérifier et modifier les références, se rendre sur la page de gestion d’un article.
@@ -32,7 +37,7 @@ Dans l’onglet “Références bibliographiques”, cliquer sur “Gérer”.
 
 ![Références : Gérer les références bibliographiques](img/References-1.png "Références : Gérer les références bibliographiques")
 
-L’application “Episciences Citations” s’ouvre dans un nouvel onglet. Par défaut, l’interface est en anglais : 
+L’application “Episciences Citations” s’ouvre dans un nouvel onglet. Par défaut, l’interface est en anglais :
 cliquer en haut à droite sur “fr” pour afficher celle-ci en français.
 
 L’interface présente deux parties distinctes :
@@ -54,16 +59,19 @@ Plusieurs actions sont possibles :
 8. Importer un fichier BibTeX
 
 ### Accepter toutes les références
+
 Cliquez sur le bouton “Accepter toutes les références”. Les coches à droite de chaque référence passent au vert. Cliquez sur “Enregistrer”.
 
 ![Accepter toutes les références](img/References-3.png "Accepter toutes les références")
 
 ### Refuser toutes les références
+
 Cliquez sur le bouton “Refuser toutes les références”. Les coches à droite de chaque référence se grisent. Cliquez sur “Enregistrer”.
 
 ![Refuser toutes les références](img/References-4.png "Refuser toutes les références")
 
 ### Modifier une référence
+
 Pour modifier une référence, cliquez sur le bouton “Modifier” en regard de la référence.
 
 Le champ de la référence est désormais éditable ce qui permet de modifier les informations. Un champ dédié permet d’ajouter le DOI du document ou encore une URL.
@@ -81,6 +89,7 @@ Vous pouvez modifier à nouveau la référence en cliquant sur “Modifier”, a
 Cliquez ensuite sur “Enregistrer” pour sauvegarder les modifications.
 
 ### Ajouter une référence
+
 Il peut arriver que l’extraction automatique manque une référence ou bien fusionne plusieurs références en une (cas ci-dessous).
 
 ![Fusion de plusieurs références](img/References-7.png "Fusion de plusieurs références")
@@ -98,6 +107,7 @@ La nouvelle référence est ajoutée en fin de liste et automatiquement validée
 ![Affichage de la nouvelle référence](img/References-8.1.png "Affichage de la nouvelle référence")
 
 ### Supprimer une référence
+
 Il peut arriver que Grobid ne parvienne pas à extraire correctement une référence ou encore qu’une référence apparaisse en double. Dans ce cas, il est possible de supprimer la référence incorrecte ou en double.
 
 Cliquez sur “Effacer des références”.
@@ -110,11 +120,12 @@ Sélectionnez les références à supprimer en cochant les cases à droite des r
 
 Pour valider la suppression des références sélectionnées, cliquez sur “Enregistrer” en bas de page.
 
-
 ### Ordonner les références
+
 Pour déplacer une référence acceptée, cliquez dans le bloc de celle-ci et maintenez-le appuyé en le glissant vers le haut ou le bas. Relâchez le bloc à l’endroit souhaité puis cliquez sur “Enregistrer”.
 
 ### Valider les références
+
 Pour valider votre travail sur les références et retourner à la page de gestion du document, cliquez sur “Enregistrer” puis fermez l’onglet “Episciences Citations”.
 
 Pour faire apparaître les références sur la page de gestion du document, vous devez rafraîchir la page.
@@ -126,6 +137,7 @@ Les références validées sont précédées d’une coche verte. Cela signifie 
 Les liens (DOI, URL) qui ont été ajoutés dans le champ dédié sont cliquables.
 
 ### Importer un fichier BibTeX
+
 Sur la page du document, dans l’onglet “Références bibliographiques”, cliquer sur “Import BibTeX”.
 
 ![Références : Import BibTeX](img/References-11.png "Références : Import BibTeX")
@@ -134,8 +146,8 @@ L’application “Episciences Citations” s’ouvre dans un nouvel onglet. Cli
 
 ![Références : chargement du fichier BibTeX](img/References-12.png "Références : chargement du fichier BibTeX")
 
-
 ## Visualiser les références
+
 Les références sont désormais visibles dans l’onglet “Références bibliographiques” sur la page publique du document.
 
 ![Visualisation publique des références](img/References-10.png "Visualisation publique des références")

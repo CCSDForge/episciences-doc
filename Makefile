@@ -8,7 +8,7 @@ CYAN  := \033[36m
 GREEN := \033[32m
 RESET := \033[0m
 
-.PHONY: help build serve build-site clean version up down stop restart logs
+.PHONY: help build serve build-site clean version up down stop restart logs format format-check
 
 help: ## Show this help
 	@echo ""
@@ -50,3 +50,10 @@ restart: ## Restart container (docker-compose)
 
 logs: ## Show container logs (docker-compose)
 	@docker-compose logs -f
+
+# Prettier commands (requires: npm install)
+format: ## Format all files with Prettier
+	@npx prettier --write .
+
+format-check: ## Check formatting without modifying files
+	@npx prettier --check .

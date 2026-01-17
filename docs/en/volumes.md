@@ -7,6 +7,7 @@ Volumes are similar to journal issues and can be used to collect thematic articl
 It is possible to create standard volumes and special volumes.
 
 ## Volumes
+
 To create and manage volumes, go to the menu: Journal management > Journal > Volumes.
 
 ![Alt text](img/volumes-1.png "Volumes")
@@ -23,11 +24,11 @@ To create a volume, click on "Create a new volume".
 
 A volume is composed of 10 elements. Fields marked with an asterisk are required:
 
-- **Name***: title of the volume
+- **Name\***: title of the volume
 - **Description**: description of the volume
 - **Volume’s bibliographical reference**: indicate here the identifier of the volume (e.g. 18 ; vol. 2 ; vol.24:1). This reference is used in the mail templates.
-- **Volume Number***: publication number (e.g. 18 ; 24:1 ; XII)
-- **Year of the volume***: year of publication of the volume in YYYY format
+- **Volume Number\***: publication number (e.g. 18 ; 24:1 ; XII)
+- **Year of the volume\***: year of publication of the volume in YYYY format
 - **Status** (open/closed): an open status allows articles to be added as they come in.
 - **Current volume** (yes/no): by selecting the "yes" option and the "open" status, this volume is proposed at the time of submission
 - **Special issue** (yes/no): volume accessible only by access code
@@ -37,19 +38,20 @@ A volume is composed of 10 elements. Fields marked with an asterisk are required
 If the journal site is in multiple languages, the volume name and its description must be entered for each language. Click on + to display the field.
 
 ## Proceedings act
+
 By ticking the dedicated box, new parameters are displayed.
 
-- **Conference title***
+- **Conference title\***
 - **Conference theme**
 - **Conference acronym**
 - **Conference number**
 - **Conference location**: indicate city and country (e.g. Lyon, France)
-- **Conference start date***: a calendar for selecting the date in YYYY-MM-DD format 
-- **Conference end date***
+- **Conference start date\***: a calendar for selecting the date in YYYY-MM-DD format
+- **Conference end date\***
 - **Proceedings DOI**
 
+## Special issue
 
-##  Special issue
 The operation of a special issue is linked to the special issue settings defined in Journal > Settings > Special issues settings:
 
 - **Restrict submission in special issues with an access code**: if the item is ticked, an access code is associated with the volume. This code is sent to contributors to invite them to submit an article in the special volume.
@@ -67,4 +69,3 @@ If in Journal > Settings > Special issues settings you have selected the item "R
 ![Alt text](img/volumes-4.png "Create a special issue: access code")
 
 This code is sent to contributors inviting them to submit an article to the special issue.
-

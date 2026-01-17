@@ -29,6 +29,7 @@ make logs         # Show container logs
 ```
 
 On Windows without Make, use docker-compose directly:
+
 ```bash
 docker-compose up -d      # Start
 docker-compose stop       # Stop
@@ -40,6 +41,7 @@ docker-compose logs -f    # Logs
 ## Architecture
 
 ### Content Structure
+
 - `docs/en/` - English documentation (default language)
 - `docs/fr/` - French documentation (mirror structure)
 - `docs/assets/` - Custom CSS (`episciences.css`)
@@ -47,11 +49,13 @@ docker-compose logs -f    # Logs
 - `docs/images/` - Global images (favicon, logos)
 
 ### Key Configuration
+
 - `mkdocs.yml` - Main MkDocs configuration (theme, plugins, navigation, i18n)
 - `Dockerfile` - Python 3.12-alpine with MkDocs and all plugins
 - `.github/workflows/ci.yml` - Auto-deploy to GitHub Pages on push to main
 
 ### MkDocs Plugins in Use
+
 - `mkdocs-static-i18n` - Bilingual support (folder-based structure)
 - `mkdocs-git-revision-date-localized-plugin` - Shows last edit dates
 - `mkdocs-minify-plugin` - HTML/CSS/JS minification
@@ -60,6 +64,7 @@ docker-compose logs -f    # Logs
 - `mkdocs-encriptmail-plugin` - Email obfuscation
 
 ### Markdown Extensions Available
+
 - Admonitions (`!!! note`, `!!! warning`, etc.)
 - Footnotes, abbreviations, definition lists
 - Attribute lists, tables
@@ -68,6 +73,7 @@ docker-compose logs -f    # Logs
 ## Content Guidelines
 
 When adding or editing documentation:
+
 - Mirror the same structure in both `docs/en/` and `docs/fr/`
 - Place language-specific images in `docs/en/img/` and `docs/fr/img/`
 - The navigation is auto-generated from file names (no explicit nav config)

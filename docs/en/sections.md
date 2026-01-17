@@ -1,4 +1,5 @@
 ## Sections
+
 To create and manage sections, go to the menu: Journal management > Journal > Sections.
 
 ![Alt text](img/sections-1.png "Sections")
@@ -17,7 +18,7 @@ To create a section, click on "Create a new section".
 
 The metadata of a section:
 
-- **Name*** (required field): title of the section
+- **Name\*** (required field): title of the section
 - **Description**: will not be displayed on the site
 - **Status**: open/closed
 

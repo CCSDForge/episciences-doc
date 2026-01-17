@@ -54,10 +54,10 @@ docker compose up
 docker compose run --rm docs mkdocs build
 ```
 
-| Makefile | Docker Compose |
-|----------|----------------|
-| `make build` | `docker compose build` |
-| `make serve` | `docker compose up` |
+| Makefile          | Docker Compose                              |
+| ----------------- | ------------------------------------------- |
+| `make build`      | `docker compose build`                      |
+| `make serve`      | `docker compose up`                         |
 | `make build-site` | `docker compose run --rm docs mkdocs build` |
 
 ## Project Structure
@@ -79,4 +79,4 @@ docs/
 
 ---
 
-*Centre pour la Communication Scientifique Directe (CCSD)*
+_Centre pour la Communication Scientifique Directe (CCSD)_

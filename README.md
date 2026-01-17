@@ -2,6 +2,11 @@
 
 [![Deploy](https://github.com/CCSDForge/episciences-doc/actions/workflows/ci.yml/badge.svg)](https://github.com/CCSDForge/episciences-doc/actions/workflows/ci.yml)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![MkDocs Material](https://img.shields.io/badge/docs-MkDocs%20Material-blue?logo=materialformkdocs)](https://squidfunk.github.io/mkdocs-material/)
+[![Python](https://img.shields.io/badge/python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Docker](https://img.shields.io/badge/docker-ready-blue?logo=docker&logoColor=white)](https://www.docker.com/)
+[![Prettier](https://img.shields.io/badge/code_style-Prettier-ff69b4?logo=prettier)](https://prettier.io/)
+[![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen?logo=renovatebot)](https://github.com/apps/renovate)
 
 Official documentation for the [Episciences](https://www.episciences.org/) platform, built with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
 

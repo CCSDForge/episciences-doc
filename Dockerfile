@@ -1,4 +1,4 @@
-FROM python:3.12-alpine
+FROM python:3.14-alpine
 
 LABEL maintainer="CCSD <contact@ccsd.cnrs.fr>"
 LABEL description="MkDocs build environment for Episciences documentation"

@@ -14,8 +14,10 @@ Official documentation for the [Episciences](https://www.episciences.org/) platf
 
 ## Prerequisites
 
+- [Git](https://git-scm.com/downloads): Version control system
 - [Docker](https://docs.docker.com/engine/install/) (includes Docker Compose)
 - Make (Linux/macOS only)
+- PowerShell (optional, Windows only)
 
 ## Quick Start
 

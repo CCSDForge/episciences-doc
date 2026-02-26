@@ -59,6 +59,18 @@ docker compose up
 docker compose run --rm docs mkdocs build
 ```
 
+Alternatively, you can use the `docker run` command equivalent to `make serve`:
+
+### PowerShell
+```powershell
+docker run --rm -v ${PWD}:/docs -p 8000:8000 documentation-episciences-mkdocs
+```
+
+### Command Prompt (CMD)
+```cmd
+docker run --rm -v %cd%:/docs -p 8000:8000 documentation-episciences-mkdocs
+```
+
 | Makefile          | Docker Compose                              |
 | ----------------- | ------------------------------------------- |
 | `make build`      | `docker compose build`                      |

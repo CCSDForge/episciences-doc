@@ -6,7 +6,8 @@ LABEL description="MkDocs build environment for Episciences documentation"
 WORKDIR /docs
 
 # Installation en une seule couche + nettoyage des caches
-RUN apk update && apk add --no-cache openssh git \
+RUN apk update && apk add --no-cache openssh git nodejs npm \
+    && npm install -g prettier@3.5.0 \
     && pip install --no-cache-dir \
         mkdocs \
         mkdocs-material \

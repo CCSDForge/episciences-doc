@@ -51,16 +51,24 @@ docker compose up
 # Open http://localhost:8000
 ```
 
-Alternatively, you can use the `docker run` command equivalent to `make serve`:
+Alternatively, you can use the `docker run` command equivalent to `make serve` or `make format`:
 
 **PowerShell**
 ```powershell
+# Start dev server
 docker run --rm -v ${PWD}:/docs -p 8000:8000 documentation-episciences-mkdocs
+
+# Format files
+docker run --rm -v ${PWD}:/docs documentation-episciences-mkdocs prettier --write .
 ```
 
 **Command Prompt (CMD)**
 ```cmd
+# Start dev server
 docker run --rm -v %cd%:/docs -p 8000:8000 documentation-episciences-mkdocs
+
+# Format files
+docker run --rm -v %cd%:/docs documentation-episciences-mkdocs prettier --write .
 ```
 
 ## Available Commands
@@ -70,15 +78,17 @@ make help       # Show available commands
 make build      # Build the Docker image
 make serve      # Start dev server (localhost:8000)
 make build-site # Generate static site in ./site/
+make format     # Format all files with Prettier
 make clean      # Remove generated site/ folder
 make version    # Show MkDocs version
 ```
 
-| Makefile          | Docker Compose                              |
-| ----------------- | ------------------------------------------- |
-| `make build`      | `docker compose build`                      |
-| `make serve`      | `docker compose up`                         |
-| `make build-site` | `docker compose run --rm docs mkdocs build` |
+| Makefile          | Docker Compose                                   |
+| ----------------- | ------------------------------------------------ |
+| `make build`      | `docker compose build`                           |
+| `make serve`      | `docker compose up`                              |
+| `make build-site` | `docker compose run --rm docs mkdocs build`      |
+| `make format`     | `docker compose run --rm docs prettier --write .` |
 
 ## Project Structure
 

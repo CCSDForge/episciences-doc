@@ -54,9 +54,9 @@ restart: ## Restart container
 logs: ## Show container logs
 	@$(DOCKER_COMPOSE) logs -f
 
-# Prettier commands (requires: npm install)
+# Prettier commands (runs inside Docker)
 format: ## Format all files with Prettier
-	@npx prettier --write .
+	@docker run $(DOCKER_RUN_DOC_OPTS) $(DOCS_BUILD_IMAGE) prettier --write .
 
 format-check: ## Check formatting without modifying files
-	@npx prettier --check .
+	@docker run $(DOCKER_RUN_DOC_OPTS) $(DOCS_BUILD_IMAGE) prettier --check .

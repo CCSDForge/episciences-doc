@@ -19,7 +19,7 @@ Official documentation for the [Episciences](https://www.episciences.org/) platf
 - Make (Linux/macOS only)
 - PowerShell (optional, Windows only)
 
-## Quick Start
+## Quick Start (Linux/macOS)
 
 ```bash
 # Clone the repository
@@ -34,6 +34,35 @@ make serve
 # Open http://localhost:8000
 ```
 
+## Quick Start (Windows)
+
+On Windows, use Docker Compose directly (included with Docker Desktop):
+
+```bash
+# Clone the repository
+git clone https://github.com/CCSDForge/episciences-doc.git
+cd episciences-doc
+
+# Build the Docker image
+docker compose build
+
+# Start the development server
+docker compose up
+# Open http://localhost:8000
+```
+
+Alternatively, you can use the `docker run` command equivalent to `make serve`:
+
+**PowerShell**
+```powershell
+docker run --rm -v ${PWD}:/docs -p 8000:8000 documentation-episciences-mkdocs
+```
+
+**Command Prompt (CMD)**
+```cmd
+docker run --rm -v %cd%:/docs -p 8000:8000 documentation-episciences-mkdocs
+```
+
 ## Available Commands
 
 ```bash
@@ -43,34 +72,6 @@ make serve      # Start dev server (localhost:8000)
 make build-site # Generate static site in ./site/
 make clean      # Remove generated site/ folder
 make version    # Show MkDocs version
-```
-
-## Windows Users
-
-On Windows, use Docker Compose directly (included with Docker Desktop):
-
-```bash
-# Build the Docker image
-docker compose build
-
-# Start the development server
-docker compose up
-# Open http://localhost:8000
-
-# Generate static site
-docker compose run --rm docs mkdocs build
-```
-
-Alternatively, you can use the `docker run` command equivalent to `make serve`:
-
-### PowerShell
-```powershell
-docker run --rm -v ${PWD}:/docs -p 8000:8000 documentation-episciences-mkdocs
-```
-
-### Command Prompt (CMD)
-```cmd
-docker run --rm -v %cd%:/docs -p 8000:8000 documentation-episciences-mkdocs
 ```
 
 | Makefile          | Docker Compose                              |

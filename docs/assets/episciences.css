@@ -62,3 +62,11 @@ h4 {
 .md-header__button.md-logo svg {
   height: 40px;
 }
+
+/* Active navigation item styled as button */
+.md-nav__link--active {
+  background-color: #00005f;
+  color: white !important;
+  border-radius: 4px;
+  padding: 0.4rem 0.6rem !important;
+}

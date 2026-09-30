@@ -9,7 +9,7 @@ Ce guide explique comment configurer et utiliser le système de communication en
 Le système de communication auteur-rédacteur permet l'échange de messages directs entre les auteurs et leurs rédacteurs assignés via la plateforme Episciences. Deux paramètres contrôlent cette fonctionnalité :
 
 1. **Communication auteur-rédacteur** — Activer ou désactiver la messagerie directe
-2. **Afficher les noms des rédacteurs aux auteurs** — Afficher les noms réels ou anonymiser les rédacteurs
+2. **Afficher les noms des rédacteurs aux auteurs** — Afficher les noms réels ou anonymiser les rédacteurs Test
 
 ---
 

@@ -103,9 +103,26 @@ docs/
 ## Contributing
 
 1. Create a branch from `main`
+   ```bash
+   git pull origin main                    # get latest changes from remote
+   git checkout -b feat/your-feature-name
+   ```
+
 2. Edit Markdown files in `docs/en/` and `docs/fr/`
-3. Test locally with `make serve`
+
+3. Test locally
+   ```bash
+   make serve                # Linux/macOS
+   docker compose up         # Windows
+   ```
+
 4. Submit a Pull Request
+   ```bash
+   git add -u                # or git add <file>
+   git commit -m "feat: Your commit message"
+   git push -u origin feat/your-feature-name   # first push
+   git push                                     # subsequent pushes
+   ```
 
 ---
 

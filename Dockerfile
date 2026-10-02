@@ -17,6 +17,7 @@ RUN apk update && apk add --no-cache openssh git nodejs npm \
         mkdocs-print-site-plugin \
         mkdocs-video \
         mkdocs-encriptmail-plugin \
+        mkdocs-awesome-pages-plugin \
         beautifulsoup4 \
     && rm -rf /var/cache/apk/*
 

@@ -84,6 +84,7 @@ extra_css:
 #  - Accounts: account.md
 
 plugins:
+  - awesome-pages
   - search:
       lang:
         - en

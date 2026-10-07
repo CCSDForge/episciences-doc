@@ -2,15 +2,16 @@
 
 ## Présentation
 
-La fonctionnalité "Changer le contributeur" permet aux utilisateurs autorisés de transférer la propriété d'un article d'un contributeur à un autre.
+La fonctionnalité "Changement de contributeur" permet aux utilisateurs autorisés de transférer la propriété d'un article d'un contributeur à un autre.
 
 ## Permissions requises pour changer le contributeur
 
 Seuls les rôles suivants peuvent changer le contributeur d'un article :
+
 - **Administrateurs**
 - **Rédacteurs en chef**
 
-## Comment changer le contributeur
+## Procédure
 
 1. Accédez à la page d'administration de l'article
 2. Dans le panneau **Contributeur**, cliquez sur le bouton **Changer le contributeur**
@@ -33,9 +34,11 @@ Lorsque cette option est **cochée** :
 - Il continuera à recevoir des notifications concernant l'article
 - Il peut toujours voir l'article dans son espace auteur
 
-![Changer le contributeur](img/contributor-3.png "nouveau contributeur")
+![Changer le contributeur](img/contributor-3.png "ancien contributeur")
 
-![Changer le contributeur](img/contributor-4.png "ancien contributeur")
+- Notification reçue par le nouveau contributeur :
+
+![Changer le contributeur](img/contributor-4.png "nouveau contributeur")
 
 Lorsque cette option est **décochée** :
 

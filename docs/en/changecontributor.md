@@ -1,87 +1,81 @@
-# Change Contributor - User Guide
+# Change Contributor
 
 ## Overview
 
-The "Change Contributor" feature allows authorized users to transfer ownership of a paper from one contributor to another.
+The "Change of Contributor" feature allows authorized users to transfer ownership of a paper from one contributor to another.
 
-## Who Can Change the Contributor?
+## Required permissions to change the contributor
 
-Only the following roles can change a paper's contributor:
+Only the following roles can change a paper's contributor :
+
 - **Administrators**
 - **Chief Editors**
 
-## How to Change the Contributor
+## Procedure 
 
 1. Navigate to the paper's administration page
 2. In the **Contributor** panel, click the **Change contributor** button
+![Change contributor button](img/contributor-0.png "change contributor")
+
 3. A modal dialog opens:
     - Search for the new contributor by name or email
     - Select the user from the autocomplete results
     - Optionally check **"Add former contributor as co-author"** (checked by default)
 4. Click **Confirm** to apply the change
+![Change contributor modal window](img/contributor-1.png "change contributor")
 
 ## Add Former Contributor as Co-author Option
 
 When this option is **checked**:
+
 - The former contributor is added as a co-author of the paper
+
+![Change contributor](img/contributor-2.png "change contributor")
+
 - They will continue to receive notifications about the paper
 - They can still view the paper in their author space
 
+![Change contributor](img/contributor-3.png "former contributor")
+
+- Notification received by the new contributor :
+
+![Change contributor](img/contributor-4.png "new contributor")
+
 When this option is **unchecked**:
+
 - The former contributor is not added as a co-author
 - The former contributor receives a notification of the change, but will no longer receive notifications about this article afterwards.
+
+![Change contributor](img/contributor-5.png "change contributor")
+
+![Change contributor](img/contributor-6.png "former contributor")
 
 ## Co-author Becoming Contributor
 
 A co-author can be selected as the new contributor. When this happens:
+
 - Their co-author role is automatically removed
 - They become the main contributor (owner) of the paper
 
-## Email Notifications
-
-Two email notifications are sent when the contributor is changed:
-
-### 1. New Contributor Notification
-**Template**: `paper_new_contributor_notification`
-
-Sent to the **new contributor** to inform them they are now responsible for the paper.
-
-**Content includes**:
-- Article title
-- Link to manage the article in their author space
-
-### 2. Former Contributor Notification
-**Template**: `paper_former_contributor_notification`
-
-Sent to the **former contributor** to inform them they are no longer the paper's owner.
-
-**Content includes**:
-- Article title
-- Name of the new contributor
-- Co-author status message (whether they were added as co-author or not)
-- Link to view the article (only if added as co-author)
+![Change contributor](img/contributor-7.png "former co-author to contributor")
 
 ## Activity Log
 
 The action is logged in the paper's history with the following details:
-- **Action**: Contributor changed
-- **Performed by**: User who made the change
-- **Old contributor**: Name of the former contributor
-- **New contributor**: Name of the new contributor
-- **Co-author status**: Whether the former contributor was added as co-author
+
+![Change contributor](img/contributor-8.png "article history")
 
 ## Timeline Display
 
 In the paper's timeline (history panel), the contributor change appears as:
 
-```
-Contributor changed    [Old Name] → [New Name]    [Date]
-```
+![Change contributor](img/contributor-9.png "contributor in the timeline")
 
-Clicking on the entry opens a modal with full details:
-- Date and time
-- User who performed the action
-- Old contributor name
-- New contributor name
-- Co-author status (if applicable)
+## Email Notifications
 
+Two email notifications are sent when the contributor is changed, you can view the email templates here:
+
+- New Contributor Notification
+- Former Contributor Notification
+
+![Change contributor](img/contributor-10.png "email template")

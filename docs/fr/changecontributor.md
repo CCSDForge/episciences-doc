@@ -1,10 +1,10 @@
-# Changer le contributeur
+# Changement de contributeur
 
 ## Présentation
 
 La fonctionnalité "Changement de contributeur" permet aux utilisateurs autorisés de transférer la propriété d'un article d'un contributeur à un autre.
 
-## Permissions requises pour changer le contributeur
+## Permissions requises
 
 Seuls les rôles suivants peuvent changer le contributeur d'un article :
 
@@ -15,15 +15,19 @@ Seuls les rôles suivants peuvent changer le contributeur d'un article :
 
 1. Accédez à la page d'administration de l'article
 2. Dans le panneau **Contributeur**, cliquez sur le bouton **Changer le contributeur**
+
 ![Bouton changer le contributeur](img/contributor-0.png "changer le contributeur")
+
 3. Une fenêtre modale s'ouvre :
     - Recherchez le nouveau contributeur par nom ou email
     - Sélectionnez l'utilisateur dans les résultats de l'autocomplétion
     - Cochez éventuellement **"Ajouter l'ancien contributeur comme co-auteur"** (coché par défaut)
+   
 4. Cliquez sur **Confirmer** pour appliquer le changement
+
 ![Fenêtre modale changer le contributeur](img/contributor-1.png "changer le contributeur")
 
-## Option Ajouter l'ancien contributeur comme co-auteur
+### Option : Ajouter l'ancien contributeur comme co-auteur
 
 Lorsque cette option est **cochée** :
 
@@ -40,6 +44,8 @@ Lorsque cette option est **cochée** :
 
 ![Changer le contributeur](img/contributor-4.png "nouveau contributeur")
 
+### Option : Ne pas ajouter l'ancien contributeur comme co-auteur
+
 Lorsque cette option est **décochée** :
 
 - L'ancien contributeur n'est pas ajouté comme co-auteur
@@ -49,9 +55,10 @@ Lorsque cette option est **décochée** :
 
 ![Changer le contributeur](img/contributor-6.png "ancien contributeur")
 
-## Co-auteur devenant contributeur
+### Cas particulier : Co-auteur devenant contributeur
 
 Un co-auteur peut être sélectionné comme nouveau contributeur. Dans ce cas :
+
 - Son rôle de co-auteur est automatiquement supprimé
 - Il devient le contributeur principal (propriétaire) de l'article
 
@@ -60,6 +67,7 @@ Un co-auteur peut être sélectionné comme nouveau contributeur. Dans ce cas :
 ## Journal d'activité
 
 L'action est enregistrée dans l'historique de l'article avec les détails suivants :
+
 ![Changer le contributeur](img/contributor-8.png "article historique")
 
 ## Affichage dans la chronologie

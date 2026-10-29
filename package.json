@@ -3,14 +3,26 @@
   "version": "1.0.0",
   "description": "Documentation for Episciences platform",
   "private": true,
+  "type": "module",
   "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "format:md": "prettier --write \"docs/**/*.md\" \"*.md\"",
+    "format:md": "prettier --write \"src/content/docs/**/*.{md,mdx}\" \"*.md\"",
     "format:yaml": "prettier --write \"*.yml\" \"*.yaml\" \".github/**/*.yml\"",
-    "format:css": "prettier --write \"docs/**/*.css\""
+    "format:css": "prettier --write \"src/**/*.{css,scss}\""
+  },
+  "dependencies": {
+    "@astrojs/starlight": "0.42.7",
+    "astro": "^7.2.10"
   },
   "devDependencies": {
-    "prettier": "^3.5.0"
+    "@astrojs/check": "^0.9.4",
+    "prettier": "^3.5.0",
+    "typescript": "^5.8.0"
   }
 }

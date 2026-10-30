@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Noto+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Roboto+Mono:wght@400;500&display=swap");
+
+:root {
+  --sl-font: "Noto Sans", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+  --sl-font-mono: "Roboto Mono", monospace;
+  --sl-color-bg-nav: #00005f;
+}
+
+:root[data-theme="light"] {
+  --sl-color-accent-low: #e8ebfa;
+  --sl-color-accent: #00005f;
+  --sl-color-accent-high: #00003b;
+  --sl-color-text-accent: #00005f;
+}
+
+:root[data-theme="dark"] {
+  --sl-color-accent-low: #0a273b;
+  --sl-color-accent: #0aa0be;
+  --sl-color-accent-high: #8de4f2;
+  --sl-color-text-accent: #0aa0be;
+}
+
+/* Headings font */
+h1,
+h2,
+h3 {
+  font-family: "Manrope", sans-serif;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+/* Header (Bandeau supérieur #00005f) */
+header.header {
+  background-color: #00005f !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Logo sizing in header */
+.site-title img {
+  height: 2.2rem;
+  width: auto;
+}
+
+/* Social icons in header */
+header.header .social-icons a {
+  color: #ffffff !important;
+  transition: color 0.15s ease-in-out;
+}
+
+header.header .social-icons a:hover {
+  color: #0aa0be !important;
+}
+
+/* Separator line between social icons and controls */
+header.header .social-icons::after {
+  border-inline-end: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Search button in header */
+header.header site-search button {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border-color: rgba(255, 255, 255, 0.2) !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+  border-radius: 0.5rem !important;
+}
+
+header.header site-search button svg {
+  color: #ffffff !important;
+}
+
+header.header site-search button kbd {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+header.header site-search button:hover {
+  background-color: rgba(255, 255, 255, 0.18) !important;
+  border-color: rgba(255, 255, 255, 0.4) !important;
+  color: #ffffff !important;
+}
+
+/* Language and theme selectors in header */
+header.header starlight-theme-select label,
+header.header starlight-lang-select label {
+  background-color: transparent !important;
+  border: 1px solid transparent !important;
+  border-radius: 0.375rem !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+  padding: 0.25rem 0.5rem !important;
+  transition: all 0.15s ease-in-out;
+}
+
+header.header starlight-theme-select label:hover,
+header.header starlight-lang-select label:hover {
+  background-color: rgba(255, 255, 255, 0.12) !important;
+  border-color: rgba(255, 255, 255, 0.2) !important;
+  color: #ffffff !important;
+}
+
+header.header starlight-theme-select svg,
+header.header starlight-lang-select svg {
+  color: #ffffff !important;
+}
+
+header.header starlight-theme-select select,
+header.header starlight-lang-select select {
+  color: inherit !important;
+}
+
+header.header starlight-theme-select option,
+header.header starlight-lang-select option {
+  background-color: #00005f;
+  color: #ffffff;
+}
+
+/* Mobile menu toggle in header */
+header.header .sl-menu-button {
+  color: #ffffff !important;
+}
+
+/* Active navigation item styled as button */
+.sidebar-content a[aria-current="page"] {
+  background-color: #00005f !important;
+  color: #ffffff !important;
+  border-radius: 4px;
+  padding-inline: 0.6rem !important;
+  padding-block: 0.35rem !important;
+}
+
+:root[data-theme="dark"] .sidebar-content a[aria-current="page"] {
+  background-color: #0aa0be !important;
+  color: #00003b !important;
+  font-weight: 600;
+}

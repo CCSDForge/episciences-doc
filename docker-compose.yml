@@ -3,6 +3,7 @@ services:
     build: .
     container_name: episciences-docs
     ports:
-      - "8000:8000"
+      - "4321:4321"
     volumes:
-      - .:/docs
+      - .:/app
+      - /app/node_modules

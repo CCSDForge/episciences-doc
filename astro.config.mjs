@@ -118,6 +118,7 @@ export default defineConfig({
         starlightLlmsTxt(),
       ],
       customCss: ["./src/styles/episciences.css"],
+      routeMiddleware: "./src/routeData.ts",
     }),
   ],
 });

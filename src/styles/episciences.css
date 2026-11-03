@@ -7,15 +7,16 @@
 }
 
 :root[data-theme="light"] {
-  --sl-color-accent-low: #e8ebfa;
-  --sl-color-accent: #00005f;
-  --sl-color-accent-high: #00003b;
-  --sl-color-text-accent: #00005f;
+  /* Episciences Brand Accent Palette (WCAG AAA / AA Accessible) */
+  --sl-color-accent-low: #e8f2fa;
+  --sl-color-accent: #0a32af; /* Cyan 04 - AAA contrast (7.6:1) */
+  --sl-color-accent-high: #00005f; /* Deep Navy "EPI" (16.6:1) */
+  --sl-color-text-accent: #0a32af;
 }
 
 :root[data-theme="dark"] {
-  --sl-color-accent-low: #0a273b;
-  --sl-color-accent: #0aa0be;
+  --sl-color-accent-low: #08283d;
+  --sl-color-accent: #0aa0be; /* Cyan 01 - AA/AAA contrast (7.2:1) */
   --sl-color-accent-high: #8de4f2;
   --sl-color-text-accent: #0aa0be;
 }
@@ -131,17 +132,185 @@ header.header .sl-menu-button {
   color: #ffffff !important;
 }
 
-/* Active navigation item styled as button */
+/* ==========================================================================
+   Accessibility: Focus Rings (WCAG 2.4.7 & 2.4.11)
+   ========================================================================== */
+:focus-visible {
+  outline: 2px solid #005fb9 !important; /* Cyan 03 */
+  outline-offset: 2px !important;
+}
+
+:root[data-theme="dark"] :focus-visible {
+  outline-color: #0aa0be !important; /* Cyan 01 */
+}
+
+/* ==========================================================================
+   Left Sidebar Navigation
+   ========================================================================== */
+/* Active navigation item: refined modern style with brand indicator bar */
 .sidebar-content a[aria-current="page"] {
-  background-color: #00005f !important;
-  color: #ffffff !important;
-  border-radius: 4px;
-  padding-inline: 0.6rem !important;
+  background-color: rgba(0, 95, 185, 0.08) !important;
+  color: #00005f !important;
+  font-weight: 600 !important;
+  border-inline-start: 3px solid #005fb9 !important; /* Cyan 03 */
+  border-radius: 0 4px 4px 0;
+  padding-inline-start: 0.6rem !important;
   padding-block: 0.35rem !important;
 }
 
 :root[data-theme="dark"] .sidebar-content a[aria-current="page"] {
+  background-color: rgba(10, 160, 190, 0.12) !important;
+  color: #8de4f2 !important;
+  border-inline-start: 3px solid #0aa0be !important; /* Cyan 01 */
+  font-weight: 600;
+}
+
+/* ==========================================================================
+   Typography & Content Links (WCAG AAA/AA)
+   ========================================================================== */
+.sl-markdown-content a {
+  color: #0a32af; /* Cyan 04 - 7.6:1 AAA contrast */
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2.5px;
+  transition:
+    color 0.15s ease-in-out,
+    text-decoration-color 0.15s ease-in-out;
+}
+
+.sl-markdown-content a:hover {
+  color: #005fb9; /* Cyan 03 */
+  text-decoration-thickness: 2px;
+}
+
+:root[data-theme="dark"] .sl-markdown-content a {
+  color: #0aa0be; /* Cyan 01 */
+}
+
+:root[data-theme="dark"] .sl-markdown-content a:hover {
+  color: #8de4f2;
+}
+
+/* ==========================================================================
+   Right Sidebar (Table of Contents / On this page)
+   ========================================================================== */
+starlight-toc a[aria-current="true"] {
+  color: #005fb9 !important; /* Cyan 03 */
+  font-weight: 600 !important;
+}
+
+:root[data-theme="dark"] starlight-toc a[aria-current="true"] {
+  color: #0aa0be !important; /* Cyan 01 */
+}
+
+/* ==========================================================================
+   Admonitions / Callouts (Tip block customized to Episciences Cyan)
+   ========================================================================== */
+.starlight-aside--tip {
+  border-color: #008cc3 !important; /* Cyan 02 */
+  background-color: rgba(0, 140, 195, 0.05) !important;
+}
+
+.starlight-aside--tip .starlight-aside__title {
+  color: #005fb9 !important; /* Cyan 03 */
+}
+
+:root[data-theme="dark"] .starlight-aside--tip {
+  border-color: #0aa0be !important; /* Cyan 01 */
+  background-color: rgba(10, 160, 190, 0.1) !important;
+}
+
+:root[data-theme="dark"] .starlight-aside--tip .starlight-aside__title {
+  color: #8de4f2 !important;
+}
+
+/* ==========================================================================
+   Scroll to Top Widget
+   ========================================================================== */
+.starlight-scroll-to-top button:hover {
+  background-color: #005fb9 !important;
+  color: #ffffff !important;
+}
+
+:root[data-theme="dark"] .starlight-scroll-to-top button:hover {
   background-color: #0aa0be !important;
   color: #00003b !important;
-  font-weight: 600;
+}
+
+/* Content images: border, shadow, and rounded corners for visual clarity */
+.sl-markdown-content img {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+:root[data-theme="dark"] .sl-markdown-content img {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+/* ==========================================================================
+   Print & PDF Export Optimization
+   ========================================================================== */
+@media print {
+  /* Hide navigation bars, sidebars, search, and interactive controls */
+  header.header,
+  nav.sidebar,
+  .sidebar-pane,
+  aside.sidebar,
+  starlight-toc,
+  .right-sidebar,
+  .right-sidebar-panel,
+  footer.footer,
+  .pagination-links,
+  .edit-link,
+  starlight-scroll-to-top,
+  .starlight-scroll-to-top,
+  .sl-menu-button {
+    display: none !important;
+  }
+
+  /* Make content fill the full printable page */
+  body,
+  .main-frame,
+  .content-panel,
+  main {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  /* High contrast colors for print/PDF */
+  body {
+    background: #ffffff !important;
+    color: #1a1a1a !important;
+    font-size: 11pt !important;
+    line-height: 1.5 !important;
+  }
+
+  /* Prevent awkward page breaks inside content blocks */
+  h1,
+  h2,
+  h3,
+  h4 {
+    break-after: avoid !important;
+    page-break-after: avoid !important;
+  }
+
+  img,
+  figure,
+  pre,
+  table,
+  blockquote,
+  .expressive-code {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* Distinct and legible links */
+  a {
+    color: #00005f !important;
+    text-decoration: underline !important;
+  }
 }

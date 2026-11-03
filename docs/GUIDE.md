@@ -328,6 +328,15 @@ The deployment is automated via the GitHub Actions workflow `.github/workflows/c
   4. Deploys the static `./dist/` directory to **GitHub Pages**.
 - The production site is published live at **[https://doc.episciences.org/](https://doc.episciences.org/)**.
 
+### 3. LLM Agent Documentation & Clean PDF Export
+
+- **LLM Agent Endpoints**: Each production build automatically compiles optimized Markdown documentation for AI agents and LLMs:
+  - `/llms.txt` : Root manifest listing available documentation sets.
+  - `/_llms-txt/english-documentation.txt` : Complete English documentation in a single file.
+  - `/_llms-txt/documentation-en-français.txt` : Complete French documentation in a single file.
+  - `/llms-small.txt` : Condensed documentation for smaller LLM context windows.
+- **Print & PDF Export**: Any page can be printed or exported to PDF using the browser's standard Print dialog (`Ctrl+P` / `Cmd+P`). All sidebars, navigation bars, search buttons, and interactive widgets are automatically omitted from the printed layout via native `@media print` styles in `src/styles/episciences.css`.
+
 ---
 
 ## 9. Windows-Specific Notes & Troubleshooting

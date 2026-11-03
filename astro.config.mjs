@@ -115,7 +115,21 @@ export default defineConfig({
           },
         }),
         starlightLinksValidator(),
-        starlightLlmsTxt(),
+        starlightLlmsTxt({
+          customSets: [
+            {
+              label: "English Documentation",
+              description: "Complete documentation for Episciences platform in English",
+              paths: ["en/**"],
+            },
+            {
+              label: "Documentation en français",
+              description: "Documentation complète de la plateforme Episciences en français",
+              paths: ["fr/**"],
+            },
+          ],
+          exclude: ["404*"],
+        }),
       ],
       customCss: ["./src/styles/episciences.css"],
       routeMiddleware: "./src/routeData.ts",

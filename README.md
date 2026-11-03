@@ -12,13 +12,41 @@ Official documentation for the [Episciences](https://www.episciences.org/) platf
 
 **Live documentation:** [doc.episciences.org](https://doc.episciences.org/)
 
-## Prerequisites
+---
+
+> 📖 **Comprehensive Guide:** Looking for how to configure navigation menus (left sidebar and right table of contents), add bilingual content, or deploy to production? Check out the **[User & Developer Guide (docs/GUIDE.md)](docs/GUIDE.md)**.
+
+---
+
+## Quick Start (Docker - Cross-Platform / Windows, Linux, macOS)
+
+No need to install Node.js! If you have [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed:
+
+```bash
+# Clone the repository
+git clone https://github.com/CCSDForge/episciences-doc.git
+cd episciences-doc
+
+# Start development server
+docker compose up
+```
+
+Open **[http://localhost:4321](http://localhost:4321)** in your browser. Live reloading is automatically active (including on Windows mounts).
+
+To stop the server:
+
+```bash
+docker compose down
+```
+
+---
+
+## Quick Start (Local Development with Node.js)
+
+### Prerequisites
 
 - [Node.js](https://nodejs.org/) (v20+ or v22+)
 - [Git](https://git-scm.com/downloads)
-- [Docker](https://docs.docker.com/engine/install/) (optional)
-
-## Quick Start (Local development)
 
 ```bash
 # Clone the repository
@@ -33,23 +61,33 @@ npm run dev
 # Open http://localhost:4321
 ```
 
-## Quick Start (Docker)
+_(On Linux / macOS, you can also use `make build` and `make serve`)_
 
-```bash
-# Build the Docker image
-make build
+---
 
-# Start the development server
-make serve
-# Open http://localhost:4321
-```
+## Common Commands
+
+| Task                    | With Docker (Windows / Linux / macOS)               | Without Docker         |
+| ----------------------- | --------------------------------------------------- | ---------------------- |
+| **Dev server**          | `docker compose up`                                 | `npm run dev`          |
+| **Production build**    | `docker compose run --rm docs npm run build`        | `npm run build`        |
+| **Check types & links** | `docker compose run --rm docs npx astro check`      | `npx astro check`      |
+| **Format code**         | `docker compose run --rm docs npm run format`       | `npm run format`       |
+| **Check formatting**    | `docker compose run --rm docs npm run format:check` | `npm run format:check` |
+
+---
 
 ## Project Structure
 
-```
+```text
 .
-├── astro.config.mjs          # Starlight & Astro configuration
-├── package.json
+├── astro.config.mjs          # Starlight & Astro configuration (menus, i18n, plugins)
+├── package.json              # NPM dependencies and scripts
+├── Makefile                  # Unix makefile shortcuts
+├── Dockerfile                # Docker image definition
+├── docker-compose.yml        # Docker compose configuration
+├── docs/
+│   └── GUIDE.md              # Detailed user and developer guide
 ├── src/
 │   ├── assets/               # Logos and static assets
 │   ├── content.config.ts     # Content collections configuration

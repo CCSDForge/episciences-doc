@@ -4,6 +4,8 @@ services:
     container_name: episciences-docs
     ports:
       - "4321:4321"
+    environment:
+      - CHOKIDAR_USEPOLLING=true
     volumes:
       - .:/app
       - /app/node_modules

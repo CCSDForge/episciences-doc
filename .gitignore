@@ -1,5 +1,7 @@
 # Generated
 site/
+dist/
+.astro/
 node_modules/
 
 # IDE

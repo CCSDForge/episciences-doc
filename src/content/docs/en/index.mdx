@@ -1,0 +1,86 @@
+---
+title: Episciences Documentation
+description: Official guide and documentation for the Episciences platform.
+template: splash
+hero:
+  title: Episciences Documentation
+  tagline: Complete platform for publishing Diamond Open Access scientific overlay journals.
+  image:
+    alt: Episciences
+    dark: ../../../assets/episciences-dark.svg
+    light: ../../../assets/episciences-light.svg
+  actions:
+    - text: Author Guide
+      link: /en/submission/
+      icon: right-arrow
+      variant: primary
+    - text: Journal Management
+      link: /en/settings/
+      icon: setting
+      variant: secondary
+---
+
+import { Card, CardGrid, LinkCard } from "@astrojs/starlight/components";
+
+## Browse documentation by role
+
+<CardGrid>
+  <Card title="Authors & Researchers" icon="pencil">
+    Submit a preprint from **HAL**, **arXiv**, or **Zenodo**. Track peer-review stages and communicate directly with the editorial board.
+
+    [Read author submission guide &rarr;](/en/submission/)
+
+  </Card>
+
+  <Card title="Reviewers & Experts" icon="magnifier">
+    Respond to review invitations, set availability periods, declare potential conflicts of interest, and complete evaluation scorecards.
+
+    [Go to reviewer guide &rarr;](/en/review/)
+
+  </Card>
+
+  <Card title="Editorial Boards & Management" icon="setting">
+    Administer your journal: settings, sections and volumes structure, user role assignments, automated reminders, and copy editing.
+
+    [Explore editorial management &rarr;](/en/settings/)
+
+  </Card>
+
+  <Card title="Journal Website" icon="laptop">
+    Customize your journal's public portal: page layout, navigation menus, styles, and published paper dissemination.
+
+    [Configure journal website &rarr;](/en/website/)
+
+  </Card>
+</CardGrid>
+
+## Compatible Repositories & Open Access
+
+<CardGrid>
+  <Card title="Supported Open Repositories" icon="open-book">
+    Episciences operates on the **overlay journal** model, building upon existing preprint servers and open archives:
+    - **HAL** (multidisciplinary open archive)
+    - **arXiv** (physics, mathematics, computer science, etc.)
+    - **Zenodo** (multidisciplinary research data and publication repository)
+    - **bioRxiv / medRxiv** via import gateways
+  </Card>
+
+  <Card title="Diamond Open Access Model" icon="star">
+    Episciences champions open science with no fees for authors (*no Article Processing Charges*) and no paywalls for readers. The platform is developed and maintained by the **CCSD** (CNRS, Inria, INRAE).
+  </Card>
+</CardGrid>
+
+## Resources & Support
+
+<CardGrid>
+  <LinkCard
+    title="Frequently Asked Questions (FAQ)"
+    description="Find quick answers to common questions about submission, peer-review, and journal administration."
+    href="/en/faq/"
+  />
+  <LinkCard
+    title="Episciences Portal"
+    description="Visit the official portal to discover the catalog of overlay journals and recent scientific publications."
+    href="https://www.episciences.org"
+  />
+</CardGrid>

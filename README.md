@@ -2,128 +2,99 @@
 
 [![Deploy](https://github.com/CCSDForge/episciences-doc/actions/workflows/ci.yml/badge.svg)](https://github.com/CCSDForge/episciences-doc/actions/workflows/ci.yml)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![MkDocs Material](https://img.shields.io/badge/docs-MkDocs%20Material-blue?logo=materialformkdocs)](https://squidfunk.github.io/mkdocs-material/)
-[![Python](https://img.shields.io/badge/python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Starlight](https://img.shields.io/badge/docs-Starlight-blue?logo=astro)](https://starlight.astro.build/)
+[![Astro](https://img.shields.io/badge/astro-v7-BC52EE?logo=astro)](https://astro.build/)
 [![Docker](https://img.shields.io/badge/docker-ready-blue?logo=docker&logoColor=white)](https://www.docker.com/)
 [![Prettier](https://img.shields.io/badge/code_style-Prettier-ff69b4?logo=prettier)](https://prettier.io/)
 [![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen?logo=renovatebot)](https://github.com/apps/renovate)
 
-Official documentation for the [Episciences](https://www.episciences.org/) platform, built with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
+Official documentation for the [Episciences](https://www.episciences.org/) platform, built with [Astro Starlight](https://starlight.astro.build/).
 
 **Live documentation:** [doc.episciences.org](https://doc.episciences.org/)
 
-## Prerequisites
+---
 
-- [Git](https://git-scm.com/downloads): Version control system
-- [Docker](https://docs.docker.com/engine/install/) (includes Docker Compose)
-- Make (Linux/macOS only)
-- PowerShell (optional, Windows only)
-
-## Quick Start (Linux/macOS)
-
-```bash
-# Clone the repository
-git clone https://github.com/CCSDForge/episciences-doc.git
-cd episciences-doc
-
-# Build the Docker image
-make build
-
-# Start the development server
-make serve
-# Open http://localhost:8000
-```
-
-## Quick Start (Windows)
-
-On Windows, use Docker Compose directly (included with Docker Desktop):
-
-```bash
-# Clone the repository
-git clone https://github.com/CCSDForge/episciences-doc.git
-cd episciences-doc
-
-# Build the Docker image
-docker compose build
-
-# Start the development server
-docker compose up
-# Open http://localhost:8000
-```
-
-Alternatively, you can use the `docker run` command equivalent to `make serve` or `make format`:
-
-**PowerShell**
-```powershell
-# Start dev server
-docker run --rm -v ${PWD}:/docs -p 8000:8000 documentation-episciences-mkdocs
-
-# Format files
-docker run --rm -v ${PWD}:/docs documentation-episciences-mkdocs prettier --write .
-```
-
-**Command Prompt (CMD)**
-```cmd
-# Start dev server
-docker run --rm -v %cd%:/docs -p 8000:8000 documentation-episciences-mkdocs
-
-# Format files
-docker run --rm -v %cd%:/docs documentation-episciences-mkdocs prettier --write .
-```
-
-## Available Commands
-
-```bash
-make help       # Show available commands
-make build      # Build the Docker image
-make serve      # Start dev server (localhost:8000)
-make build-site # Generate static site in ./site/
-make format     # Format all files with Prettier
-make clean      # Remove generated site/ folder
-make version    # Show MkDocs version
-```
-
-| Makefile          | Docker Compose                                   |
-| ----------------- | ------------------------------------------------ |
-| `make build`      | `docker compose build`                           |
-| `make serve`      | `docker compose up`                              |
-| `make build-site` | `docker compose run --rm docs mkdocs build`      |
-| `make format`     | `docker compose run --rm docs prettier --write .` |
-
-## Project Structure
-
-```
-docs/
-├── en/          # English documentation
-├── fr/          # French documentation
-├── assets/      # Custom CSS
-└── overrides/   # Theme customizations
-```
-
-## Contributing
-
-1. Create a branch from `main`
-   ```bash
-   git pull origin main                    # get latest changes from remote
-   git checkout -b feat/your-feature-name
-   ```
-
-2. Edit Markdown files in `docs/en/` and `docs/fr/`
-
-3. Test locally
-   ```bash
-   make serve                # Linux/macOS
-   docker compose up         # Windows
-   ```
-
-4. Submit a Pull Request
-   ```bash
-   git add -u                # or git add <file>
-   git commit -m "feat: Your commit message"
-   git push -u origin feat/your-feature-name   # first push
-   git push                                     # subsequent pushes
-   ```
+> 📖 **Comprehensive Guide:** Looking for how to configure navigation menus (left sidebar and right table of contents), add bilingual content, or deploy to production? Check out the **[User & Developer Guide (docs/GUIDE.md)](docs/GUIDE.md)**.
 
 ---
 
-_Centre pour la Communication Scientifique Directe (CCSD)_
+## Quick Start (Docker - Cross-Platform / Windows, Linux, macOS)
+
+No need to install Node.js! If you have [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed:
+
+```bash
+# Clone the repository
+git clone https://github.com/CCSDForge/episciences-doc.git
+cd episciences-doc
+
+# Start development server
+docker compose up
+```
+
+Open **[http://localhost:4321](http://localhost:4321)** in your browser. Live reloading is automatically active (including on Windows mounts).
+
+To stop the server:
+
+```bash
+docker compose down
+```
+
+---
+
+## Quick Start (Local Development with Node.js)
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v20+ or v22+)
+- [Git](https://git-scm.com/downloads)
+
+```bash
+# Clone the repository
+git clone https://github.com/CCSDForge/episciences-doc.git
+cd episciences-doc
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+# Open http://localhost:4321
+```
+
+_(On Linux / macOS, you can also use `make build` and `make serve`)_
+
+---
+
+## Common Commands
+
+| Task                    | With Docker (Windows / Linux / macOS)               | Without Docker         |
+| ----------------------- | --------------------------------------------------- | ---------------------- |
+| **Dev server**          | `docker compose up`                                 | `npm run dev`          |
+| **Production build**    | `docker compose run --rm docs npm run build`        | `npm run build`        |
+| **Check types & links** | `docker compose run --rm docs npx astro check`      | `npx astro check`      |
+| **Format code**         | `docker compose run --rm docs npm run format`       | `npm run format`       |
+| **Check formatting**    | `docker compose run --rm docs npm run format:check` | `npm run format:check` |
+
+---
+
+## Project Structure
+
+```text
+.
+├── astro.config.mjs          # Starlight & Astro configuration (menus, i18n, plugins)
+├── package.json              # NPM dependencies and scripts
+├── Makefile                  # Unix makefile shortcuts
+├── Dockerfile                # Docker image definition
+├── docker-compose.yml        # Docker compose configuration
+├── docs/
+│   └── GUIDE.md              # Detailed user and developer guide
+├── src/
+│   ├── assets/               # Logos and static assets
+│   ├── content.config.ts     # Content collections configuration
+│   ├── content/
+│   │   └── docs/             # Documentation content
+│   │       ├── en/           # English documentation
+│   │       └── fr/           # French documentation
+│   └── styles/               # Custom CSS styles
+└── public/                   # Public static files (favicon, etc.)
+```

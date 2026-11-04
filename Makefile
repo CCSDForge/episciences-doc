@@ -1,7 +1,7 @@
 .DEFAULT_GOAL := help
 
-DOCS_BUILD_IMAGE ?= documentation-episciences-mkdocs
-DOCKER_RUN_DOC_OPTS := --rm -v .:/docs -p 8000:8000
+DOCS_BUILD_IMAGE ?= documentation-episciences-starlight
+DOCKER_RUN_DOC_OPTS := --rm -v .:/app -p 4321:4321
 
 # Auto-detect docker compose command (V2 "docker compose" or V1 "docker-compose")
 DOCKER_COMPOSE := $(shell docker compose version > /dev/null 2>&1 && echo "docker compose" || echo "docker-compose")
@@ -11,32 +11,41 @@ CYAN  := \033[36m
 GREEN := \033[32m
 RESET := \033[0m
 
-.PHONY: help build serve build-site clean version up down stop restart logs format format-check
+.PHONY: help build serve build-site clean version dev check build-local up down stop restart logs format format-check
 
 help: ## Show this help
 	@echo ""
-	@echo "$(GREEN)Episciences Documentation$(RESET)"
-	@echo "=========================="
+	@echo "$(GREEN)Episciences Documentation (Starlight)$(RESET)"
+	@echo "======================================="
 	@echo ""
 	@echo "$(CYAN)Available commands:$(RESET)"
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | \
 		awk 'BEGIN {FS = ":.*?## "}; {printf "  $(GREEN)%-15s$(RESET) %s\n", $$1, $$2}'
 	@echo ""
 
+dev: ## Start dev server locally (npm run dev)
+	@npm run dev
+
+check: ## Run astro check locally
+	@npx astro check
+
+build-local: ## Build static site locally (dist/)
+	@npm run build
+
 build: ## Build the Docker image
 	@docker build -t $(DOCS_BUILD_IMAGE) ./
 
-serve: ## Start the dev server (http://localhost:8000)
+serve: ## Start the dev server in Docker (http://localhost:4321)
 	@docker run $(DOCKER_RUN_DOC_OPTS) $(DOCS_BUILD_IMAGE)
 
-build-site: ## Generate static site in ./site/
-	@docker run $(DOCKER_RUN_DOC_OPTS) $(DOCS_BUILD_IMAGE) mkdocs build
+build-site: ## Generate static site in ./dist/ via Docker
+	@docker run $(DOCKER_RUN_DOC_OPTS) $(DOCS_BUILD_IMAGE) npm run build
 
-clean: ## Remove generated site/ folder
-	@rm -rf site/
+clean: ## Remove generated dist/ and .astro/ folders
+	@rm -rf dist/ .astro/
 
-version: ## Show MkDocs version
-	@docker run $(DOCKER_RUN_DOC_OPTS) $(DOCS_BUILD_IMAGE) mkdocs --version
+version: ## Show Starlight and Astro version
+	@npm list @astrojs/starlight astro
 
 # Docker Compose commands (cross-platform, supports both V1 and V2)
 up: ## Start container in background
@@ -54,9 +63,9 @@ restart: ## Restart container
 logs: ## Show container logs
 	@$(DOCKER_COMPOSE) logs -f
 
-# Prettier commands (runs inside Docker)
+# Prettier commands
 format: ## Format all files with Prettier
-	@docker run $(DOCKER_RUN_DOC_OPTS) $(DOCS_BUILD_IMAGE) prettier --write .
+	@npm run format
 
 format-check: ## Check formatting without modifying files
-	@docker run $(DOCKER_RUN_DOC_OPTS) $(DOCS_BUILD_IMAGE) prettier --check .
+	@npm run format:check

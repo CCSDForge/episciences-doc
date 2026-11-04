@@ -2,7 +2,13 @@
 title: "Copy editing"
 ---
 
-> **Rights**: Author, Copy editor
+<div class="roles-container not-content" role="region" aria-label="Required rights">
+  <span class="roles-label">Rights:</span>
+  <ul class="roles-list" role="list">
+    <li role="listitem">Author</li>
+    <li role="listitem">Copy editor</li>
+  </ul>
+</div>
 
 Copy editing is a step that takes place after the article has been accepted.
 

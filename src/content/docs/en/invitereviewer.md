@@ -2,7 +2,15 @@
 title: "Inviting a reviewer"
 ---
 
-> **Rights:** Editor, Editor in Chief, Editorial secretary, Guest editor
+<div class="roles-container not-content" role="region" aria-label="Required rights">
+  <span class="roles-label">Rights:</span>
+  <ul class="roles-list" role="list">
+    <li role="listitem">Editor</li>
+    <li role="listitem">Editor in Chief</li>
+    <li role="listitem">Editorial secretary</li>
+    <li role="listitem">Guest editor</li>
+  </ul>
+</div>
 
 Once a submission has been submitted and checked that it corresponds to the editorial line of the publication, the next step is to have it peer-reviewed. To do this, you will need to invite the reviewers.
 

@@ -2,7 +2,13 @@
 title: "Préparation de copie"
 ---
 
-> **Rôles** : auteur, préparateur de copie
+<div class="roles-container not-content" role="region" aria-label="Rôles concernés">
+  <span class="roles-label">Rôles :</span>
+  <ul class="roles-list" role="list">
+    <li role="listitem">auteur</li>
+    <li role="listitem">préparateur de copie</li>
+  </ul>
+</div>
 
 La préparation de copie (ou copy editing) est une étape qui intervient après l’acceptation de l’article.
 

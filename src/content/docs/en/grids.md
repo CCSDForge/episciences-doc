@@ -2,7 +2,15 @@
 title: "Rating grids"
 ---
 
-> **Rights**: Administrator, Editor, Editor in Chief, Editorial secretary
+<div class="roles-container not-content" role="region" aria-label="Required rights">
+  <span class="roles-label">Rights:</span>
+  <ul class="roles-list" role="list">
+    <li role="listitem">Administrator</li>
+    <li role="listitem">Editor</li>
+    <li role="listitem">Editor in Chief</li>
+    <li role="listitem">Editorial secretary</li>
+  </ul>
+</div>
 
 A proofreading grid can be developed to guide proofreaders through a series of predefined points to be examined. The results of the reviews can then be standardised.
 

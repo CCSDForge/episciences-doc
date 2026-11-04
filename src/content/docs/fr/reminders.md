@@ -2,7 +2,15 @@
 title: "Relances automatiques"
 ---
 
-> **Rôles** : administrateur, rédacteur, rédacteur en chef, secrétaire de rédaction
+<div class="roles-container not-content" role="region" aria-label="Rôles concernés">
+  <span class="roles-label">Rôles :</span>
+  <ul class="roles-list" role="list">
+    <li role="listitem">administrateur</li>
+    <li role="listitem">rédacteur</li>
+    <li role="listitem">rédacteur en chef</li>
+    <li role="listitem">secrétaire de rédaction</li>
+  </ul>
+</div>
 
 Dans le site de la revue, il est possible de paramétrer des notifications qui seront envoyées lorsque le document change de statut (soumis, mis à jour, refusé).
 

@@ -2,7 +2,15 @@
 title: "Automatic reminders"
 ---
 
-> **Rights**: Administrator, Editor, Editor in Chief, Editorial secretary
+<div class="roles-container not-content" role="region" aria-label="Required rights">
+  <span class="roles-label">Rights:</span>
+  <ul class="roles-list" role="list">
+    <li role="listitem">Administrator</li>
+    <li role="listitem">Editor</li>
+    <li role="listitem">Editor in Chief</li>
+    <li role="listitem">Editorial secretary</li>
+  </ul>
+</div>
 
 Before setting the reminders, you can set notifications sent if the article’s state changes (submitted, updated or refused).
 

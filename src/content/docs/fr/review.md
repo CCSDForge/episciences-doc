@@ -2,7 +2,12 @@
 title: "Relire un article"
 ---
 
-> **Rôle** : relecteur
+<div class="roles-container not-content" role="region" aria-label="Rôles concernés">
+  <span class="roles-label">Rôle :</span>
+  <ul class="roles-list" role="list">
+    <li role="listitem">relecteur</li>
+  </ul>
+</div>
 
 ## Invitation à la relecture d’un article
 

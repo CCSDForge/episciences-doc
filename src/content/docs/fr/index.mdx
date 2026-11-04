@@ -1,0 +1,86 @@
+---
+title: Documentation Episciences
+description: Guide officiel d'utilisation de la plateforme Episciences.
+template: splash
+hero:
+  title: Documentation Episciences
+  tagline: Plateforme complète de publication de revues scientifiques en libre accès diamant (overlay journals).
+  image:
+    alt: Episciences
+    dark: ../../../assets/episciences-dark.svg
+    light: ../../../assets/episciences-light.svg
+  actions:
+    - text: Guide de soumission
+      link: /fr/submission/
+      icon: right-arrow
+      variant: primary
+    - text: Gestion de revue
+      link: /fr/settings/
+      icon: setting
+      variant: secondary
+---
+
+import { Card, CardGrid, LinkCard } from "@astrojs/starlight/components";
+
+## Parcourir la documentation par rôle
+
+<CardGrid>
+  <Card title="Auteurs & Chercheurs" icon="pencil">
+    Soumettez un manuscrit depuis **HAL**, **arXiv** ou **Zenodo**. Suivez les étapes de l'évaluation par les pairs et échangez directement avec le comité de rédaction.
+
+    [Consulter le guide de soumission &rarr;](/fr/submission/)
+
+  </Card>
+
+  <Card title="Relecteurs & Experts" icon="magnifier">
+    Répondez aux invitations d'évaluation, déclarez vos disponibilités ou vos éventuels conflits d'intérêts et remplissez vos grilles de relecture.
+
+    [Accéder à l'espace relecteur &rarr;](/fr/review/)
+
+  </Card>
+
+  <Card title="Équipes & Gestion éditoriale" icon="setting">
+    Pilotez le cycle de vie de votre revue : configuration générale, structuration des sections et volumes, attribution des rôles et préparation de copie.
+
+    [Découvrir la gestion éditoriale &rarr;](/fr/settings/)
+
+  </Card>
+
+  <Card title="Site web de la revue" icon="laptop">
+    Personnalisez le site public de votre revue : agencement des pages d'accueil, navigation, styles et diffusion des articles publiés.
+
+    [Personnaliser le site web &rarr;](/fr/website/)
+
+  </Card>
+</CardGrid>
+
+## Dépôts compatibles & Open Access
+
+<CardGrid>
+  <Card title="Archives ouvertes prises en charge" icon="open-book">
+    Episciences fonctionne selon le modèle des **overlay journals** (revues sur archives ouvertes) en s'appuyant sur les serveurs de prépublication et archives ouvertes :
+    - **HAL** (archive ouverte pluridisciplinaire)
+    - **arXiv** (physique, mathématiques, informatique, etc.)
+    - **Zenodo** (dépôt multidisciplinaire de données et publications)
+    - **bioRxiv / medRxiv** via les passerelles d'import
+  </Card>
+
+  <Card title="Modèle Diamant (Diamond Open Access)" icon="star">
+    Episciences soutient la science ouverte sans frais de publication pour les auteurs (*Article Processing Charges - APC*) ni frais de lecture pour le public. La plateforme est développée et maintenue par le **CCSD** (CNRS, Inria, INRAE).
+  </Card>
+</CardGrid>
+
+## Ressources & Aide
+
+<CardGrid>
+  <LinkCard
+    title="Foire Aux Questions (FAQ)"
+    description="Retrouvez les réponses aux questions les plus fréquentes sur la soumission, l'évaluation et la gestion de revue."
+    href="/fr/faq/"
+  />
+  <LinkCard
+    title="Portail Episciences"
+    description="Visitez le portail institutionnel pour découvrir le catalogue des revues et les dernières publications."
+    href="https://www.episciences.org"
+  />
+</CardGrid>

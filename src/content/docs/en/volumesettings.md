@@ -2,7 +2,14 @@
 title: "Volume Settings"
 ---
 
-**Rights:** Administrator, Editorial secretary, Editor
+<div class="roles-container not-content" role="region" aria-label="Required rights">
+  <span class="roles-label">Rights:</span>
+  <ul class="roles-list" role="list">
+    <li role="listitem">Administrator</li>
+    <li role="listitem">Editorial secretary</li>
+    <li role="listitem">Editor</li>
+  </ul>
+</div>
 
 ## Context
 

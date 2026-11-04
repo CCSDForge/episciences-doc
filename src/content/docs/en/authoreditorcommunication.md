@@ -4,7 +4,14 @@ title: "Author-Editor Communication"
 
 This guide explains how to configure and use the communication system between authors and editors in Episciences.
 
-**Required permissions:** Administrator, Editorial Secretary, or Editor-in-Chief
+<div class="roles-container not-content" role="region" aria-label="Required rights">
+  <span class="roles-label">Rights:</span>
+  <ul class="roles-list" role="list">
+    <li role="listitem">Administrator</li>
+    <li role="listitem">Editorial Secretary</li>
+    <li role="listitem">Editor-in-Chief</li>
+  </ul>
+</div>
 
 ## Overview
 

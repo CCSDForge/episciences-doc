@@ -2,7 +2,12 @@
 title: "Linking publications/data/software"
 ---
 
-> **Rights**: Author
+<div class="roles-container not-content" role="region" aria-label="Required rights">
+  <span class="roles-label">Rights:</span>
+  <ul class="roles-list" role="list">
+    <li role="listitem">Author</li>
+  </ul>
+</div>
 
 In order to promote and encourage the reproducibility of science, Episciences facilitates the link between an article and a dataset or software. The author who submits a document to a journal can add the identifier provided by the platform on which the data or software is stored, thus facilitating access to these resources, both for the reviewers who evaluate the submissions, and for the readers if the article is published.
 

@@ -2,7 +2,12 @@
 title: "Journal settings"
 ---
 
-> **Rights**: Administrator
+<div class="roles-container not-content" role="region" aria-label="Required rights">
+  <span class="roles-label">Rights:</span>
+  <ul class="roles-list" role="list">
+    <li role="listitem">Administrator</li>
+  </ul>
+</div>
 
 To customize the journal settings, go to the menu: Journal management > Journal > Settings.
 

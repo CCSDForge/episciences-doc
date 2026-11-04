@@ -2,7 +2,16 @@
 title: "Managing bibliographical references"
 ---
 
-> **Rights:** Administrator, Author, Editor, Editor in Chief, Editorial secretary
+<div class="roles-container not-content" role="region" aria-label="Required rights">
+  <span class="roles-label">Rights:</span>
+  <ul class="roles-list" role="list">
+    <li role="listitem">Administrator</li>
+    <li role="listitem">Author</li>
+    <li role="listitem">Editor</li>
+    <li role="listitem">Editor in Chief</li>
+    <li role="listitem">Editorial secretary</li>
+  </ul>
+</div>
 
 ## The ‘Episciences Citations’ application
 

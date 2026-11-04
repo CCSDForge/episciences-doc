@@ -2,7 +2,16 @@
 title: "Conflict of interest"
 ---
 
-> **Rights**: Administrator, Editor, Editor in Chief, Editorial secretary, Guest editor
+<div class="roles-container not-content" role="region" aria-label="Required rights">
+  <span class="roles-label">Rights:</span>
+  <ul class="roles-list" role="list">
+    <li role="listitem">Administrator</li>
+    <li role="listitem">Editor</li>
+    <li role="listitem">Editor in Chief</li>
+    <li role="listitem">Editorial secretary</li>
+    <li role="listitem">Guest editor</li>
+  </ul>
+</div>
 
 ##Purpose
 It is possible to activate an option to allow editors to declare a conflict of interest before the assessment.

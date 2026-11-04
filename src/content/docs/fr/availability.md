@@ -2,7 +2,13 @@
 title: "Disponibilité des rédacteurs"
 ---
 
-**Droits :** Administrateur, Secrétaire de rédaction
+<div class="roles-container not-content" role="region" aria-label="Rôles concernés">
+  <span class="roles-label">Rôles :</span>
+  <ul class="roles-list" role="list">
+    <li role="listitem">administrateur</li>
+    <li role="listitem">secrétaire de rédaction</li>
+  </ul>
+</div>
 
 ## Vue d'ensemble
 

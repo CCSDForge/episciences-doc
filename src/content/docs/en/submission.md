@@ -2,7 +2,12 @@
 title: "Submission"
 ---
 
-> **Rights**: Author
+<div class="roles-container not-content" role="region" aria-label="Required rights">
+  <span class="roles-label">Rights:</span>
+  <ul class="roles-list" role="list">
+    <li role="listitem">Author</li>
+  </ul>
+</div>
 
 :::tip
 If the preprint is deposited on HAL, it is possible to use the HAL2Episciences gateway, which allows the automatic transfer of the pre-print to the journal website. Please refer to the [HAL documentation](https://doc.hal.science/en/deposit/submitting-preprint-to-publishing-service/ "Submitting a preprint to a publishing or a peer-review service") for further information.

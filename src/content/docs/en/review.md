@@ -2,7 +2,12 @@
 title: "Reviewer guidelines"
 ---
 
-> **Rights**: Reviewer
+<div class="roles-container not-content" role="region" aria-label="Required rights">
+  <span class="roles-label">Rights:</span>
+  <ul class="roles-list" role="list">
+    <li role="listitem">Reviewer</li>
+  </ul>
+</div>
 
 ## Invitation to review an article
 

@@ -2,7 +2,14 @@
 title: "Grille de relecture"
 ---
 
-> Rôles : administrateur, rédacteur en chef, secrétaire de rédaction
+<div class="roles-container not-content" role="region" aria-label="Rôles concernés">
+  <span class="roles-label">Rôles :</span>
+  <ul class="roles-list" role="list">
+    <li role="listitem">administrateur</li>
+    <li role="listitem">rédacteur en chef</li>
+    <li role="listitem">secrétaire de rédaction</li>
+  </ul>
+</div>
 
 Une grille de relecture peut être élaborée pour guider les relecteurs grâce à une série de points prédéfinis à examiner. Les résultats des relectures peuvent ainsi être normalisés.
 

@@ -2,7 +2,14 @@
 title: "Gestion des utilisateurs"
 ---
 
-> Rôles : administrateur, rédacteur en chef, secrétaire de rédaction
+<div class="roles-container not-content" role="region" aria-label="Rôles concernés">
+  <span class="roles-label">Rôles :</span>
+  <ul class="roles-list" role="list">
+    <li role="listitem">administrateur</li>
+    <li role="listitem">rédacteur en chef</li>
+    <li role="listitem">secrétaire de rédaction</li>
+  </ul>
+</div>
 
 Pour gérer les utilisateurs de la revue (création de compte, ajout de rôles, etc.), aller dans : Gérer la revue > Utilisateurs > Liste.
 

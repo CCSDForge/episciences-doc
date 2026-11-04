@@ -2,7 +2,15 @@
 title: "Inviter un relecteur"
 ---
 
-> **Rôles** : rédacteur, rédacteur en chef, rédacteur invité, secrétaire de rédaction
+<div class="roles-container not-content" role="region" aria-label="Rôles concernés">
+  <span class="roles-label">Rôles :</span>
+  <ul class="roles-list" role="list">
+    <li role="listitem">rédacteur</li>
+    <li role="listitem">rédacteur en chef</li>
+    <li role="listitem">rédacteur invité</li>
+    <li role="listitem">secrétaire de rédaction</li>
+  </ul>
+</div>
 
 Lorsqu’une soumission est déposée, après vérification qu’elle correspond à la ligne éditoriale de la publication, l’étape suivante consiste à la faire évaluer. Pour cela, il convient d’inviter les relecteurs.
 

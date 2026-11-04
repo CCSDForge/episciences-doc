@@ -2,7 +2,12 @@
 title: "Lier publications / données / logiciels"
 ---
 
-> **Rôle** : auteur
+<div class="roles-container not-content" role="region" aria-label="Rôles concernés">
+  <span class="roles-label">Rôle :</span>
+  <ul class="roles-list" role="list">
+    <li role="listitem">auteur</li>
+  </ul>
+</div>
 
 Afin de promouvoir et favoriser la reproductibilité de la science, Episciences facilite le lien entre un article et un jeu de données ou un logiciel. L’auteur ou l’autrice qui soumet un document à une revue peut ajouter l’identifiant fourni par la plateforme sur laquelle sont entreposées les données ou le logiciel, facilitant ainsi l’accès à ces ressources, à la fois aux pairs qui évaluent les soumissions, et aux lecteurs et lectrices si l’article est publié.
 

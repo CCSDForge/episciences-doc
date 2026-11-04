@@ -14,7 +14,10 @@ export default defineConfig({
   },
   integrations: [
     starlight({
-      title: "Episciences",
+      title: {
+        en: "Episciences documentation",
+        fr: "Documentation Episciences",
+      },
       defaultLocale: "en",
       locales: {
         en: {
@@ -28,7 +31,7 @@ export default defineConfig({
       },
       logo: {
         src: "./src/assets/episciences.svg",
-        replacesTitle: true,
+        replacesTitle: false,
       },
       favicon: "/favicon.png",
       lastUpdated: true,
@@ -116,6 +119,7 @@ export default defineConfig({
         }),
         starlightLinksValidator(),
         starlightLlmsTxt({
+          projectName: "Episciences",
           customSets: [
             {
               label: "English Documentation",

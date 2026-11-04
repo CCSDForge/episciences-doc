@@ -2,7 +2,12 @@
 title: "Paramètres de la revue"
 ---
 
-> **Rôle** : administrateur
+<div class="roles-container not-content" role="region" aria-label="Rôles concernés">
+  <span class="roles-label">Rôle :</span>
+  <ul class="roles-list" role="list">
+    <li role="listitem">administrateur</li>
+  </ul>
+</div>
 
 Pour paramétrer la revue, aller dans : Gérer la revue > Revue > Paramètres.
 

@@ -4,7 +4,14 @@ title: "Communication Auteur-Rédacteur"
 
 Ce guide explique comment configurer et utiliser le système de communication entre auteurs et rédacteurs dans Episciences.
 
-**Droits requis :** Administrateur, Secrétaire de rédaction ou Rédacteur en chef
+<div class="roles-container not-content" role="region" aria-label="Rôles concernés">
+  <span class="roles-label">Rôles :</span>
+  <ul class="roles-list" role="list">
+    <li role="listitem">administrateur</li>
+    <li role="listitem">secrétaire de rédaction</li>
+    <li role="listitem">rédacteur en chef</li>
+  </ul>
+</div>
 
 ## Vue d'ensemble
 

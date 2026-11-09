@@ -1,0 +1,13 @@
+# Episciences
+
+## Documentation Sets
+
+- [Abridged documentation](https://doc.episciences.org/llms-small.txt): a compact version of the documentation for Episciences, with non-essential content removed
+- [Complete documentation](https://doc.episciences.org/llms-full.txt): the full documentation for Episciences
+- [English Documentation](https://doc.episciences.org/_llms-txt/english-documentation.txt): Complete documentation for Episciences platform in English
+- [Documentation en français](https://doc.episciences.org/_llms-txt/documentation-en-fran%C3%A7ais.txt): Documentation complète de la plateforme Episciences en français
+
+## Notes
+
+- The complete documentation includes all content from the official documentation
+- The content is automatically generated from the same source as the official documentation

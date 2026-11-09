@@ -65,8 +65,8 @@ export default defineConfig({
           label: "Authors & Submission",
           translations: { fr: "Auteurs & Soumission" },
           items: [
-            { slug: "submission" },
             { slug: "account" },
+            { slug: "submission" },
             { slug: "authoreditorcommunication" },
           ],
         },
@@ -74,28 +74,33 @@ export default defineConfig({
           label: "Reviewers",
           translations: { fr: "Relecteurs" },
           items: [
-            { slug: "review" },
-            { slug: "invitereviewer" },
-            { slug: "availability" },
-            { slug: "coi" },
+            { slug: "invitereviewer" }, // 1. Receive an invitation
+            { slug: "coi" }, // 2. Declare conflicts of interest
+            { slug: "review" }, // 3. Write the review
+            { slug: "availability" }, // 4. Availability
           ],
         },
         {
           label: "Journal Editorial Management",
           translations: { fr: "Gestion éditoriale de la revue" },
           items: [
+            // 1. Set up the journal
             { slug: "settings" },
+            // 2. People
+            { slug: "users" },
+            { slug: "roles" },
+            // 3. Structure of the content
             { slug: "sections" },
             { slug: "volumes" },
             { slug: "volumesettings" },
+            // 4. Peer review
             { slug: "grids" },
-            { slug: "users" },
-            { slug: "roles" },
             { slug: "reminders" },
             { slug: "mailing" },
-            { slug: "software" },
-            { slug: "citations" },
+            // 5. After acceptance
             { slug: "copyediting" },
+            { slug: "citations" },
+            { slug: "software" },
           ],
         },
         {
@@ -136,7 +141,6 @@ export default defineConfig({
         }),
       ],
       customCss: ["./src/styles/episciences.css"],
-      routeMiddleware: "./src/routeData.ts",
     }),
   ],
 });

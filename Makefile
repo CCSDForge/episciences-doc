@@ -1,7 +1,10 @@
 .DEFAULT_GOAL := help
 
 DOCS_BUILD_IMAGE ?= documentation-episciences-starlight
-DOCKER_RUN_DOC_OPTS := --rm -v .:/app -p 4321:4321
+# Anonymous volume on /app/node_modules keeps the image's Alpine (musl) dependencies
+# instead of the host's node_modules, whose native bindings don't run in the container.
+DOCKER_RUN_OPTS := --rm -v .:/app -v /app/node_modules
+DOCKER_RUN_DOC_OPTS := $(DOCKER_RUN_OPTS) -p 4321:4321
 
 # Auto-detect docker compose command (V2 "docker compose" or V1 "docker-compose")
 DOCKER_COMPOSE := $(shell docker compose version > /dev/null 2>&1 && echo "docker compose" || echo "docker-compose")
@@ -39,7 +42,7 @@ serve: ## Start the dev server in Docker (http://localhost:4321)
 	@docker run $(DOCKER_RUN_DOC_OPTS) $(DOCS_BUILD_IMAGE)
 
 build-site: ## Generate static site in ./dist/ via Docker
-	@docker run $(DOCKER_RUN_DOC_OPTS) $(DOCS_BUILD_IMAGE) npm run build
+	@docker run $(DOCKER_RUN_OPTS) $(DOCS_BUILD_IMAGE) npm run build
 
 clean: ## Remove generated dist/ and .astro/ folders
 	@rm -rf dist/ .astro/

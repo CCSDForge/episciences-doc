@@ -2,128 +2,69 @@
 
 [![Deploy](https://github.com/CCSDForge/episciences-doc/actions/workflows/ci.yml/badge.svg)](https://github.com/CCSDForge/episciences-doc/actions/workflows/ci.yml)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![MkDocs Material](https://img.shields.io/badge/docs-MkDocs%20Material-blue?logo=materialformkdocs)](https://squidfunk.github.io/mkdocs-material/)
-[![Python](https://img.shields.io/badge/python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Starlight](https://img.shields.io/badge/docs-Starlight-blue?logo=astro)](https://starlight.astro.build/)
+[![Astro](https://img.shields.io/badge/astro-v7-BC52EE?logo=astro)](https://astro.build/)
 [![Docker](https://img.shields.io/badge/docker-ready-blue?logo=docker&logoColor=white)](https://www.docker.com/)
 [![Prettier](https://img.shields.io/badge/code_style-Prettier-ff69b4?logo=prettier)](https://prettier.io/)
 [![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen?logo=renovatebot)](https://github.com/apps/renovate)
 
-Official documentation for the [Episciences](https://www.episciences.org/) platform, built with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
+Dépôt officiel de la documentation de la plateforme [Episciences](https://www.episciences.org/), propulsé par [Astro Starlight](https://starlight.astro.build/).
 
-**Live documentation:** [doc.episciences.org](https://doc.episciences.org/)
-
-## Prerequisites
-
-- [Git](https://git-scm.com/downloads): Version control system
-- [Docker](https://docs.docker.com/engine/install/) (includes Docker Compose)
-- Make (Linux/macOS only)
-- PowerShell (optional, Windows only)
-
-## Quick Start (Linux/macOS)
-
-```bash
-# Clone the repository
-git clone https://github.com/CCSDForge/episciences-doc.git
-cd episciences-doc
-
-# Build the Docker image
-make build
-
-# Start the development server
-make serve
-# Open http://localhost:8000
-```
-
-## Quick Start (Windows)
-
-On Windows, use Docker Compose directly (included with Docker Desktop):
-
-```bash
-# Clone the repository
-git clone https://github.com/CCSDForge/episciences-doc.git
-cd episciences-doc
-
-# Build the Docker image
-docker compose build
-
-# Start the development server
-docker compose up
-# Open http://localhost:8000
-```
-
-Alternatively, you can use the `docker run` command equivalent to `make serve` or `make format`:
-
-**PowerShell**
-```powershell
-# Start dev server
-docker run --rm -v ${PWD}:/docs -p 8000:8000 documentation-episciences-mkdocs
-
-# Format files
-docker run --rm -v ${PWD}:/docs documentation-episciences-mkdocs prettier --write .
-```
-
-**Command Prompt (CMD)**
-```cmd
-# Start dev server
-docker run --rm -v %cd%:/docs -p 8000:8000 documentation-episciences-mkdocs
-
-# Format files
-docker run --rm -v %cd%:/docs documentation-episciences-mkdocs prettier --write .
-```
-
-## Available Commands
-
-```bash
-make help       # Show available commands
-make build      # Build the Docker image
-make serve      # Start dev server (localhost:8000)
-make build-site # Generate static site in ./site/
-make format     # Format all files with Prettier
-make clean      # Remove generated site/ folder
-make version    # Show MkDocs version
-```
-
-| Makefile          | Docker Compose                                   |
-| ----------------- | ------------------------------------------------ |
-| `make build`      | `docker compose build`                           |
-| `make serve`      | `docker compose up`                              |
-| `make build-site` | `docker compose run --rm docs mkdocs build`      |
-| `make format`     | `docker compose run --rm docs prettier --write .` |
-
-## Project Structure
-
-```
-docs/
-├── en/          # English documentation
-├── fr/          # French documentation
-├── assets/      # Custom CSS
-└── overrides/   # Theme customizations
-```
-
-## Contributing
-
-1. Create a branch from `main`
-   ```bash
-   git pull origin main                    # get latest changes from remote
-   git checkout -b feat/your-feature-name
-   ```
-
-2. Edit Markdown files in `docs/en/` and `docs/fr/`
-
-3. Test locally
-   ```bash
-   make serve                # Linux/macOS
-   docker compose up         # Windows
-   ```
-
-4. Submit a Pull Request
-   ```bash
-   git add -u                # or git add <file>
-   git commit -m "feat: Your commit message"
-   git push -u origin feat/your-feature-name   # first push
-   git push                                     # subsequent pushes
-   ```
+🌐 **Site de documentation en ligne :** [doc.episciences.org](https://doc.episciences.org/)
 
 ---
 
-_Centre pour la Communication Scientifique Directe (CCSD)_
+## 📖 Guide complet (Rédaction, Prise en main & Contribution)
+
+Toute la documentation détaillée, conçue pour être **facilement accessible aux personnes non-développeuses** (secrétariats de rédaction, équipes éditoriales, contributeurs), se trouve dans le guide dédié :
+
+👉 **[Consulter le Guide d'utilisation et de contribution (docs/GUIDE.md)](docs/GUIDE.md)**
+
+Vous y trouverez :
+
+- **Où chercher les informations** et comment s'y retrouver dans les fichiers.
+- **Comment modifier une page existante** (textes, images, encadrés d'alerte).
+- **Comment ajouter une nouvelle page** en français et en anglais.
+- **Comment réordonner les pages du menu** et renommer les rubriques.
+- **Comment prévisualiser immédiatement vos modifications** en direct sur votre ordinateur.
+
+---
+
+## 🚀 Démarrage rapide (Prévisualisation locale)
+
+### Avec Docker (Recommandé - Windows, macOS, Linux)
+
+Aucune installation de Node.js n'est requise si vous disposez de [Docker Desktop](https://www.docker.com/products/docker-desktop/) :
+
+```bash
+docker compose up
+```
+
+Ouvrez **[http://localhost:4321](http://localhost:4321)** dans votre navigateur. Les modifications apportées aux fichiers s'affichent automatiquement en temps réel.
+
+Pour arrêter le serveur : `Ctrl + C` ou `docker compose down`.
+
+### Sans Docker (Avec Node.js v20+)
+
+```bash
+npm install
+npm run dev
+```
+
+Rendez-vous sur **[http://localhost:4321](http://localhost:4321)**.
+
+---
+
+## 🛠️ Aide-mémoire des commandes
+
+| Action                            | Makefile (Linux / macOS) | Docker Compose (tous systèmes)                 | Sans Docker       |
+| :-------------------------------- | :----------------------- | :--------------------------------------------- | :---------------- |
+| **Construire l'image Docker**     | `make build`             | `docker compose build`                         | —                 |
+| **Serveur de développement**      | `make serve`             | `docker compose up`                            | `npm run dev`     |
+| **Générer le site (build)**       | `make build-site`        | `docker compose run --rm docs npm run build`   | `npm run build`   |
+| **Vérifier les liens et erreurs** | `make check`             | `docker compose run --rm docs npx astro check` | `npx astro check` |
+| **Formater les fichiers**         | `make format`            | `docker compose run --rm docs npm run format`  | `npm run format`  |
+
+> Sous **Windows**, `make` n'est pas disponible par défaut : utilisez les commandes **Docker Compose**.
+
+Pour tous les détails avancés et l'architecture complète, consultez **[docs/GUIDE.md](docs/GUIDE.md)**.

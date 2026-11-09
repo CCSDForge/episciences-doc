@@ -3,6 +3,9 @@ services:
     build: .
     container_name: episciences-docs
     ports:
-      - "8000:8000"
+      - "4321:4321"
+    environment:
+      - CHOKIDAR_USEPOLLING=true
     volumes:
-      - .:/docs
+      - .:/app
+      - /app/node_modules

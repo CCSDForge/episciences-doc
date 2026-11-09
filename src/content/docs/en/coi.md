@@ -13,7 +13,7 @@ title: "Conflict of interest"
   </ul>
 </div>
 
-##Purpose
+## Purpose
 It is possible to activate an option to allow editors to declare a conflict of interest before the assessment.
 
 ## Journal setting

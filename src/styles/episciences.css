@@ -3,7 +3,8 @@
 :root {
   --sl-font: "Noto Sans", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
   --sl-font-mono: "Roboto Mono", monospace;
-  /* Wider text column to reduce the gap between sidebar and content on large screens (default: 45rem) */
+  /* Wider column for tables/images/code (default: 45rem).
+     Running text is capped at 75ch in the Typography section for readability. */
   --sl-content-width: 65rem;
   --sl-color-bg-nav: #00005f;
 }
@@ -176,6 +177,12 @@ header.header .sl-menu-button {
 /* ==========================================================================
    Typography & Content Links (WCAG AAA/AA)
    ========================================================================== */
+/* Limit running text to a readable line length (WCAG 1.4.8: max 80 chars),
+   while tables, images and code blocks can use the full content width. */
+.sl-markdown-content :is(p, li, blockquote) {
+  max-width: 75ch;
+}
+
 .sl-markdown-content a {
   color: #0a32af; /* Cyan 04 - 7.6:1 AAA contrast */
   text-decoration: underline;

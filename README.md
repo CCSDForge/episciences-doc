@@ -8,93 +8,60 @@
 [![Prettier](https://img.shields.io/badge/code_style-Prettier-ff69b4?logo=prettier)](https://prettier.io/)
 [![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen?logo=renovatebot)](https://github.com/apps/renovate)
 
-Official documentation for the [Episciences](https://www.episciences.org/) platform, built with [Astro Starlight](https://starlight.astro.build/).
+Dépôt officiel de la documentation de la plateforme [Episciences](https://www.episciences.org/), propulsé par [Astro Starlight](https://starlight.astro.build/).
 
-**Live documentation:** [doc.episciences.org](https://doc.episciences.org/)
-
----
-
-> 📖 **Comprehensive Guide:** Looking for how to configure navigation menus (left sidebar and right table of contents), add bilingual content, or deploy to production? Check out the **[User & Developer Guide (docs/GUIDE.md)](docs/GUIDE.md)**.
+🌐 **Site de documentation en ligne :** [doc.episciences.org](https://doc.episciences.org/)
 
 ---
 
-## Quick Start (Docker - Cross-Platform / Windows, Linux, macOS)
+## 📖 Guide complet (Rédaction, Prise en main & Contribution)
 
-No need to install Node.js! If you have [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed:
+Toute la documentation détaillée, conçue pour être **facilement accessible aux personnes non-développeuses** (secrétariats de rédaction, équipes éditoriales, contributeurs), se trouve dans le guide dédié :
+
+👉 **[Consulter le Guide d'utilisation et de contribution (docs/GUIDE.md)](docs/GUIDE.md)**
+
+Vous y trouverez :
+
+- **Où chercher les informations** et comment s'y retrouver dans les fichiers.
+- **Comment modifier une page existante** (textes, images, encadrés d'alerte).
+- **Comment ajouter une nouvelle page** en français et en anglais.
+- **Comment réordonner les pages du menu** et renommer les rubriques.
+- **Comment prévisualiser immédiatement vos modifications** en direct sur votre ordinateur.
+
+---
+
+## 🚀 Démarrage rapide (Prévisualisation locale)
+
+### Avec Docker (Recommandé - Windows, macOS, Linux)
+
+Aucune installation de Node.js n'est requise si vous disposez de [Docker Desktop](https://www.docker.com/products/docker-desktop/) :
 
 ```bash
-# Clone the repository
-git clone https://github.com/CCSDForge/episciences-doc.git
-cd episciences-doc
-
-# Start development server
 docker compose up
 ```
 
-Open **[http://localhost:4321](http://localhost:4321)** in your browser. Live reloading is automatically active (including on Windows mounts).
+Ouvrez **[http://localhost:4321](http://localhost:4321)** dans votre navigateur. Les modifications apportées aux fichiers s'affichent automatiquement en temps réel.
 
-To stop the server:
+Pour arrêter le serveur : `Ctrl + C` ou `docker compose down`.
 
-```bash
-docker compose down
-```
-
----
-
-## Quick Start (Local Development with Node.js)
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (v20+ or v22+)
-- [Git](https://git-scm.com/downloads)
+### Sans Docker (Avec Node.js v20+)
 
 ```bash
-# Clone the repository
-git clone https://github.com/CCSDForge/episciences-doc.git
-cd episciences-doc
-
-# Install dependencies
 npm install
-
-# Start development server
 npm run dev
-# Open http://localhost:4321
 ```
 
-_(On Linux / macOS, you can also use `make build` and `make serve`)_
+Rendez-vous sur **[http://localhost:4321](http://localhost:4321)**.
 
 ---
 
-## Common Commands
+## 🛠️ Aide-mémoire des commandes
 
-| Task                    | With Docker (Windows / Linux / macOS)               | Without Docker         |
-| ----------------------- | --------------------------------------------------- | ---------------------- |
-| **Dev server**          | `docker compose up`                                 | `npm run dev`          |
-| **Production build**    | `docker compose run --rm docs npm run build`        | `npm run build`        |
-| **Check types & links** | `docker compose run --rm docs npx astro check`      | `npx astro check`      |
-| **Format code**         | `docker compose run --rm docs npm run format`       | `npm run format`       |
-| **Check formatting**    | `docker compose run --rm docs npm run format:check` | `npm run format:check` |
+| Action                            | Avec Docker                                    | Sans Docker       |
+| :-------------------------------- | :--------------------------------------------- | :---------------- |
+| **Serveur de développement**      | `docker compose up`                            | `npm run dev`     |
+| **Générer le site (build)**       | `docker compose run --rm docs npm run build`   | `npm run build`   |
+| **Vérifier les liens et erreurs** | `docker compose run --rm docs npx astro check` | `npx astro check` |
+| **Formater les fichiers**         | `docker compose run --rm docs npm run format`  | `npm run format`  |
 
----
-
-## Project Structure
-
-```text
-.
-├── astro.config.mjs          # Starlight & Astro configuration (menus, i18n, plugins)
-├── package.json              # NPM dependencies and scripts
-├── Makefile                  # Unix makefile shortcuts
-├── Dockerfile                # Docker image definition
-├── docker-compose.yml        # Docker compose configuration
-├── docs/
-│   └── GUIDE.md              # Detailed user and developer guide
-├── src/
-│   ├── assets/               # Logos and static assets
-│   ├── content.config.ts     # Content collections configuration
-│   ├── content/
-│   │   └── docs/             # Documentation content
-│   │       ├── en/           # English documentation
-│   │       └── fr/           # French documentation
-│   └── styles/               # Custom CSS styles
-└── public/                   # Public static files (favicon, etc.)
-```
+Pour tous les détails avancés et l'architecture complète, consultez **[docs/GUIDE.md](docs/GUIDE.md)**.

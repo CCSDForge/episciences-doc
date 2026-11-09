@@ -1,229 +1,266 @@
-# Episciences Documentation - User & Developer Guide
+# Guide d'utilisation et de contribution - Documentation Episciences
 
-This document is the comprehensive guide for maintaining, configuring, and deploying the [Episciences](https://www.episciences.org/) documentation website ([doc.episciences.org](https://doc.episciences.org/)).
-
----
-
-## Table of Contents
-
-1. [Architecture & Technology Stack](#1-architecture--technology-stack)
-2. [Quick Start with Docker (Cross-Platform / Windows / Linux / macOS)](#2-quick-start-with-docker-cross-platform--windows--linux--macos)
-3. [Local Development (Without Docker)](#3-local-development-without-docker)
-4. [Project Structure](#4-project-structure)
-5. [Configuring Navigation Menus](#5-configuring-navigation-menus)
-   - [Left Menu: Sidebar Navigation](#a-left-menu-sidebar-navigation)
-   - [Right Menu: Table of Contents ("On this page")](#b-right-menu-table-of-contents-on-this-page)
-6. [Managing Content & Translations](#6-managing-content--translations)
-7. [Code Quality & Formatting](#7-code-quality--formatting)
-8. [Build & Production Deployment](#8-build--production-deployment)
-9. [Windows-Specific Notes & Troubleshooting](#9-windows-specific-notes--troubleshooting)
+Bienvenue dans documentation de la documentation de la plateforme [Episciences](https://www.episciences.org/), consultable en ligne à l'adresse **[doc.episciences.org](https://doc.episciences.org/)**.
 
 ---
 
-## 1. Architecture & Technology Stack
+## Sommaire
 
-The documentation is powered by:
-
-- **[Astro](https://astro.build/)** (v7) – Fast modern web framework.
-- **[Starlight](https://starlight.astro.build/)** – Official documentation theme for Astro with built-in search, i18n, and responsive navigation.
-- **Bilingual Content**: English (`/en/`, default) and French (`/fr/`).
-- **Docker Compose**: Containerized development and build environment ensuring cross-platform consistency.
-- **GitHub Actions**: Continuous Deployment automatically pushing static builds to GitHub Pages.
-
----
-
-## 2. Quick Start with Docker (Cross-Platform / Windows / Linux / macOS)
-
-Using Docker requires **zero local Node.js installation**. It works identically in Windows PowerShell/Command Prompt, macOS Terminal, and Linux Bash.
-
-### Prerequisites
-
-- Install [Docker Desktop](https://www.docker.com/products/docker-desktop/) (Windows / macOS) or Docker Engine + Docker Compose (Linux).
-
-### Development Server
-
-From the project root directory, run:
-
-```bash
-# Start the documentation server
-docker compose up
-```
-
-- Open **[http://localhost:4321](http://localhost:4321)** in your browser.
-- **Hot Reload (HMR)**: Any file edit is automatically detected and refreshed live in the browser.
-- To run in background: `docker compose up -d`
-- To stop the server: `docker compose down`
-
-### Everyday Tasks with Docker
-
-All maintenance scripts can be executed via Docker:
-
-```bash
-# Build the production static site in ./dist/
-docker compose run --rm docs npm run build
-
-# Check for TypeScript errors and broken links
-docker compose run --rm docs npx astro check
-
-# Format all files automatically with Prettier
-docker compose run --rm docs npm run format
-
-# Check formatting without modifying files
-docker compose run --rm docs npm run format:check
-```
+1. [Prise en main rapide (Prévisualiser le site)](#1-prise-en-main-rapide-prévisualiser-le-site)
+2. [Où trouver quoi ? (Repères dans les fichiers)](#2-où-trouver-quoi--repères-dans-les-fichiers)
+3. [Comment modifier une page existante](#3-comment-modifier-une-page-existante)
+4. [Comment ajouter une nouvelle page](#4-comment-ajouter-une-nouvelle-page)
+5. [Comment configurer et réordonner les menus](#5-comment-configurer-et-réordonner-les-menus)
+   - [Changer l'ordre des pages dans le menu de gauche](#a-changer-lordre-des-pages-dans-le-menu-de-gauche)
+   - [Renommer une rubrique du menu](#b-renommer-une-rubrique-du-menu)
+   - [Créer une nouvelle rubrique](#c-créer-une-nouvelle-rubrique)
+   - [Personnaliser le sommaire de droite ("Sur cette page")](#d-personnaliser-le-sommaire-de-droite-sur-cette-page)
+6. [Mettre en forme le contenu (Markdown & Encadrés)](#6-mettre-en-forme-le-contenu-markdown--encadrés)
+7. [Vérifier ses modifications avant de publier](#7-vérifier-ses-modifications-avant-de-publier)
+8. [Publication et mise en ligne](#8-publication-et-mise-en-ligne)
+9. [Annexe technique (Pour les développeurs et administrateurs)](#9-annexe-technique-pour-les-développeurs-et-administrateurs)
 
 ---
 
-## 3. Local Development (Without Docker)
+## 1. Prise en main rapide (Prévisualiser le site)
 
-If you prefer developing directly on your host machine:
+Pour voir directement le résultat de vos modifications au fur et à mesure que vous écrivez, vous pouvez lancer le site en local sur votre ordinateur. Chaque modification enregistrée actualisera immédiatement la page dans votre navigateur ("rechargement à chaud").
 
-### Prerequisites
+### Option A : Avec Docker (Recommandée - Fonctionne sur Windows, Mac et Linux)
 
-- **Node.js**: version `20` or `22+` (version 22 recommended)
-- **npm**: version `10+`
+Si vous avez installé [Docker Desktop](https://www.docker.com/products/docker-desktop/), vous n'avez besoin d'installer aucun outil de développement supplémentaire.
 
-### Installation & Commands
-
-```bash
-# 1. Install dependencies
-npm install
-
-# 2. Start local development server
-npm run dev
-# The site is available at http://localhost:4321
-
-# 3. Build production bundle (into dist/)
-npm run build
-
-# 4. Preview built production site locally
-npm run preview
-
-# 5. Type-check content and configuration
-npx astro check
-
-# 6. Format files with Prettier
-npm run format
-```
-
-_(Note for Linux/macOS users: A `Makefile` is also available with shortcuts such as `make dev`, `make build`, `make format`, etc.)_
+1. Ouvrez un terminal dans le dossier du projet (`epi-doc`).
+2. Démarrez le serveur avec la commande :
+   ```bash
+   docker compose up
+   ```
+3. Ouvrez votre navigateur web à l'adresse suivante : **[http://localhost:4321](http://localhost:4321)**.
+4. **Pour arrêter le serveur :** appuyez sur `Ctrl + C` dans le terminal ou tapez `docker compose down`.
 
 ---
 
-## 4. Project Structure
+### Option B : Avec Node.js (Sans Docker)
+
+Si vous disposez de [Node.js](https://nodejs.org/) (version 20 ou 22+) :
+
+1. Installez les dépendances (à faire une seule fois au début) :
+   ```bash
+   npm install
+   ```
+2. Lancez le serveur de développement :
+   ```bash
+   npm run dev
+   ```
+3. Rendez-vous sur **[http://localhost:4321](http://localhost:4321)**.
+4. **Pour arrêter le serveur :** appuyez sur `Ctrl + C` dans le terminal.
+
+---
+
+## 2. Où trouver quoi ? (Repères dans les fichiers)
+
+Voici les seuls dossiers et fichiers dont vous aurez besoin pour contribuer à la documentation :
 
 ```text
 epi-doc/
-├── astro.config.mjs          # Main Astro & Starlight configuration (menus, i18n, plugins)
-├── package.json              # NPM dependencies and scripts
-├── Makefile                  # Unix helper commands
-├── Dockerfile                # Node 22 build & runtime image
-├── docker-compose.yml        # Docker compose service setup
+│
+├── astro.config.mjs             <-- Le plan des menus (menu latéral de gauche)
+│
 ├── docs/
-│   └── GUIDE.md              # This user & developer guide
-├── public/                   # Static files served as-is (e.g. favicon.png)
+│   └── GUIDE.md                 <-- Ce guide d'utilisation
+│
 └── src/
-    ├── assets/               # Global static assets (e.g. episciences.svg logo)
-    ├── content.config.ts     # Starlight content layer collections setup
-    ├── content/
-    │   └── docs/             # Markdown documentation pages
-    │       ├── en/           # English documentation (default)
-    │       └── fr/           # French documentation (mirrored structure)
-    └── styles/
-        └── episciences.css   # Custom CSS overrides
+    ├── assets/                  <-- Logos et images globales
+    │
+    └── content/
+        └── docs/                <-- TOUS LES ARTICLES DE DOCUMENTATION SONT ICI
+            ├── fr/              <-- Versions françaises des articles (.md)
+            │   └── img/         <-- Captures d'écran et illustrations
+            └── en/              <-- Versions anglaises des articles (.md)
+                └── img/
 ```
+
+> **Règle d'or du bilinguisme** : Chaque article existe en double : une version française dans `src/content/docs/fr/` et une version anglaise dans `src/content/docs/en/`, avec exactement le même nom de fichier (par exemple `submission.md`).
 
 ---
 
-## 5. Configuring Navigation Menus
+## 3. Comment modifier une page existante
 
-The menus are configured in `astro.config.mjs`.
+1. Rendez-vous dans le dossier de la langue souhaitée :
+   - Français : `src/content/docs/fr/`
+   - Anglais : `src/content/docs/en/`
+2. Ouvrez le fichier correspondant (par exemple `submission.md`) avec votre éditeur habituel (VS Code, bloc-notes, etc.).
+3. Chaque fichier commence par un en-tête délimité par trois tirets (`---`). **Ne supprimez pas ces tirets** :
+   ```yaml
+   ---
+   title: Soumettre un article
+   description: Guide de soumission sur la plateforme Episciences
+   ---
+   ```
+4. Modifiez le texte sous l'en-tête selon vos besoins.
+5. Enregistrez le fichier : votre navigateur sur `http://localhost:4321` se met à jour automatiquement !
 
-### A. Left Menu: Sidebar Navigation
+---
 
-The left sidebar navigation is defined by the `sidebar` array in `astro.config.mjs`:
+## 4. Comment ajouter une nouvelle page
+
+Pour créer une nouvelle page, suivez ces 3 étapes simples :
+
+### Étape 1 : Créer les deux fichiers de contenu (FR et EN)
+
+Choisissez un nom court et sans accents en minuscules, séparé par des tirets (ce qu'on appelle un _slug_).  
+_Exemple : `mon-nouveau-guide.md`._
+
+Créez ensuite les deux fichiers :
+
+1. `src/content/docs/fr/mon-nouveau-guide.md`
+2. `src/content/docs/en/mon-nouveau-guide.md`
+
+### Étape 2 : Remplir l'en-tête et rédiger le contenu
+
+Dans le fichier français `src/content/docs/fr/mon-nouveau-guide.md` :
+
+```markdown
+---
+title: Mon nouveau guide
+description: Présentation de cette nouvelle fonctionnalité
+---
+
+## Bienvenue sur ce guide
+
+Voici le contenu de votre documentation...
+```
+
+Dans le fichier anglais `src/content/docs/en/mon-nouveau-guide.md` :
+
+```markdown
+---
+title: My New Guide
+description: Overview of this new feature
+---
+
+## Welcome to this guide
+
+Here is the content of your documentation...
+```
+
+### Étape 3 : Faire apparaître la page dans le menu
+
+Pour que les lecteurs puissent accéder à votre page depuis le menu latéral de gauche, il faut l'inscrire dans le fichier `astro.config.mjs` (voir la section suivante).
+
+---
+
+## 5. Comment configurer et réordonner les menus
+
+Le menu de navigation de gauche est configuré dans le fichier **`astro.config.mjs`**, situé à la racine du projet.
+
+Ouvrez `astro.config.mjs` et repérez la section `sidebar: [ ... ]`.
+
+### A. Changer l'ordre des pages dans le menu de gauche
+
+Dans `astro.config.mjs`, l'ordre d'affichage dans chaque section correspond simplement à **l'ordre des lignes** dans le bloc `items`.
+
+#### Exemple :
+
+Imaginons la section "Auteurs & Soumission" :
 
 ```javascript
-sidebar: [
-  {
-    label: "Authors & Submission", // Group title in English
-    translations: { fr: "Auteurs & Soumission" }, // Group title in French
-    items: [
-      { slug: "submission" }, // Maps to en/submission.md & fr/submission.md
-      { slug: "account" },
-      { slug: "authoreditorcommunication" },
-    ],
-  },
-  {
-    label: "Journal Website",
-    translations: { fr: "Site web de la revue" },
-    collapsed: false, // true = collapsed by default
-    items: [{ slug: "website" }],
-  },
-  // ...
-];
-```
-
-#### How to Add a New Page to the Left Sidebar:
-
-1. Create both language files:
-   - `src/content/docs/en/my-new-page.md`
-   - `src/content/docs/fr/my-new-page.md`
-2. Open `astro.config.mjs` and add `{ slug: "my-new-page" }` to the `items` list of the desired section.
-
-#### Page-Level Sidebar Customization (YAML Frontmatter):
-
-You can adjust sidebar behavior directly within an individual Markdown file:
-
-```yaml
----
-title: "Advanced Submission Settings"
-sidebar:
-  label: "Advanced Settings" # Overrides the menu label for this page
-  order: 2 # Sort order index when auto-sorting
-  hidden: true # Set to true to hide this page from the sidebar
-  badge:
-    text: "New"
-    variant: "tip" # Available variants: tip, note, danger, success, caution
----
-```
-
----
-
-### B. Right Menu: Table of Contents ("On this page")
-
-The right sidebar provides a table of contents generated **automatically** from headings in the active page.
-
-#### Global Configuration:
-
-In `astro.config.mjs`:
-
-```javascript
-tableOfContents: {
-  minHeadingLevel: 2, // Starts at ## headings (H2)
-  maxHeadingLevel: 3, // Includes down to ### headings (H3)
+{
+  label: "Authors & Submission",
+  translations: { fr: "Auteurs & Soumission" },
+  items: [
+    { slug: "submission" },
+    { slug: "account" },
+    { slug: "authoreditorcommunication" },
+  ],
 },
 ```
 
-To include sub-headings down to `####` (H4), set `maxHeadingLevel: 4`.
+- **Pour faire passer "Création de compte" (`account`) en premier :** il suffit de remonter la ligne :
 
-#### Page-Level Table of Contents Customization (YAML Frontmatter):
+```javascript
+{
+  label: "Authors & Submission",
+  translations: { fr: "Auteurs & Soumission" },
+  items: [
+    { slug: "account" },                    // <-- Passé en 1ère position
+    { slug: "submission" },
+    { slug: "authoreditorcommunication" },
+  ],
+},
+```
 
-You can override or disable the Table of Contents for a specific document:
+- **Pour ajouter votre nouvelle page créée à l'étape précédente (`mon-nouveau-guide`) :**
 
-- **Hide the right menu completely:**
+```javascript
+{
+  label: "Authors & Submission",
+  translations: { fr: "Auteurs & Soumission" },
+  items: [
+    { slug: "account" },
+    { slug: "submission" },
+    { slug: "authoreditorcommunication" },
+    { slug: "mon-nouveau-guide" },          // <-- Votre nouvelle page ici !
+  ],
+},
+```
+
+---
+
+### B. Renommer une rubrique du menu
+
+Chaque catégorie de menu possède un titre en anglais (`label`) et sa traduction en français (`translations.fr`) :
+
+```javascript
+{
+  label: "Journal Editorial Management",                  // Titre affiché en version anglaise
+  translations: { fr: "Gestion éditoriale de la revue" }, // Titre affiché en version française
+  items: [
+    // ...
+  ]
+}
+```
+
+Modifiez simplement le texte entre guillemets pour changer son intitulé.
+
+---
+
+### C. Créer une nouvelle rubrique
+
+Pour créer une toute nouvelle catégorie dans le menu de gauche, ajoutez un nouveau bloc dans `sidebar: [ ... ]` :
+
+```javascript
+{
+  label: "Statistics & Metrics",
+  translations: { fr: "Statistiques & Métriques" },
+  collapsed: false, // mettre à 'true' si vous voulez qu'elle soit repliée par défaut
+  items: [
+    { slug: "statistiques-consultation" },
+  ],
+},
+```
+
+---
+
+### D. Personnaliser le sommaire de droite ("Sur cette page")
+
+Le menu de droite est généré **automatiquement** à partir des titres de niveaux 2 (`##`) et 3 (`###`) présents dans votre page.
+
+Vous pouvez ajuster son comportement directement en haut d'un article dans son en-tête YAML :
+
+- **Masquer totalement le sommaire de droite pour cette page :**
 
   ```yaml
   ---
-  title: "Welcome Page"
+  title: Page d'accueil
   tableOfContents: false
   ---
   ```
 
-- **Change heading depth for this specific document:**
+- **Afficher aussi les sous-titres de niveau 4 (`####`) :**
   ```yaml
   ---
-  title: "In-Depth Technical Reference"
+  title: Documentation détaillée
   tableOfContents:
     minHeadingLevel: 2
     maxHeadingLevel: 4
@@ -232,133 +269,121 @@ You can override or disable the Table of Contents for a specific document:
 
 ---
 
-## 6. Managing Content & Translations
+## 6. Mettre en forme le contenu (Markdown & Encadrés)
 
-### Bilingual Consistency
+### Les bases de l'écriture en Markdown
 
-Because the platform documentation is bilingual, every document exists in both:
+| Pour obtenir...          | Tapez dans votre fichier :                                       |
+| :----------------------- | :--------------------------------------------------------------- |
+| Titre de section         | `## Titre de niveau 2`                                           |
+| Sous-titre               | `### Sous-titre de niveau 3`                                     |
+| Texte en gras            | `**texte en gras**`                                              |
+| Texte en italique        | `*texte en italique*`                                            |
+| Liste à puces            | `- Premier point`<br>`- Deuxième point`                          |
+| Liste numérotée          | `1. Première étape`<br>`2. Deuxième étape`                       |
+| Lien hypertexte          | `[Consulter Episciences](https://www.episciences.org/)`          |
+| Lien vers une autre page | `[Consulter la FAQ](/fr/faq/)` ou `[Consulter la FAQ](/en/faq/)` |
+| Image                    | `![Description](img/ma-capture.png)`                             |
 
-- `src/content/docs/en/<slug>.md`
-- `src/content/docs/fr/<slug>.md`
+### Encadrés visuels (Astuces, Remarques, Alertes)
 
-Keep the slugs and filenames identical between `en/` and `fr/`.
-
-### Admonitions / Callout Blocks
-
-Use Starlight callout blocks to highlight key information:
+Vous pouvez insérer des encadrés très lisibles pour guider le lecteur :
 
 ```markdown
 :::note
-General context and background information.
+Remarque : Information complémentaire ou contexte utile.
 :::
 
 :::tip
-Helpful tip or best practice.
+Astuce : Bonnes pratiques et conseils pratiques.
 :::
 
 :::caution
-Warning about common pitfalls or limitations.
+Attention : Point de vigilance important ou limitation à connaître.
 :::
 
 :::danger
-Critical warning for operations with data loss or security implications.
+Avertissement critique : Opération sensible (suppression de données, etc.).
 :::
 ```
 
-### Images
+---
 
-Store page-specific images in the subfolder alongside the content (e.g. `src/content/docs/en/img/`) or in `src/assets/`. Reference them in Markdown with standard syntax:
+## 7. Vérifier ses modifications avant de publier
 
-```markdown
-![Interface overview](img/submission-overview.png "Submission Overview")
-```
+Avant de valider et partager vos modifications, deux vérifications simples sont recommandées :
 
-_Note: Image zoom is automatically enabled via the `starlight-image-zoom` plugin._
+### 1. Vérifier qu'aucun lien n'est brisé
+
+Pour s'assurer que tous les liens internes et images fonctionnent correctement :
+
+- **Avec Docker :**
+  ```bash
+  docker compose run --rm docs npx astro check
+  ```
+- **Sans Docker :**
+  ```bash
+  npx astro check
+  ```
+
+### 2. Harmoniser la mise en forme du texte automatiquement
+
+Le projet utilise l'outil _Prettier_ qui aligne et formate proprement tous les fichiers Markdown :
+
+- **Avec Docker :**
+  ```bash
+  docker compose run --rm docs npm run format
+  ```
+- **Sans Docker :**
+  ```bash
+  npm run format
+  ```
 
 ---
 
-## 7. Code Quality & Formatting
+## 8. Publication et mise en ligne
 
-Before committing your changes:
+La publication de la documentation est **100 % automatisée** via GitHub Actions :
 
-```bash
-# 1. Type check and broken link validation
-docker compose run --rm docs npx astro check
-# (or locally: npx astro check)
-
-# 2. Check formatting
-docker compose run --rm docs npm run format:check
-# (or locally: npm run format:check)
-
-# 3. Auto-format all markdown, yaml, and source files
-docker compose run --rm docs npm run format
-# (or locally: npm run format)
-```
+1. Lorsque vos modifications sont validées et fusionnées sur la branche principale (`main`), le système construit automatiquement la version de production.
+2. Le site public **[doc.episciences.org](https://doc.episciences.org/)** est mis à jour en quelques minutes sans aucune intervention manuelle.
 
 ---
 
-## 8. Build & Production Deployment
+## 9. Annexe technique (Pour les développeurs et administrateurs)
 
-### 1. Local Production Build
+<details>
+<summary>Cliquez ici pour dérouler les détails d'architecture et de configuration avancée</summary>
 
-Test the production build before submitting changes:
+### Pile technique
 
-```bash
-docker compose run --rm docs npm run build
-# (or locally: npm run build)
-```
+- **Framework** : [Astro](https://astro.build/) (v7) avec le thème officiel [Starlight](https://starlight.astro.build/).
+- **Internationalisation (i18n)** : Deux langues gérées (`en` par défaut, `fr`).
+- **Plugins actifs** :
+  - `starlight-image-zoom` : Zoom au clic sur toutes les illustrations.
+  - `starlight-scroll-to-top` : Bouton de retour haut de page.
+  - `starlight-links-validator` : Validation automatique de tous les liens internes.
+  - `starlight-llms-txt` : Génération des flux LLM optimisés pour agents d'intelligence artificielle.
 
-The output is written to `./dist/`.
+### Commandes usuelles
 
-To test the generated static build locally with the preview server:
+| Action                          | Avec Docker                                         | Sans Docker (Local)    |
+| :------------------------------ | :-------------------------------------------------- | :--------------------- |
+| **Serveur de développement**    | `docker compose up`                                 | `npm run dev`          |
+| **Génération statique (build)** | `docker compose run --rm docs npm run build`        | `npm run build`        |
+| **Prévisualisation du build**   | _(via hôte local)_                                  | `npm run preview`      |
+| **Validation types & liens**    | `docker compose run --rm docs npx astro check`      | `npx astro check`      |
+| **Formatage Prettier**          | `docker compose run --rm docs npm run format`       | `npm run format`       |
+| **Vérification du formatage**   | `docker compose run --rm docs npm run format:check` | `npm run format:check` |
 
-```bash
-npm run preview
-```
+### Documentation pour LLM et impression PDF
 
-### 2. Automated Production Deployment (CI/CD)
+- **Exports LLM** : Générés automatiquement dans le build sous `/llms.txt`, `/_llms-txt/english-documentation.txt`, `/_llms-txt/documentation-en-français.txt`, et `/llms-small.txt`.
+- **Export PDF / Impression** : Accessible via le raccourci d'impression standard du navigateur (`Ctrl+P` / `Cmd+P`). Les barres de navigation latérales, la recherche et les éléments d'interface sont automatiquement exclus à l'impression grâce aux règles CSS dédiées dans `src/styles/episciences.css`.
 
-The deployment is automated via the GitHub Actions workflow `.github/workflows/ci.yml`:
+### Astuces Windows
 
-- Trigger: A push or merge to the `main` or `master` branch.
-- Workflow:
-  1. Sets up Node.js v22.
-  2. Runs a clean install (`npm ci`).
-  3. Builds the static site (`npm run build`).
-  4. Deploys the static `./dist/` directory to **GitHub Pages**.
-- The production site is published live at **[https://doc.episciences.org/](https://doc.episciences.org/)**.
+- Docker sous Windows utilise le backend WSL 2. La variable `CHOKIDAR_USEPOLLING=true` est activée dans `docker-compose.yml` pour garantir la détection instantanée des modifications de fichiers.
+- Pour éviter les écarts de fins de ligne (CRLF vs LF) : `git config core.autocrlf input`.
 
-### 3. LLM Agent Documentation & Clean PDF Export
-
-- **LLM Agent Endpoints**: Each production build automatically compiles optimized Markdown documentation for AI agents and LLMs:
-  - `/llms.txt` : Root manifest listing available documentation sets.
-  - `/_llms-txt/english-documentation.txt` : Complete English documentation in a single file.
-  - `/_llms-txt/documentation-en-français.txt` : Complete French documentation in a single file.
-  - `/llms-small.txt` : Condensed documentation for smaller LLM context windows.
-- **Print & PDF Export**: Any page can be printed or exported to PDF using the browser's standard Print dialog (`Ctrl+P` / `Cmd+P`). All sidebars, navigation bars, search buttons, and interactive widgets are automatically omitted from the printed layout via native `@media print` styles in `src/styles/episciences.css`.
-
----
-
-## 9. Windows-Specific Notes & Troubleshooting
-
-### Docker on Windows
-
-- Use **Docker Desktop with the WSL 2 backend** for best performance.
-- In `docker-compose.yml`, the environment variable `CHOKIDAR_USEPOLLING=true` is enabled to ensure file changes made on Windows hosts are immediately detected inside the Linux container.
-
-### Line Endings (CRLF vs LF)
-
-Git on Windows may convert LF line endings to CRLF. To prevent unexpected Prettier diffs, ensure your Git configuration uses LF:
-
-```bash
-git config core.autocrlf input
-```
-
-### Port Conflicts
-
-If port `4321` is already in use by another application on your machine, you can change the host port in `docker-compose.yml`:
-
-```yaml
-ports:
-  - "8080:4321" # Access via http://localhost:8080
-```
+</details>

@@ -3,6 +3,8 @@
 :root {
   --sl-font: "Noto Sans", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
   --sl-font-mono: "Roboto Mono", monospace;
+  /* Wider text column to reduce the gap between sidebar and content on large screens (default: 45rem) */
+  --sl-content-width: 65rem;
   --sl-color-bg-nav: #00005f;
 }
 

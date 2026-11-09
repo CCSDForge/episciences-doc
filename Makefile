@@ -29,8 +29,8 @@ help: ## Show this help
 dev: ## Start dev server locally (npm run dev)
 	@npm run dev
 
-check: ## Run astro check locally
-	@npx astro check
+check: ## Run astro check in Docker
+	@docker run $(DOCKER_RUN_OPTS) $(DOCS_BUILD_IMAGE) npx astro check
 
 build-local: ## Build static site locally (dist/)
 	@npm run build
@@ -67,8 +67,8 @@ logs: ## Show container logs
 	@$(DOCKER_COMPOSE) logs -f
 
 # Prettier commands
-format: ## Format all files with Prettier
-	@npm run format
+format: ## Format all files with Prettier in Docker
+	@docker run $(DOCKER_RUN_OPTS) $(DOCS_BUILD_IMAGE) npm run format
 
-format-check: ## Check formatting without modifying files
-	@npm run format:check
+format-check: ## Check formatting in Docker without modifying files
+	@docker run $(DOCKER_RUN_OPTS) $(DOCS_BUILD_IMAGE) npm run format:check

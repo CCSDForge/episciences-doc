@@ -57,11 +57,14 @@ Rendez-vous sur **[http://localhost:4321](http://localhost:4321)**.
 
 ## 🛠️ Aide-mémoire des commandes
 
-| Action                            | Avec Docker                                    | Sans Docker       |
-| :-------------------------------- | :--------------------------------------------- | :---------------- |
-| **Serveur de développement**      | `docker compose up`                            | `npm run dev`     |
-| **Générer le site (build)**       | `docker compose run --rm docs npm run build`   | `npm run build`   |
-| **Vérifier les liens et erreurs** | `docker compose run --rm docs npx astro check` | `npx astro check` |
-| **Formater les fichiers**         | `docker compose run --rm docs npm run format`  | `npm run format`  |
+| Action                            | Makefile (Linux / macOS) | Docker Compose (tous systèmes)                 | Sans Docker       |
+| :-------------------------------- | :----------------------- | :--------------------------------------------- | :---------------- |
+| **Construire l'image Docker**     | `make build`             | `docker compose build`                         | —                 |
+| **Serveur de développement**      | `make serve`             | `docker compose up`                            | `npm run dev`     |
+| **Générer le site (build)**       | `make build-site`        | `docker compose run --rm docs npm run build`   | `npm run build`   |
+| **Vérifier les liens et erreurs** | `make check`             | `docker compose run --rm docs npx astro check` | `npx astro check` |
+| **Formater les fichiers**         | `make format`            | `docker compose run --rm docs npm run format`  | `npm run format`  |
+
+> Sous **Windows**, `make` n'est pas disponible par défaut : utilisez les commandes **Docker Compose**.
 
 Pour tous les détails avancés et l'architecture complète, consultez **[docs/GUIDE.md](docs/GUIDE.md)**.

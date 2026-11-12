@@ -119,8 +119,13 @@ header.header site-search button:hover {
   color: #00005f !important;
 }
 
-/* Focus ring on the navy header: the global #005fb9 ring is under 3:1 here */
-header.header :focus-visible {
+/* Focus ring on the navy header (same in both themes, the header stays navy).
+   The global #005fb9 ring is under 3:1 here; white gives 18:1.
+   The skip link sits over the header but outside it in the DOM, so it is listed too. */
+header.header :focus-visible,
+:root[data-theme="dark"] header.header :focus-visible,
+.sl-skip-link:focus-visible,
+:root[data-theme="dark"] .sl-skip-link:focus-visible {
   outline-color: #ffffff !important;
 }
 

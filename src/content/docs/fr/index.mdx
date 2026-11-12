@@ -12,7 +12,7 @@ hero:
   actions:
     - text: Guide de soumission
       link: /fr/submission/
-      icon: right-arrow
+      icon: open-book
       variant: primary
     - text: Gestion de revue
       link: /fr/settings/
@@ -25,21 +25,21 @@ import { Card, CardGrid, LinkCard } from "@astrojs/starlight/components";
 ## Parcourir la documentation par rôle
 
 <CardGrid>
-  <Card title="Auteurs & Chercheurs" icon="pencil">
-    Soumettez un manuscrit depuis **HAL**, **arXiv** ou **Zenodo**. Suivez les étapes de l'évaluation par les pairs et échangez directement avec le comité de rédaction.
+  <Card title="Auteurs et chercheurs" icon="open-book">
+    Soumettez un manuscrit depuis une archive ouverte (**HAL**, **arXiv**, **Zenodo**, etc.). Suivez les étapes de l'évaluation par les pairs et échangez directement avec le comité de rédaction.
 
     [Consulter le guide de soumission &rarr;](/fr/submission/)
 
   </Card>
 
-  <Card title="Relecteurs & Experts" icon="magnifier">
+  <Card title="Relecteurs et experts" icon="pen">
     Répondez aux invitations d'évaluation, déclarez vos disponibilités ou vos éventuels conflits d'intérêts et remplissez vos grilles de relecture.
 
     [Accéder à l'espace relecteur &rarr;](/fr/review/)
 
   </Card>
 
-  <Card title="Équipes & Gestion éditoriale" icon="setting">
+  <Card title="Comités et gestion éditoriale" icon="setting">
     Pilotez le cycle de vie de votre revue : configuration générale, structuration des sections et volumes, attribution des rôles et préparation de copie.
 
     [Découvrir la gestion éditoriale &rarr;](/fr/settings/)
@@ -54,7 +54,7 @@ import { Card, CardGrid, LinkCard } from "@astrojs/starlight/components";
   </Card>
 </CardGrid>
 
-## Dépôts compatibles & Open Access
+## Dépôts compatibles et Open Access
 
 <CardGrid>
   <Card title="Archives ouvertes prises en charge" icon="open-book">
@@ -63,6 +63,8 @@ import { Card, CardGrid, LinkCard } from "@astrojs/starlight/components";
     - **arXiv** (physique, mathématiques, informatique, etc.)
     - **Zenodo** (dépôt multidisciplinaire de données et publications)
     - **bioRxiv / medRxiv** via les passerelles d'import
+
+    D'autres archives peuvent être prises en charge. Chaque revue choisit celles qu'elle accepte pour la soumission.
   </Card>
 
   <Card title="Modèle Diamant (Diamond Open Access)" icon="star">
@@ -70,7 +72,7 @@ import { Card, CardGrid, LinkCard } from "@astrojs/starlight/components";
   </Card>
 </CardGrid>
 
-## Ressources & Aide
+## Ressources et aide
 
 <CardGrid>
   <LinkCard

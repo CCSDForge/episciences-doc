@@ -45,6 +45,20 @@ header.header {
   border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
 }
 
+/* Breathing room so the focus ring doesn't touch the title text */
+header.header .site-title {
+  padding-inline: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+/* Extra space between the site title and the search field (desktop only).
+   Applied on the title so the search still aligns with the content column on wide screens. */
+@media (min-width: 50rem) {
+  header.header .site-title {
+    margin-inline-end: 1.5rem;
+  }
+}
+
 /* Logo sizing in header */
 .site-title img {
   height: 2.2rem;
@@ -78,28 +92,36 @@ header.header .social-icons::after {
   border-inline-end: 1px solid rgba(255, 255, 255, 0.2) !important;
 }
 
-/* Search button in header */
+/* Search button in header: solid white field so it stands out on the navy bar */
 header.header site-search button {
-  background-color: rgba(255, 255, 255, 0.1) !important;
-  border-color: rgba(255, 255, 255, 0.2) !important;
-  color: rgba(255, 255, 255, 0.9) !important;
+  background-color: #ffffff !important;
+  border: 1px solid #ffffff !important;
+  color: #3d3d5c !important; /* ~10:1 on white */
   border-radius: 0.5rem !important;
+  transition:
+    box-shadow 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
 }
 
 header.header site-search button svg {
-  color: #ffffff !important;
+  color: #00005f !important;
 }
 
 header.header site-search button kbd {
-  background-color: rgba(255, 255, 255, 0.15) !important;
-  color: #ffffff !important;
-  border-color: rgba(255, 255, 255, 0.25) !important;
+  background-color: #e8f2fa !important;
+  color: #00005f !important;
+  border-color: #c5d3e8 !important;
 }
 
 header.header site-search button:hover {
-  background-color: rgba(255, 255, 255, 0.18) !important;
-  border-color: rgba(255, 255, 255, 0.4) !important;
-  color: #ffffff !important;
+  border-color: #0aa0be !important;
+  box-shadow: 0 0 0 3px rgba(10, 160, 190, 0.45) !important;
+  color: #00005f !important;
+}
+
+/* Focus ring on the navy header: the global #005fb9 ring is under 3:1 here */
+header.header :focus-visible {
+  outline-color: #ffffff !important;
 }
 
 /* Language and theme selectors in header */

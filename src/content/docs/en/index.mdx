@@ -12,7 +12,7 @@ hero:
   actions:
     - text: Author Guide
       link: /en/submission/
-      icon: right-arrow
+      icon: open-book
       variant: primary
     - text: Journal Management
       link: /en/settings/
@@ -25,14 +25,14 @@ import { Card, CardGrid, LinkCard } from "@astrojs/starlight/components";
 ## Browse documentation by role
 
 <CardGrid>
-  <Card title="Authors & Researchers" icon="pencil">
-    Submit a preprint from **HAL**, **arXiv**, or **Zenodo**. Track peer-review stages and communicate directly with the editorial board.
+  <Card title="Authors & Researchers" icon="open-book">
+    Submit a preprint from an open archive (**HAL**, **arXiv**, **Zenodo**, etc.). Track peer-review stages and communicate directly with the editorial board.
 
     [Read author submission guide &rarr;](/en/submission/)
 
   </Card>
 
-  <Card title="Reviewers & Experts" icon="magnifier">
+  <Card title="Reviewers & Experts" icon="pen">
     Respond to review invitations, set availability periods, declare potential conflicts of interest, and complete evaluation scorecards.
 
     [Go to reviewer guide &rarr;](/en/review/)
@@ -63,6 +63,8 @@ import { Card, CardGrid, LinkCard } from "@astrojs/starlight/components";
     - **arXiv** (physics, mathematics, computer science, etc.)
     - **Zenodo** (multidisciplinary research data and publication repository)
     - **bioRxiv / medRxiv** via import gateways
+
+    Other repositories may be supported. Each journal chooses which ones it accepts for submission.
   </Card>
 
   <Card title="Diamond Open Access Model" icon="star">

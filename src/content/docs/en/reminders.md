@@ -5,10 +5,10 @@ title: "Automatic reminders"
 <div class="roles-container not-content" role="region" aria-label="Required rights">
   <span class="roles-label">Rights:</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">Administrator</li>
-    <li role="listitem">Editor</li>
-    <li role="listitem">Editor in Chief</li>
-    <li role="listitem">Editorial secretary</li>
+    <li>Administrator</li>
+    <li>Editor</li>
+    <li>Editor in Chief</li>
+    <li>Editorial secretary</li>
   </ul>
 </div>
 
@@ -34,7 +34,7 @@ Nine types of reminder are available:
 
 To set up, click on “Add a new reminder”. A screen appears with a list of parameters to be defined for the desired dunning types.
 
-![Alt text](img/reminders-1.png "Add a new reminder: form")
+![Add a new reminder: form](img/reminders-1.png)
 
 Fields marked with an asterisk are required.
 
@@ -71,7 +71,7 @@ Fields marked with an asterisk are required.
 
 Click on “Submit” to save your changes. An automatic dunning is created. It is possible to modify it.
 
-![Alt text](img/reminders-2.png "Automatic reminders: list of reminders")
+![Automatic reminders: list of reminders](img/reminders-2.png)
 
 Automatic reminders are sent every day at 00:00.
 

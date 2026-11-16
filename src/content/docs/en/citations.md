@@ -5,11 +5,11 @@ title: "Managing bibliographical references"
 <div class="roles-container not-content" role="region" aria-label="Required rights">
   <span class="roles-label">Rights:</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">Administrator</li>
-    <li role="listitem">Author</li>
-    <li role="listitem">Editor</li>
-    <li role="listitem">Editor in Chief</li>
-    <li role="listitem">Editorial secretary</li>
+    <li>Administrator</li>
+    <li>Author</li>
+    <li>Editor</li>
+    <li>Editor in Chief</li>
+    <li>Editorial secretary</li>
   </ul>
 </div>
 

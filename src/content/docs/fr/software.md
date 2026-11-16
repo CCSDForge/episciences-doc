@@ -5,7 +5,7 @@ title: "Lier publications / données / logiciels"
 <div class="roles-container not-content" role="region" aria-label="Rôles concernés">
   <span class="roles-label">Rôle :</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">auteur</li>
+    <li>auteur</li>
   </ul>
 </div>
 

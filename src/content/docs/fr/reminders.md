@@ -5,10 +5,10 @@ title: "Relances automatiques"
 <div class="roles-container not-content" role="region" aria-label="Rôles concernés">
   <span class="roles-label">Rôles :</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">administrateur</li>
-    <li role="listitem">rédacteur</li>
-    <li role="listitem">rédacteur en chef</li>
-    <li role="listitem">secrétaire de rédaction</li>
+    <li>administrateur</li>
+    <li>rédacteur</li>
+    <li>rédacteur en chef</li>
+    <li>secrétaire de rédaction</li>
   </ul>
 </div>
 
@@ -37,7 +37,7 @@ Neuf types de relance sont proposés :
 
 Pour paramétrer, cliquer sur “Créer une relance automatique”. Un écran s’affiche avec une liste de paramètres à définir pour les types de relances souhaitées.
 
-![Alt text](img/reminders-1.png "Créer une relance automatique : formulaire")
+![Créer une relance automatique : formulaire](img/reminders-1.png)
 
 Les champs marqués d’un astérisque sont obligatoires.
 
@@ -74,7 +74,7 @@ Les champs marqués d’un astérisque sont obligatoires.
 
 Cliquer sur “Valider” pour enregistrer vos modifications. Une relance automatique est créée. Il est possible de la modifier.
 
-![Alt text](img/reminders-2.png "Créer une relance automatique : liste des relances")
+![Créer une relance automatique : liste des relances](img/reminders-2.png)
 
 Les envois de rappels automatiques sont effectués tous les jours à 00:00.
 

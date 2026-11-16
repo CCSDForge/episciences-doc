@@ -5,9 +5,9 @@ title: "Volume Settings"
 <div class="roles-container not-content" role="region" aria-label="Required rights">
   <span class="roles-label">Rights:</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">Administrator</li>
-    <li role="listitem">Editorial secretary</li>
-    <li role="listitem">Editor</li>
+    <li>Administrator</li>
+    <li>Editorial secretary</li>
+    <li>Editor</li>
   </ul>
 </div>
 
@@ -19,7 +19,7 @@ Now, a new feature allows configuring at the journal level whether volume titles
 
 To change the settings, go to Journal management → Journal → Settings
 
-![Alt text](img/volume_settings-1.png "journal settings")
+![journal settings](img/volume_settings-1.png)
 
 ## Implemented Features
 
@@ -27,7 +27,7 @@ To change the settings, go to Journal management → Journal → Settings
 
 Two new configuration parameters have been added to the "Volume Settings" section in the journal administration interface:
 
-![Alt text](img/volume_settings-2.png "volumes settings")
+![volumes settings](img/volume_settings-2.png)
 
 ## 1. Parameter "Allow displaying empty volumes"
 
@@ -67,14 +67,14 @@ This parameter allows editing the title of a volume containing published article
 - The title of a volume **cannot** be edited if the volume contains published articles
 - Behavior identical to the previous system
 
-![Alt text](img/volume_settings-3.png "volume title")
+![volume title](img/volume_settings-3.png)
 
 #### When the parameter is enabled (value: 1)
 
 - The title of a volume can be edited even if it contains published articles
 - Provides increased flexibility for volume management
 
-![Alt text](img/volume_settings-4.png "volume title")
+![volume title](img/volume_settings-4.png)
 
 :::note[Important Notes]
 

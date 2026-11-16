@@ -5,10 +5,10 @@ title: "Gérer le site"
 <div class="roles-container not-content" role="region" aria-label="Rôles concernés">
   <span class="roles-label">Rôles :</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">administrateur</li>
-    <li role="listitem">rédacteur en chef</li>
-    <li role="listitem">secrétaire de rédaction</li>
-    <li role="listitem">webmaster</li>
+    <li>administrateur</li>
+    <li>rédacteur en chef</li>
+    <li>secrétaire de rédaction</li>
+    <li>webmaster</li>
   </ul>
 </div>
 
@@ -32,7 +32,7 @@ Six options paramétrables sont proposées :
 
 L’option “Général” permet de définir les langues de l’interface. Actuellement, il existe deux choix possibles : français et anglais.
 
-![Alt text](img/website-1.png "Choix des langues de l’interface")
+![Choix des langues de l’interface](img/website-1.png)
 
 Sélectionnez les langues souhaitées en cliquant sur leur intitulé (cliquez et appuyez sur Ctrl ou Cmd pour sélectionner la seconde langue, si votre site est bilingue).
 
@@ -54,9 +54,9 @@ L’option “Style” permet de définir l’affichage du site. Vous pouvez cho
 Vous pouvez choisir entre un menu vertical (qui s’affiche à gauche de la page) ou horizontal (qui s’affiche en haut de la page, sous le bandeau de titre).
 Vous pouvez également choisir l’option “accordéon” pour chacune de ces deux orientations.
 
-![Alt text](img/website-2.png "Orientation verticale en accordéon")
+![Orientation verticale en accordéon](img/website-2.png)
 
-![Alt text](img/website-3.png "Orientation horizontale en accordéon")
+![Orientation horizontale en accordéon](img/website-3.png)
 
 ### Largeur de la zone principale
 
@@ -71,24 +71,24 @@ L’affichage du fil d’ariane permet de savoir à tout moment dans quelle page
 
 Le fil d’ariane s’affiche en haut de page soit directement sous le bandeau (dans le cas d’un menu vertical), soit sous le menu (dans le cas d’un menu horizontal).
 
-![Alt text](img/website-4.png "Fil d’ariane orientation verticale")
+![Fil d’ariane orientation verticale](img/website-4.png)
 
-![Alt text](img/website-5.png "Fil d’ariane orientation horizontale")
+![Fil d’ariane orientation horizontale](img/website-5.png)
 
 ### Type de personnalisation
 
 Il existe trois possibilités pour personnaliser votre site : en 1 clic, simple ou avancé.
 
 En sélectionnant l’**option “En 1 clic”**, vous aurez le choix entre deux modèles prédéfinis (modèle 1 et modèle 2).
-![Alt text](img/website-6.png "Type de personnalisation en 1 clic")
+![Type de personnalisation en 1 clic](img/website-6.png)
 
 En sélectionnant l’**option “Simple”**, vous pouvez configurer les couleurs d’arrière-plan de la page, celle de la zone
 principale, du texte et des liens, choisir la police et la taille du texte, des titres, etc.
-![Alt text](img/website-7.png "Type de personnalisation simple")
+![Type de personnalisation simple](img/website-7.png)
 
 En sélectionnant l’**option “Avancé”**, vous pouvez directement éditer la feuille de style CSS.
 
-![Alt text](img/website-8.png "Type de personnalisation avancé")
+![Type de personnalisation avancé](img/website-8.png)
 
 Vous pouvez faire appel à l’équipe Episciences pour être accompagné dans le choix des polices et des couleurs, afin de permettre l’accessibilité de votre site.
 
@@ -100,11 +100,11 @@ Cliquez sur le bouton "Ajouter un logo”. Si vous souhaitez saisir un texte dan
 
 Si vous avez choisi la personnalisation avancée, vous pouvez ajouter un style en précisant les classes et styles CSS à attribuer au titre.
 
-![Alt text](img/website-9.png "Ajouter un texte dans l’en-tête")
+![Ajouter un texte dans l’en-tête](img/website-9.png)
 
 Si vous souhaitez ajouter une image, sélectionnez “Image” dans le menu déroulant du champ “Type” et téléchargez le fichier après l’avoir sélectionné avec “Parcourir”.
 
-![Alt text](img/website-10.png "Ajouter une image dans l’en-tête")
+![Ajouter une image dans l’en-tête](img/website-10.png)
 
 Cliquez sur “Enregistrer” pour sauvegarder le paramétrage.
 
@@ -130,13 +130,13 @@ Il y a neuf types de pages :
 
 Pour créer une page, sélectionnez son type dans le menu déroulant puis cliquez sur le bouton “Ajouter la page”.
 
-![Alt text](img/website-11.png "Ajouter une page")
+![Ajouter une page](img/website-11.png)
 
 Donnez un titre court à votre page : celui-ci fera office de permalien (lien permanent) et apparaîtra dans l’URL.
 
 Si votre site est bilingue, pensez à préciser le titre de la page dans les deux langues.
 
-![Alt text](img/website-12.png "Créer une page personnalisable")
+![Créer une page personnalisable](img/website-12.png)
 
 Si vous saisissez “contact” dans le champ “Lien permanent”, le nom de la page sera : nomdelarevue.episciences.org/contact
 
@@ -147,20 +147,20 @@ Vous pouvez décider de définir si les pages sont publiques, privées (réserv�
 Il est possible de créer des dossiers afin de regrouper plusieurs pages.
 Pour créer un dossier, cliquez sur “Ajouter un dossier”.
 
-![Alt text](img/website-13.png "Créer un dossier")
+![Créer un dossier](img/website-13.png)
 
 Si votre site est bilingue, pensez à préciser le titre du dossier dans les deux langues.
 
 Exemple de menu dont les différentes pages ont été organisées en dossiers : “La revue” pour les pages présentant le
 fonctionnement de la publication (Ligne éditoriale, Comités, Charte de fonctionnement, Processus d’évaluation), “Contribuer” pour les pages destinées aux auteurs qui souhaitent publier dans la revue (Charte éthique, Modalités de soumission, Recommandations aux auteurs) et “Informations” pour les pages de présentation générale de la revue (Appels à contribution, Politiques de publication).
 
-![Alt text](img/website-14.png "Exemple de menu")
+![Exemple de menu](img/website-14.png)
 
 ### Éditer une page
 
 Pour ajouter ou modifier du contenu sur une page, aller sur la page et cliquer sur “Modifier le contenu de la page”.
 
-![Alt text](img/website-15.png "Modifier le contenu d’une page")
+![Modifier le contenu d’une page](img/website-15.png)
 
 ## Actualités
 
@@ -168,7 +168,7 @@ L’option “Actualités” permet d’ajouter des informations sur la page dé
 
 Pour ajouter une actualité, cliquer sur le bouton “Ajouter une actualité”.
 
-![Alt text](img/website-16.png "Ajouter une actualité")
+![Ajouter une actualité](img/website-16.png)
 
 Le formulaire de saisie d’une nouvelle actualité comporte quatre champs. Les champs marqués d’un astérisque sont obligatoires.
 
@@ -178,7 +178,7 @@ Le formulaire de saisie d’une nouvelle actualité comporte quatre champs. Les 
 - **État** : invisible / en ligne. Le statut invisible pour permet de désafficher l’actualité sans toutefois la
   supprimer (pour la conserver en archives par exemple).
 
-![Alt text](img/website-17.png "Exemple d’actualité")
+![Exemple d’actualité](img/website-17.png)
 
 ## Ressources
 

@@ -5,11 +5,11 @@ title: "Conflict of interest"
 <div class="roles-container not-content" role="region" aria-label="Required rights">
   <span class="roles-label">Rights:</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">Administrator</li>
-    <li role="listitem">Editor</li>
-    <li role="listitem">Editor in Chief</li>
-    <li role="listitem">Editorial secretary</li>
-    <li role="listitem">Guest editor</li>
+    <li>Administrator</li>
+    <li>Editor</li>
+    <li>Editor in Chief</li>
+    <li>Editorial secretary</li>
+    <li>Guest editor</li>
   </ul>
 </div>
 
@@ -34,7 +34,7 @@ Please note that:
 
 When the person responsible for the submission (editor, editor-in-chief, guest editor or editorial secretary) goes to the monitoring page, they do not have immediate access to the submission management page. They must first declare whether they have a conflict of interest.
 
-![Alt text](img/coi-1.png "Reporting a conflict of interest")
+![Reporting a conflict of interest](img/coi-1.png)
 
 There are three possibilities:
 
@@ -43,15 +43,15 @@ There are three possibilities:
    the submission page. If the editor wishes to specify the reason for the conflict of interest, they can fill in the “Optional comments” field before clicking on the button.
 3. “Decide later” (white button), allows the editor to return to the submission presentation page.
 
-![Alt text](img/coi-2.png "Conflict of interest declaration options")
+![Conflict of interest declaration options](img/coi-2.png)
 
 In the dashboard, if at least one conflict has been reported for the item, an orange icon will appear to the left of the permanent identifier.
 
-![Alt text](img/coi-4.png "Conflict of interest indication")
+![Conflict of interest indication](img/coi-4.png)
 
 ## Deleting a conflict of interest
 
 Only editors, editorial secretaries or administrators can delete a conflict of interest.
 To remove a conflict of interest from a submission, go to the submission page. In the Conflict management tab, click the trash can icon corresponding to the conflict of interest you wish to remove.
 
-![Alt text](img/coi-3.png "Deleting a conflict of interest")
+![Deleting a conflict of interest](img/coi-3.png)

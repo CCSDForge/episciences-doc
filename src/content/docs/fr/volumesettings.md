@@ -5,9 +5,9 @@ title: "Paramètres de volume"
 <div class="roles-container not-content" role="region" aria-label="Rôles concernés">
   <span class="roles-label">Rôles :</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">administrateur</li>
-    <li role="listitem">secrétaire de rédaction</li>
-    <li role="listitem">éditeur</li>
+    <li>administrateur</li>
+    <li>secrétaire de rédaction</li>
+    <li>éditeur</li>
   </ul>
 </div>
 
@@ -19,7 +19,7 @@ Désormais, une nouvelle fonctionnalité permet de configurer au niveau du journ
 
 Pour changer le paramètre, allez dans Gérer la revue → Revue → Paramètres
 
-![Alt text](img/volume_settings-1.png "journal settings")
+![Paramètres de la revue](img/volume_settings-1.png)
 
 ## Fonctionnalité implémentée
 
@@ -27,7 +27,7 @@ Pour changer le paramètre, allez dans Gérer la revue → Revue → Paramètres
 
 Deux nouveaux paramètres de configuration ont été ajoutés à la section "Paramètres des volumes" dans l'interface d'administration des journaux :
 
-![Alt text](img/volume_settings-2.png "volumes settings")
+![Paramètres des volumes](img/volume_settings-2.png)
 
 ## 1. Paramètre "Autoriser l'affichage des volumes vides"
 
@@ -67,14 +67,14 @@ Ce paramètre permet d'autoriser la modification du titre d'un volume contenant 
 - Le titre d'un volume ne peut **pas** être modifié si le volume contient des articles publiés
 - Comportement identique à l'ancien système
 
-![Alt text](img/volume_settings-3.png "volume title")
+![Modification du titre du volume désactivée](img/volume_settings-3.png)
 
 #### Lorsque le paramètre est activé (valeur : 1)
 
 - Le titre d'un volume peut être modifié même s'il contient des articles publiés
 - Permet une flexibilité accrue pour la gestion des volumes
 
-![Alt text](img/volume_settings-4.png "volume title")
+![Modification du titre du volume activée](img/volume_settings-4.png)
 
 :::note[Notes importantes]
 

@@ -5,9 +5,9 @@ title: "Volumes"
 <div class="roles-container not-content" role="region" aria-label="Required rights">
   <span class="roles-label">Rights:</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">Administrator</li>
-    <li role="listitem">Editor in Chief</li>
-    <li role="listitem">Editorial secretary</li>
+    <li>Administrator</li>
+    <li>Editor in Chief</li>
+    <li>Editorial secretary</li>
   </ul>
 </div>
 
@@ -19,7 +19,7 @@ It is possible to create standard volumes and special volumes.
 
 To create and manage volumes, go to the menu: Journal management > Journal > Volumes.
 
-![Alt text](img/volumes-1.png "Volumes")
+![Volumes](img/volumes-1.png)
 
 Several volumes may be open at the same time. Authors may submit to any open volume. Before publication, the editor may change the volume of an article.
 
@@ -29,7 +29,7 @@ After publication, an article cannot be assigned to another volume.
 
 To create a volume, click on "Create a new volume".
 
-![Alt text](img/volumes-2.png "Create a new volume")
+![Create a new volume](img/volumes-2.png)
 
 A volume is composed of 10 elements. Fields marked with an asterisk are required:
 
@@ -71,10 +71,10 @@ To create a special issue, go to the menu: Journal management > Journal > Volume
 
 Fill in the details and select "Yes" for "Special issue".
 
-![Alt text](img/volumes-3.png "Create a special issue")
+![Create a special issue](img/volumes-3.png)
 
 If in Journal > Settings > Special issues settings you have selected the item "Restrict submission in special issues with an access code", the code is displayed in the list of volumes.
 
-![Alt text](img/volumes-4.png "Create a special issue: access code")
+![Create a special issue: access code](img/volumes-4.png)
 
 This code is sent to contributors inviting them to submit an article to the special issue.

@@ -4,7 +4,7 @@ title: "Sections"
 
 To create and manage sections, go to the menu: Journal management > Journal > Sections.
 
-![Alt text](img/sections-1.png "Sections")
+![Sections](img/sections-1.png)
 
 Several sections can be open at the same time. An author can submit an article to any section.
 
@@ -16,7 +16,7 @@ The number of sections is not limited.
 
 To create a section, click on "Create a new section".
 
-![Alt text](img/sections-2.png "Create a new section")
+![Create a new section](img/sections-2.png)
 
 The metadata of a section:
 

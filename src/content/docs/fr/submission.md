@@ -5,7 +5,7 @@ title: "Soumettre un document"
 <div class="roles-container not-content" role="region" aria-label="Rôles concernés">
   <span class="roles-label">Rôle :</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">auteur</li>
+    <li>auteur</li>
   </ul>
 </div>
 
@@ -90,15 +90,15 @@ Deux possibilités : soit l’auteur dépose une version remaniée de son articl
 ### Option 1 : déposer la version remaniée dans l’archive ouverte
 
 Se connecter sur HAL et se rendre sur le dépôt initial. Cliquer sur le bouton “Déposer une nouvelle version” en bas de page.
-![Alt text](img/submission_submit-HAL.png "Déposer une nouvelle version")
+![Déposer une nouvelle version](img/submission_submit-HAL.png)
 
 Une fois la nouvelle version modérée, se connecter à Episciences, se rendre sur la page de l’article. Dans la partie “Demandes de modifications”, dans “Répondre à cette demande”, sélectionner “Proposer une nouvelle version”.
 
-![Alt text](img/submission_submit-4.png "Proposer une nouvelle version")
+![Proposer une nouvelle version](img/submission_submit-4.png)
 
 L’identifiant du document et le nom de l’archive sont proposés par défaut. Indiquer la nouvelle version à prendre en
 compte.
-![Alt text](img/submission_submit-5.png "Proposer une nouvelle version : choix de la version")
+![Proposer une nouvelle version : choix de la version](img/submission_submit-5.png)
 
 La nouvelle version est transmise pour relecture.
 
@@ -109,10 +109,10 @@ Cette option est à privilégier en cas de modifications mineures.
 Se connecter à Episciences et se rendre sur la page de l’article.
 Dans la partie “Demandes de modifications”, dans “Répondre à cette demande”, sélectionner “Envoyer une version temporaire”.
 
-![Alt text](img/submission_submit-6.png "Envoyer une version temporaire")
+![Envoyer une version temporaire](img/submission_submit-6.png)
 
 Télécharger la version temporaire. Un commentaire peut également être ajouté pour préciser les modifications apportées à cette version.
-![Alt text](img/submission_submit-7.png "Envoyer une version temporaire : ajouter un commentaire")
+![Envoyer une version temporaire : ajouter un commentaire](img/submission_submit-7.png)
 
 Cette version est uniquement présente sur Episciences et non visible dans l’archive ouverte. Lorsque l’article sera validé, la version finale devra être téléchargée dans l’archive afin d’obtenir le statut « accepté » (voir option 1).
 

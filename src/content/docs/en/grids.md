@@ -5,10 +5,10 @@ title: "Rating grids"
 <div class="roles-container not-content" role="region" aria-label="Required rights">
   <span class="roles-label">Rights:</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">Administrator</li>
-    <li role="listitem">Editor</li>
-    <li role="listitem">Editor in Chief</li>
-    <li role="listitem">Editorial secretary</li>
+    <li>Administrator</li>
+    <li>Editor</li>
+    <li>Editor in Chief</li>
+    <li>Editorial secretary</li>
   </ul>
 </div>
 
@@ -20,7 +20,7 @@ A rating grid is composed of a name and a set of criteria.
 
 ## Default grid
 
-![Alt text](img/grids-1.png "Default grid")
+![Default grid](img/grids-1.png)
 
 A proofreading grid is proposed by default. Other grids can be added, depending on the needs, for example to distinguish between current volumes and conference proceedings volumes.
 
@@ -32,7 +32,7 @@ The default grid can be modified. Each criterion can be modified or deleted.
 
 A proofreading grid is composed of as many criteria as necessary. To define a criterion, click on “Add criterion”.
 
-![Alt text](img/grids-2.png "Add criterion")
+![Add criterion](img/grids-2.png)
 
 Fields marked with an asterisk are required:
 
@@ -53,7 +53,7 @@ Once the fields have been completed, click on “Validate” to save the criteri
 
 To organise the criteria of the grid, one or more separators can be added. The separators allow you to structure the grid in different parts, for example: “Quality”, “Interest of the subject”, etc. To create a separator, click on “Add a separator”.
 
-![Alt text](img/grids-3.png "Add a separator")
+![Add a separator](img/grids-3.png)
 
 Fields marked with an asterisk are required:
 
@@ -67,7 +67,7 @@ Once the fields have been completed, click on “Validate” to save the separat
 
 By clicking on “View this Grid”, the grid as it will be proposed to the reviewers is displayed.
 
-![Alt text](img/grids-4.png "View the grid")
+![View the grid](img/grids-4.png)
 
 A coloured icon indicates the visibility of the criterion:
 
@@ -83,10 +83,10 @@ Then go to Journal management > Journal > Review grid where all the existing gri
 
 Go to the bottom of the page “Create a new grid for this volume” and choose the volume concerned from the drop-down list containing all volumes not associated with a specific grid (remember: without a specific grid, a volume uses the default grid).
 
-![Alt text](img/grids-5.png "Create a new grid for this volume")
+![Create a new grid for this volume](img/grids-5.png)
 
 Click on the button “Create this grid”: the new grid appears among the other grids (you may need to scroll down the page). The default grid is empty, so you need to add new criteria or copy the default grid. The grid can then be modified by adding or subtracting criteria, part separators, etc.
 
-![Alt text](img/grids-6.png "New grid for a volume")
+![New grid for a volume](img/grids-6.png)
 
 Please note: the grid used to evaluate an article is the one in place at the time the article is submitted (subsequent modifications to this grid will not be taken into account for this article).

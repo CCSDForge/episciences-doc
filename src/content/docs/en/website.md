@@ -5,10 +5,10 @@ title: "Managing the website"
 <div class="roles-container not-content" role="region" aria-label="Required rights">
   <span class="roles-label">Rights:</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">Administrator</li>
-    <li role="listitem">Editor in Chief</li>
-    <li role="listitem">Editorial secretary</li>
-    <li role="listitem">Webmaster</li>
+    <li>Administrator</li>
+    <li>Editor in Chief</li>
+    <li>Editorial secretary</li>
+    <li>Webmaster</li>
   </ul>
 </div>
 
@@ -29,7 +29,7 @@ Six configurable options are available:
 
 The “General” option allows you to define the interface languages. Currently, there are two possible choices: French and English.
 
-![Alt text](img/website-1.png "Choice of languages for the interface")
+![Choice of languages for the interface](img/website-1.png)
 
 Select the desired languages by clicking on their labels (click and press Ctrl or Cmd to select the second language, if your site is bilingual).
 
@@ -50,9 +50,9 @@ The “Style” option allows you to define the display of the site. You can cho
 
 You can choose between a vertical menu (which is displayed on the left of the page) or a horizontal menu (which is displayed at the top of the page, below the title bar). You can also choose the “folded” option for each of these two orientations.
 
-![Alt text](img/website-2.png "Vertical folded")
+![Vertical folded](img/website-2.png)
 
-![Alt text](img/website-3.png "Horizontal folded")
+![Horizontal folded](img/website-3.png)
 
 ### Width of the main zone
 
@@ -67,9 +67,9 @@ The breadcrumb trail makes it possible to know at any time which page of the sit
 
 The breadcrumb trail is displayed at the top of the page either directly under the banner (in the case of a vertical menu) or under the menu (in the case of a horizontal menu).
 
-![Alt text](img/website-4.png "Breadcrumb trail in vertical menu")
+![Breadcrumb trail in vertical menu](img/website-4.png)
 
-![Alt text](img/website-5.png "Breadcrumb trail in horizontal menu")
+![Breadcrumb trail in horizontal menu](img/website-5.png)
 
 ### Customisation type
 
@@ -77,15 +77,15 @@ There are three ways to customise your site: one-click, simple or advanced.
 
 By selecting the “1-click” option, you can choose between two predefined templates (template 1 and template 2).
 
-![Alt text](img/website-6.png "Type of customisation in 1 click")
+![Type of customisation in 1 click](img/website-6.png)
 
 By selecting the “Simple” option, you can configure the background colours of the page, the colours of the main area, the text and links, choose the font and size of the text, titles, etc.
 
-![Alt text](img/website-7.png "Simple customisation type")
+![Simple customisation type](img/website-7.png)
 
 By selecting the “Advanced” option, you can directly edit the CSS.
 
-![Alt text](img/website-8.png "Advanced customisation type")
+![Advanced customisation type](img/website-8.png)
 
 You can call on the Episciences team to help you choose the right fonts and colours to make your site accessible.
 
@@ -97,11 +97,11 @@ Click on the “Add a logo” button. If you wish to enter a text in the header,
 
 If you have chosen advanced customisation, you can add a style by specifying the CSS classes and styles to be assigned to the title.
 
-![Alt text](img/website-9.png "Add text in the header")
+![Add text in the header](img/website-9.png)
 
 If you wish to add an image, select “Image” from the drop-down menu in the “Type” field and upload the file after selecting it with “Browse”.
 
-![Alt text](img/website-10.png "Add an image in the header")
+![Add an image in the header](img/website-10.png)
 
 Click on “Save” to save the settings.
 
@@ -125,13 +125,13 @@ There are nine types of pages:
 
 To create a page, select its type from the drop-down menu and then click on the “Add page” button.
 
-![Alt text](img/website-11.png "Add page")
+![Add page](img/website-11.png)
 
 Give your page a short title: this will act as a permalink and will appear in the URL.
 
 If your site is bilingual, remember to specify the title of the page in both languages.
 
-![Alt text](img/website-12.png "Create a customisable page")
+![Create a customisable page](img/website-12.png)
 
 If you enter “contact” in the “Permanent link” field, the page name will be: journalsname.episciences.org/contact
 
@@ -141,19 +141,19 @@ You can decide whether the pages are public, private (Members only) or only visi
 
 It is possible to create folders to group several pages together. To create a folder, click on “Add folder”.
 
-![Alt text](img/website-13.png "Add folder")
+![Add folder](img/website-13.png)
 
 If your site is bilingual, remember to specify the title of the folder in both languages.
 
 An example of a menu where the different pages have been organised into folders: “The journal” for the pages presenting the functioning of the publication (Editorial line, Committees, Operating charter, Evaluation process, etc.), “Contribute” for the pages intended for authors wishing to publish in the journal (Ethical charter, Submission procedures, Recommendations to authors, etc.) and “Information” for the pages presenting the general presentation of the journal (Calls for contributions, Publication policies, Credits).
 
-![Alt text](img/website-14.png "Example of menu")
+![Example of menu](img/website-14.png)
 
 ### Edit a page
 
 To add or edit content on a page, go to the page and click on “Edit content page”.
 
-![Alt text](img/website-15.png "Edit a page")
+![Edit a page](img/website-15.png)
 
 ## News
 

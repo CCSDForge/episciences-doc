@@ -5,7 +5,7 @@ title: "Paramètres de la revue"
 <div class="roles-container not-content" role="region" aria-label="Rôles concernés">
   <span class="roles-label">Rôle :</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">administrateur</li>
+    <li>administrateur</li>
   </ul>
 </div>
 
@@ -15,7 +15,7 @@ Les champs marqués d’un astérisque sont obligatoires.
 
 ## Paramètres généraux (affichés dans le pied de page)
 
-![Alt text](img/settings-1.png "Paramètres généraux")
+![Paramètres généraux](img/settings-1.png)
 
 - **eISSN (online)** : compléter avec l’e-ISSN de la revue au format XXXX-XXXX
 - **ISSN (print)** : compléter avec l’ISSN de la revue au format XXXX-XXXX
@@ -31,7 +31,7 @@ Les champs marqués d’un astérisque sont obligatoires.
 
 ## Paramètres de soumission
 
-![Alt text](img/settings-2.png "Paramètres de soumission")
+![Paramètres de soumission](img/settings-2.png)
 
 **Archives disponibles\*** : sélectionner la ou les archives disponibles pour la soumission d’article. Pour en choisir plusieurs : maintenir la touche Ctrl enfoncée et cliquer.
 
@@ -61,7 +61,7 @@ Il est également possible de permettre aux **auteurs** :
 
 ## Paramètres de relecture
 
-![Alt text](img/settings-3.png "Paramètres de relecture")
+![Paramètres de relecture](img/settings-3.png)
 
 - **Délai avant expiration d’une invitation\*** : indiquer ici un nombre de jour(s)/semaine(s)/mois
 - **Délai de relecture par défaut\*** : indiquer ici un nombre de jour(s)/semaine(s)/mois
@@ -82,7 +82,7 @@ Réassigner automatiquement les mêmes relecteurs quand une nouvelle version est
 
 ## Paramètres des rédacteurs
 
-![Alt text](img/settings-4.png "Paramètres des rédacteurs")
+![Paramètres des rédacteurs](img/settings-4.png)
 
 **Minimum de relectures requis** : indiquer ici le nombre minimum de relectures avant de pouvoir accepter un article
 

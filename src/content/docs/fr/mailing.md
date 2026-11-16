@@ -5,11 +5,11 @@ title: "Module de mail"
 <div class="roles-container not-content" role="region" aria-label="Rôles concernés">
   <span class="roles-label">Rôles :</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">administrateur</li>
-    <li role="listitem">rédacteur</li>
-    <li role="listitem">rédacteur en chef</li>
-    <li role="listitem">secrétaire de rédaction</li>
-    <li role="listitem">webmaster</li>
+    <li>administrateur</li>
+    <li>rédacteur</li>
+    <li>rédacteur en chef</li>
+    <li>secrétaire de rédaction</li>
+    <li>webmaster</li>
   </ul>
 </div>
 
@@ -17,13 +17,13 @@ title: "Module de mail"
 
 Pour gérer l’envoi de mails à certains rôles, aller dans : Gérer la revue > Mails > Mailing.
 
-![Alt text](img/mailing-1.png "Mailing")
+![Mailing](img/mailing-1.png)
 
 Un message peut être envoyé à un destinataire particulier ou à un groupe de destinataires sélectionnés en fonction de leur rôle dans la revue. Les rôles sélectionnables sont : rédacteurs en chef, rédacteurs invités, rédacteurs, secrétaire de rédaction, webmasters, relecteurs.
 
 Pour choisir le ou des destinataires, cliquer sur “À”, “Cc” ou “Bcc” puis sur “Tous les contacts”.
 
-![Alt text](img/mailing-2.png "Choix du ou des destinataires")
+![Choix du ou des destinataires](img/mailing-2.png)
 
 ## Templates
 
@@ -31,13 +31,13 @@ Un certain nombre de mails pré-paramétrés (templates) sont disponibles dans l
 
 Pour consulter et modifier ces templates, aller dans : Gérer la revue > Mails > Templates.
 
-![Alt text](img/mailing-3.png "Liste des templates")
+![Liste des templates](img/mailing-3.png)
 
 Pour modifier un template, cliquer sur le bouton “Modifier”.
 
 Le nom du template, son sujet et son contenu peuvent être personnalisés.
 
-![Alt text](img/mailing-4.png "Modifier un template")
+![Modifier un template](img/mailing-4.png)
 
 Pour personnaliser les modèles, consulter la liste des variables à insérer dans les templates.
 
@@ -47,4 +47,4 @@ Tous les messages envoyés via le site (notifications automatiques comme mails),
 
 Par défaut, les échanges sont affichés par date d’envoi, les échanges les plus récents s’affichant en premier.
 
-![Alt text](img/mailing-5.png "Historique")
+![Historique](img/mailing-5.png)

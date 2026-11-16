@@ -5,9 +5,9 @@ title: "Managing users"
 <div class="roles-container not-content" role="region" aria-label="Required rights">
   <span class="roles-label">Rights:</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">Administrator</li>
-    <li role="listitem">Editor in Chief</li>
-    <li role="listitem">Editorial secretary</li>
+    <li>Administrator</li>
+    <li>Editor in Chief</li>
+    <li>Editorial secretary</li>
   </ul>
 </div>
 
@@ -17,10 +17,10 @@ To manage the users of the journal (create an account, add roles, etc.), go to t
 Before creating an account for a new user, please check that the user does not already exist in the user database. To check that the user does not already have rights in the journal, enter the person’s name in the search field at the top right of the user list.
 :::
 
-![Alt text](img/users-1.png "Add a new user")
+![Add a new user](img/users-1.png)
 It is possible to invite new users (authors, reviewers or editors) to the journal site. To do this, enter the name of the user to be added in the dedicated field. If the search does not return any results, it is possible to create an account for the user by clicking on the “Create a new account” button.
 
-![Alt text](img/users-2.png "Create a new account")
+![Create a new account](img/users-2.png)
 
 Required fields for account creation:
 
@@ -37,4 +37,4 @@ By default, all users have the rights of member, which allows them to submit an 
 
 To add one or more rights, go to the “Rights” column and select the rights from the list.
 
-![Alt text](img/users-3.png "Add rights")
+![Add rights](img/users-3.png)

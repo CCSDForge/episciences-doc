@@ -2,9 +2,11 @@
 
 # 404
 
-> The page you requested was not found. Check the URL or try using the search bar.
+> The page you requested was not found. / La page demandée est introuvable.
 
 Please let us know what you were looking for and how we can improve the documentation by creating an issue on [GitHub](https://github.com/CCSDForge/episciences-doc/issues).
+
+N’hésitez pas à nous signaler ce que vous recherchiez en ouvrant un ticket sur [GitHub](https://github.com/CCSDForge/episciences-doc/issues).
 
 # Episciences Documentation
 
@@ -82,11 +84,11 @@ There are two steps to creating an account:
 
 On the journal’s website, click on “+ Create account” at the top right.
 
-![Alt text](/_astro/account-0.DgtskUnk_1CbCdd.webp "Create account")
+![Create account](/_astro/account-0.DgtskUnk_1CbCdd.webp)
 
 Fields marked with an asterisk are required.
 
-![Alt text](/_astro/account-1.B4NxFhCd_1n0zqy.webp "Create account: form")
+![Create account: form](/_astro/account-1.B4NxFhCd_1n0zqy.webp)
 
 Enter the information:
 
@@ -106,7 +108,7 @@ Enter the information:
 
 Check the box “I am human” in order to validate the information.
 
-![Alt text](/_astro/account-2.CdfXTrnC_HORzM.webp "Validate the creation of the account")
+![Validate the creation of the account](/_astro/account-2.CdfXTrnC_HORzM.webp)
 
 To finalise the account creation stage, validate it by activating the link received by e-mail. Please note that the account activation e-mail is not sent immediately (it may take some time to receive it). Remember to check that the e-mail has not arrived in the spam folder.
 
@@ -118,7 +120,7 @@ Once the account is created, you can connect to the website.
 
 To modify your profile, log in and click on “Edit profile” at the top right.
 
-![Alt text](/_astro/account-3.Du_VqAfu_ZiKqtU.webp "Edit profile")
+![Edit profile](/_astro/account-3.Du_VqAfu_ZiKqtU.webp)
 
 The following information can be added to your account after its creation:
 
@@ -134,7 +136,7 @@ You can also add your **ORCID**, fill in your **affiliations**, your **Mastodon,
 
 To change your password, log in and click on “Change my password” in the top right-hand corner.
 
-![Alt text](/_astro/account-4.BrH481hp_Z2aFDn9.webp "Change my password")
+![Change my password](/_astro/account-4.BrH481hp_Z2aFDn9.webp)
 
 It is necessary to enter your current password in order to change it.
 
@@ -146,7 +148,7 @@ The new password must be at least 7 characters long.
 
 If you have forgotten your password or login, click on “Forgotten password?” or “Forgotten username?” at the top right of the “Sign in” button.
 
-![Alt text](/_astro/account-5.CzMhZmfl_2oYdQm.webp "Forgotten username or password")
+![Forgotten username or password](/_astro/account-5.CzMhZmfl_2oYdQm.webp)
 
 * If you have forgotten your **password**, enter your login and click on “Ask for a new password”. You will receive an e-mail with a link to a page where you can create a new password.
 * If you have forgotten your **username** (login), enter the e-mail address associated with your account and click on “Receive my username”. You will receive an e-mail containing your username.
@@ -547,7 +549,7 @@ The interface has two distinct sections:
 * on the left, the PDF in preview mode ;
 * on the right, the references identified and extracted automatically by Grobid.
 
-![Episciences Citations](/_astro/citations-2.BoG-5rzZ_Z1oU9x3.webp "Episciences Citations")
+![Episciences Citations](/_astro/citations-2.CIaZKkac_135BS9.webp "Episciences Citations")
 
 There are several possible actions:
 
@@ -709,7 +711,7 @@ Please note that:
 
 When the person responsible for the submission (editor, editor-in-chief, guest editor or editorial secretary) goes to the monitoring page, they do not have immediate access to the submission management page. They must first declare whether they have a conflict of interest.
 
-![Alt text](/_astro/coi-1.CjsxxhWz_2p6irv.webp "Reporting a conflict of interest")
+![Reporting a conflict of interest](/_astro/coi-1.CjsxxhWz_2p6irv.webp)
 
 There are three possibilities:
 
@@ -717,11 +719,11 @@ There are three possibilities:
 2. “I have a conflict of interest” (orange button), prevents access to the full submission page: the editor returns to the submission page. If the editor wishes to specify the reason for the conflict of interest, they can fill in the “Optional comments” field before clicking on the button.
 3. “Decide later” (white button), allows the editor to return to the submission presentation page.
 
-![Alt text](/_astro/coi-2.BZAsmn55_GkzsR.webp "Conflict of interest declaration options")
+![Conflict of interest declaration options](/_astro/coi-2.BZAsmn55_GkzsR.webp)
 
 In the dashboard, if at least one conflict has been reported for the item, an orange icon will appear to the left of the permanent identifier.
 
-![Alt text](/_astro/coi-4.vwX-HiWV_Z1me0Dv.webp "Conflict of interest indication")
+![Conflict of interest indication](/_astro/coi-4.vwX-HiWV_Z1me0Dv.webp)
 
 ## Deleting a conflict of interest
 
@@ -729,7 +731,7 @@ In the dashboard, if at least one conflict has been reported for the item, an or
 
 Only editors, editorial secretaries or administrators can delete a conflict of interest. To remove a conflict of interest from a submission, go to the submission page. In the Conflict management tab, click the trash can icon corresponding to the conflict of interest you wish to remove.
 
-![Alt text](/_astro/coi-3.JvSz1Uzl_Z1dv2aQ.webp "Deleting a conflict of interest")
+![Deleting a conflict of interest](/_astro/coi-3.JvSz1Uzl_Z1dv2aQ.webp)
 
 # Copy editing
 
@@ -760,7 +762,7 @@ The copy editor role can be assigned to one or more people. To add this role to 
 
 The person with the copy editor role should then be added to the articles on which they have to work.
 
-![Alt text](/_astro/copyediting-1.CEoJ6xNv_Z1IwXv.webp "Add a copy editor")
+![Add a copy editor](/_astro/copyediting-1.CEoJ6xNv_Z1IwXv.webp)
 
 ## Activity of the copy editor
 
@@ -771,7 +773,7 @@ The first choice to be made on an accepted article is to select the type of work
 * **Option 1**: the journal does the formatting. The author provides the sources to the copy editor who will edit the final version;
 * **Option 2**: the author formats the final version themself.
 
-![Alt text](/_astro/copyediting-2.CdN5RReg_2mfyqk.webp "Change article status")
+![Change article status](/_astro/copyediting-2.CdN5RReg_2mfyqk.webp)
 
 ### Option 1: The journal takes care of the copy editing
 
@@ -783,7 +785,7 @@ A window allows you to customise the message to be sent to the author to ask him
 
 As soon as the author has uploaded their sources, an e-mail is sent to the copy editor allowing them to retrieve the files from the site. If the files are not suitable, it is possible to request other sources from the author. To do this, in “Article status”, select “Ask for the author’s sources again (To be formatted by the journal)”.
 
-![Alt text](/_astro/copyediting-6.Cto__ige_T3vDO.webp "Ask for the author’s sources again")
+![Ask for the author’s sources again](/_astro/copyediting-6.Cto__ige_T3vDO.webp)
 
 If everything is correct, upload the files, proceed with the formatting and validate by selecting “Copy editing by the journal completed, ask for the final version”. This sends a message to the author.
 
@@ -797,15 +799,15 @@ The work of copy editing is then complete.
 
 To upload the sources files, click on the “Add source files” button.
 
-![Alt text](/_astro/copyediting-3.8LE3OSkA_ezcId.webp "Add source files")
+![Add source files](/_astro/copyediting-3.8LE3OSkA_ezcId.webp)
 
 The predefined message can be changed.
 
-![Alt text](/_astro/copyediting-4.BWTq1760_1HWv4o.webp "Modify the message")
+![Modify the message](/_astro/copyediting-4.BWTq1760_1HWv4o.webp)
 
 Once you have selected the file(s), click on “Send” to send them. A summary of the e-mail and the files sent will be displayed.
 
-![Alt text](/_astro/copyediting-5.BZQF79o4_Z1e9s51.webp "Summary of deposited sources")
+![Summary of deposited sources](/_astro/copyediting-5.BZQF79o4_Z1e9s51.webp)
 
 If necessary, further shipments are possible with other files. Each time, a notification is sent to the copy editor.
 
@@ -819,7 +821,7 @@ A window allows you to customise the message to be sent to the author. The messa
 
 The information in the message should allow the author to have access to all the data needed to format the article.
 
-![Alt text](/_astro/copyediting-7.BZRYQCA-_2vLGJU.webp "Example of a message ready to be sent to the author to ask them to format their article")
+![Example of a message ready to be sent to the author to ask them to format their article](/_astro/copyediting-7.BZRYQCA-_2vLGJU.webp)
 
 > **Important** The site administrator must have previously created a .zip archive (named according to the format: short_journal_title.zip) in the “Resources” directory (Journal management > Website > Resources). This archive contains the files to be used for the formatting, for example the different graphic elements, the style sheet, etc.
 
@@ -931,7 +933,7 @@ A rating grid is composed of a name and a set of criteria.
 
 [Section titled “Default grid”](#default-grid)
 
-![Alt text](/_astro/grids-1.ZGg0Ui13_29pFt8.webp "Default grid")
+![Default grid](/_astro/grids-1.ZGg0Ui13_29pFt8.webp)
 
 A proofreading grid is proposed by default. Other grids can be added, depending on the needs, for example to distinguish between current volumes and conference proceedings volumes.
 
@@ -947,7 +949,7 @@ The default grid can be modified. Each criterion can be modified or deleted.
 
 A proofreading grid is composed of as many criteria as necessary. To define a criterion, click on “Add criterion”.
 
-![Alt text](/_astro/grids-2.g6EGmdea_2oAlUw.webp "Add criterion")
+![Add criterion](/_astro/grids-2.g6EGmdea_2oAlUw.webp)
 
 Fields marked with an asterisk are required:
 
@@ -978,7 +980,7 @@ Once the fields have been completed, click on “Validate” to save the criteri
 
 To organise the criteria of the grid, one or more separators can be added. The separators allow you to structure the grid in different parts, for example: “Quality”, “Interest of the subject”, etc. To create a separator, click on “Add a separator”.
 
-![Alt text](/_astro/grids-3.BLCmuEkg_1eXqAW.webp "Add a separator")
+![Add a separator](/_astro/grids-3.BLCmuEkg_1eXqAW.webp)
 
 Fields marked with an asterisk are required:
 
@@ -994,7 +996,7 @@ Once the fields have been completed, click on “Validate” to save the separat
 
 By clicking on “View this Grid”, the grid as it will be proposed to the reviewers is displayed.
 
-![Alt text](/_astro/grids-4.D6gY-8e__Z2ny88l.webp "View the grid")
+![View the grid](/_astro/grids-4.D6gY-8e__Z2ny88l.webp)
 
 A coloured icon indicates the visibility of the criterion:
 
@@ -1012,11 +1014,11 @@ Then go to Journal management > Journal > Review grid where all the existing gri
 
 Go to the bottom of the page “Create a new grid for this volume” and choose the volume concerned from the drop-down list containing all volumes not associated with a specific grid (remember: without a specific grid, a volume uses the default grid).
 
-![Alt text](/_astro/grids-5.ik-S-DiK_ZRvSgx.webp "Create a new grid for this volume")
+![Create a new grid for this volume](/_astro/grids-5.ik-S-DiK_ZRvSgx.webp)
 
 Click on the button “Create this grid”: the new grid appears among the other grids (you may need to scroll down the page). The default grid is empty, so you need to add new criteria or copy the default grid. The grid can then be modified by adding or subtracting criteria, part separators, etc.
 
-![Alt text](/_astro/grids-6.BKDJvKQR_6sz98.webp "New grid for a volume")
+![New grid for a volume](/_astro/grids-6.BKDJvKQR_6sz98.webp)
 
 Please note: the grid used to evaluate an article is the one in place at the time the article is submitted (subsequent modifications to this grid will not be taken into account for this article).
 
@@ -1031,25 +1033,25 @@ Rights:
 
 Once a submission has been submitted and checked that it corresponds to the editorial line of the publication, the next step is to have it peer-reviewed. To do this, you will need to invite the reviewers.
 
-On the submission management page, go to the ‘Reviewers’ tab. ![Alt text](/_astro/invitereviewer-1.BQSJmPxH_Z1Mo7Tb.webp "Reviewers tab")
+On the submission management page, go to the ‘Reviewers’ tab. ![Reviewers tab](/_astro/invitereviewer-1.BQSJmPxH_Z1Mo7Tb.webp)
 
-Click the ‘Invite a reviewer’ button. Before selecting a reviewer, please read the ‘Guidelines’ tab. ![Alt text](/_astro/invitereviewer-2.PIxL7sd4_fvn5R.webp "Guidelines") The authentication account is common to several platforms, so you need to use the existing account.
+Click the ‘Invite a reviewer’ button. Before selecting a reviewer, please read the ‘Guidelines’ tab. ![Guidelines](/_astro/invitereviewer-2.PIxL7sd4_fvn5R.webp) The authentication account is common to several platforms, so you need to use the existing account.
 
-**It is essential to avoid creating several accounts for the same user.** To do this, check that the reviewer does not already have a reviewer account with the journal. In the ‘Known reviewers from the journal’ tab, enter the name of the reviewer in the ‘Filter reviewers’ box. ![Alt text](/_astro/invitereviewer-3.CZ-AaTuZ_Zqoa1z.webp "Filter reviewers")
+**It is essential to avoid creating several accounts for the same user.** To do this, check that the reviewer does not already have a reviewer account with the journal. In the ‘Known reviewers from the journal’ tab, enter the name of the reviewer in the ‘Filter reviewers’ box. ![Filter reviewers](/_astro/invitereviewer-3.CZ-AaTuZ_Zqoa1z.webp)
 
 ## 1. The reviewer already has a reviewer account on the journal’s website
 
 [Section titled “1. The reviewer already has a reviewer account on the journal’s website”](#1-the-reviewer-already-has-a-reviewer-account-on-the-journals-website)
 
-If the reviewer already has a reviewer account, select their name to invite them to review the article. ![Alt text](/_astro/invitereviewer-4.BoYRTd4o_2vs0aQ.webp "Invite this reviewer")
+If the reviewer already has a reviewer account, select their name to invite them to review the article. ![Invite this reviewer](/_astro/invitereviewer-4.BoYRTd4o_2vs0aQ.webp)
 
 ## 2. The reviewer does not have an account on the journal’s website or has an account without review rights
 
 [Section titled “2. The reviewer does not have an account on the journal’s website or has an account without review rights”](#2-the-reviewer-does-not-have-an-account-on-the-journals-website-or-has-an-account-without-review-rights)
 
-If the name has not been found among the reviewers of the journal, click on the ‘New reviewer’ button in the bottom right-hand corner. ![Alt text](/_astro/invitereviewer-6.BpGvkRVR_1b1Pa2.webp "New reviewer")
+If the name has not been found among the reviewers of the journal, click on the ‘New reviewer’ button in the bottom right-hand corner. ![New reviewer](/_astro/invitereviewer-6.BpGvkRVR_1b1Pa2.webp)
 
-If the reviewer is unknown to the journal, enter their name or email address in the ‘Invite a known user’ field to check that they do not already have an account with the journal, but with other rights, or an account on another CCSD platform (i.e. that they have a HAL or Sciencesconf account). ![Alt text](/_astro/invitereviewer-7.BlmjnTha_Z2eXKOe.webp "Invite a known user")
+If the reviewer is unknown to the journal, enter their name or email address in the ‘Invite a known user’ field to check that they do not already have an account with the journal, but with other rights, or an account on another CCSD platform (i.e. that they have a HAL or Sciencesconf account). ![Invite a known user](/_astro/invitereviewer-7.BlmjnTha_Z2eXKOe.webp)
 
 ### Case 1. The account exists but has other rights
 
@@ -1061,7 +1063,7 @@ You can check beforehand in the list of users whether the account exists and wha
 
 [Section titled “Case 2. The reviewer has a CCSD account”](#case-2-the-reviewer-has-a-ccsd-account)
 
-If the reviewer has one or more CCSD accounts (on Hal, Sciencesconf, or another journal on Episciences), select the desired account. The email inviting the reviewer to review the submission will open. ![Alt text](/_astro/invitereviewer-8.Bx7LpbjW_ZWQebb.webp "Invite a known user: select the account")
+If the reviewer has one or more CCSD accounts (on Hal, Sciencesconf, or another journal on Episciences), select the desired account. The email inviting the reviewer to review the submission will open. ![Invite a known user: select the account](/_astro/invitereviewer-8.Bx7LpbjW_ZWQebb.webp)
 
 An account for the reviewer will be created on the journal when the reviewer logs in to the site with their CCSD credentials using the link sent in the invitation (the reviewer does not need to create a new account).
 
@@ -1071,7 +1073,7 @@ An account for the reviewer will be created on the journal when the reviewer log
 
 [Section titled “Case 3. The reviewer does not have a CCSD account”](#case-3-the-reviewer-does-not-have-a-ccsd-account)
 
-If the reviewer does not have a CCSD account, fill in the ‘Invite a new user’ form with their email address, full name and the language you wish to use for correspondence (English or French). ![Alt text](/_astro/invitereviewer-9.B-0FoO5v_1aPwlA.webp "Invite a new user")
+If the reviewer does not have a CCSD account, fill in the ‘Invite a new user’ form with their email address, full name and the language you wish to use for correspondence (English or French). ![Invite a new user](/_astro/invitereviewer-9.B-0FoO5v_1aPwlA.webp)
 
 The invitation of a new user, previously unknown to the CCSD authentication service, allows the creation of a temporary account which the user can activate by creating an account on the journal’s website using the link sent with the invitation.
 
@@ -1091,13 +1093,13 @@ Rights:
 
 To manage the sending of emails to certain roles, go to: Journal management > Mail > Mailing.
 
-![Alt text](/_astro/mailing-1.CL7opEeB_ZAmrn1.webp "Mailing")
+![Mailing](/_astro/mailing-1.CL7opEeB_ZAmrn1.webp)
 
 A message can be sent to a specific recipient or to a group of recipients selected according to their role in the journal. The selectable roles are: editor in chief, editors, guest editors, editorial secretary, webmasters, proofreaders.
 
 To select the recipient(s), click on “To”, “Cc” or “Bcc” and then on “All contacts”.
 
-![Alt text](/_astro/mailing-2.DVvqDZlD_Ihhbd.webp "Select the recipients")
+![Select the recipients](/_astro/mailing-2.DVvqDZlD_Ihhbd.webp)
 
 ## Templates
 
@@ -1107,13 +1109,13 @@ A number of pre-configured emails (templates) are available on the site.
 
 To consult and modify these templates, go to: Journal management > Mail > Templates.
 
-![Alt text](/_astro/mailing-3.BAV5Kps2_1DWEQy.webp "List of templates")
+![List of templates](/_astro/mailing-3.BAV5Kps2_1DWEQy.webp)
 
 To modify a template, click on the “Edit” button.
 
 The name of the template, its subject and its content can be customised.
 
-![Alt text](/_astro/mailing-4.C_e2n961_Z21dAEi.webp "Modify the template")
+![Modify the template](/_astro/mailing-4.C_e2n961_Z21dAEi.webp)
 
 To customise the templates, see the list of variables to be inserted in the templates.
 
@@ -1152,7 +1154,7 @@ Nine types of reminder are available:
 
 To set up, click on “Add a new reminder”. A screen appears with a list of parameters to be defined for the desired dunning types.
 
-![Alt text](/_astro/reminders-1.DKlXCvXq_GtCC6.webp "Add a new reminder: form")
+![Add a new reminder: form](/_astro/reminders-1.DKlXCvXq_GtCC6.webp)
 
 Fields marked with an asterisk are required.
 
@@ -1189,7 +1191,7 @@ Fields marked with an asterisk are required.
 
 Click on “Submit” to save your changes. An automatic dunning is created. It is possible to modify it.
 
-![Alt text](/_astro/reminders-2.BGdzPrTT_iyo66.webp "Automatic reminders: list of reminders")
+![Automatic reminders: list of reminders](/_astro/reminders-2.BGdzPrTT_iyo66.webp)
 
 Automatic reminders are sent every day at 00:00.
 
@@ -1209,7 +1211,7 @@ The reviewer receives an invitation by e-mail. The message contains the title of
 
 The invitation is time-limited: the response time is specified in the e-mail.
 
-By clicking on the link, the response form to the invitation is displayed: ![Alt text](/_astro/review-1.CUwfKpnM_Z1VxOlE.webp "Invitation to review an article")
+By clicking on the link, the response form to the invitation is displayed: ![Invitation to review an article](/_astro/review-1.CUwfKpnM_Z1VxOlE.webp)
 
 Click on the required answer.
 
@@ -1221,7 +1223,7 @@ To decline the invitation, click on “I don’t want to review this article”.
 
 It is then possible to suggest the name of another reviewer and to specify the reasons for the refusal.
 
-![Alt text](/_astro/review-2.r7Im4sJA_ZNSbNa.webp "Details of the answer")
+![Details of the answer](/_astro/review-2.r7Im4sJA_ZNSbNa.webp)
 
 In some cases, the journal may ask to declare whether the reviewer has competing interests with the article under review. If this is the case, it is considered a reason for rejection.
 
@@ -1249,7 +1251,7 @@ Note: it is not necessary to open several accounts on Episciences if the reviewe
 
 The dashboard displays the current actions on the site: reviews but also articles if the user has submitted any.
 
-![Alt text](/_astro/review-3.DFBd7VIT_ZNxbhP.webp "Dashboard")
+![Dashboard](/_astro/review-3.DFBd7VIT_ZNxbhP.webp)
 
 Click on “Rate articles” to access the articles.
 
@@ -1259,7 +1261,7 @@ Each article has a status: pending reviews appear at the top of the table.
 
 The user can filter by article status, review status, volume, section, editors, DOI and repositories.
 
-![Alt text](/_astro/review-4.4ybS85a1_Z1830sp.webp "My reviewings")
+![My reviewings](/_astro/review-4.4ybS85a1_Z1830sp.webp)
 
 ## Processus
 
@@ -1282,7 +1284,7 @@ Depending on the journal, the reviewer can complete the grid with a comment and 
 
 The exchanges between the reviewer and the author are saved on the platform. By default, the reviewer is anonymous. If he/she wishes, he/she can lift the anonymity by adding his/her name in the “Comment” space.
 
-![Alt text](/_astro/review-5.B7s5vMTC_Z2kxhq6.webp "Send a message to the author")
+![Send a message to the author](/_astro/review-5.B7s5vMTC_Z2kxhq6.webp)
 
 ### Validation of reviewing
 
@@ -1299,7 +1301,7 @@ There are **fourteen roles** in Episciences, nine with rights associated with fe
 
 The roles associated with the profile are displayed in the top right-hand corner when you hover the mouse over your username and in the Dashboard section.
 
-![Alt text](/_astro/roles-1.Bp7kro09_1jObvq.webp "My account")
+![My account](/_astro/roles-1.Bp7kro09_1jObvq.webp)
 
 Please note: the semantics of roles in Episciences is not necessarily adapted to the organisation of each journal. Thus, a user can have several roles in a journal, to be assigned according to the functionalities he/she has to use.
 
@@ -1325,13 +1327,13 @@ There are also five roles without associated rights. They can be combined with t
 
 The functionalities linked to each role are summarised in a table, accessible in connected mode: My Account > Permissions
 
-![Alt text](/_astro/roles-2.D3J93H5r_Z1cPGQV.webp "Permissions")
+![Permissions](/_astro/roles-2.D3J93H5r_Z1cPGQV.webp)
 
 # Sections
 
 To create and manage sections, go to the menu: Journal management > Journal > Sections.
 
-![Alt text](/_astro/sections-1.Bti7wBv3_wvjNc.webp "Sections")
+![Sections](/_astro/sections-1.Bti7wBv3_wvjNc.webp)
 
 Several sections can be open at the same time. An author can submit an article to any section.
 
@@ -1343,7 +1345,7 @@ The number of sections is not limited.
 
 To create a section, click on “Create a new section”.
 
-![Alt text](/_astro/sections-2.wlL5CWYU_1uR6Ag.webp "Create a new section")
+![Create a new section](/_astro/sections-2.wlL5CWYU_1uR6Ag.webp)
 
 The metadata of a section:
 
@@ -1367,7 +1369,7 @@ Fields marked with an asterisk are required.
 
 [Section titled “General settings (displayed in the footer)”](#general-settings-displayed-in-the-footer)
 
-![Alt text](/_astro/settings-1.DyoSHXJG_2mLUdC.webp "General settings")
+![General settings](/_astro/settings-1.DyoSHXJG_2mLUdC.webp)
 
 * **eISSN (online)**: To be completed with the e-ISSN of the journal (XXXX-XXXX)
 * **ISSN (print)**: To be completed with the ISSN of the journal (XXXX-XXXX)
@@ -1384,7 +1386,7 @@ Fields marked with an asterisk are required.
 
 [Section titled “Submission parameters”](#submission-parameters)
 
-![Alt text](/_astro/settings-2.CT3q7K8c_OQY3W.webp "Submission parameters")
+![Submission parameters](/_astro/settings-2.CT3q7K8c_OQY3W.webp)
 
 **Repositories\***: Select the repository(ies) available(s) for article submission. To select more than one: hold down the Ctrl key and click.
 
@@ -1422,7 +1424,7 @@ A new option allows the author to delegate to the journal the updating of their 
 
 [Section titled “Rating settings”](#rating-settings)
 
-![Alt text](/_astro/settings-3.U3vZ3k48_ZycliT.webp "Rating settings")
+![Rating settings](/_astro/settings-3.U3vZ3k48_ZycliT.webp)
 
 For each option, indicate a number of day(s)/week(s)/month(s).
 
@@ -1447,7 +1449,7 @@ Automatically reassign the same reviewers when a new version is submitted:
 
 [Section titled “Editors settings”](#editors-settings)
 
-![Alt text](/_astro/settings-4.vfrckkgo_Z27vIrT.webp "Editors settings")
+![Editors settings](/_astro/settings-4.vfrckkgo_Z27vIrT.webp)
 
 **Minimum ratings count**: indicate here the minimum number of reviews before an article can be accepted.
 
@@ -1608,7 +1610,7 @@ To connect to a journal’s website, click on the “Sign in” button at the to
 
 Once logged in, click on the “Submit a document” tab.
 
-![Alt text](/_astro/submission-1.DOF7treh_KPCsT.webp "Submit a document")
+![Submit a document](/_astro/submission-1.DOF7treh_KPCsT.webp)
 
 * **Repository**: select the open repository in which the document to be submitted to the journal is located;
 * **Document identifier**: indicate the document identifier on the open repository (e.g. hal-0000000 for HAL; 0000.0000 for arXiv; 10.5281/zenodo.0000000 or 0000000 for Zenodo);
@@ -1620,7 +1622,7 @@ Depending on the settings of the site, it is possible to propose the article for
 
 The free field “Comment” allows you to add a note to the editorial team of the journal (this comment will be visible to the editors, writers and reviewers).
 
-![Alt text](/_astro/submission-2.4A0uZ6Qz_2gz1OH.webp "Submit a document: optional fields")
+![Submit a document: optional fields](/_astro/submission-2.4A0uZ6Qz_2gz1OH.webp)
 
 In order to be able to submit the document, it is necessary to certify:
 
@@ -1643,7 +1645,7 @@ For details on how to do this, see [Linking publications/data/software](https://
 
 If you have been invited to contribute to a special issue, an access code has been sent to you by email. The procedure is the same as for submitting a document, but you must first enter the access code in the corresponding field.
 
-![Alt text](/_astro/submission-3.C6PcFw3F_ZLldAO.webp "Submit a document to a special issue")
+![Submit a document to a special issue](/_astro/submission-3.C6PcFw3F_ZLldAO.webp)
 
 After entering the access code, the corresponding issue is displayed.
 
@@ -1663,15 +1665,15 @@ There are two options: either the author deposits a revised version of the artic
 
 Connect on HAL and go on the initial deposit. Click on the button “+ Deposit a new version” in the right hand side.
 
-![Alt text](/_astro/submission-4.DWCiiiwf_17gXrE.webp "Deposit a new version")
+![Deposit a new version](/_astro/submission-4.DWCiiiwf_17gXrE.webp)
 
 Once the new version has been moderated, log in to Episciences and go to the article’s page. In the “Revision requests” section, in “Answer this request”, select “Upload a new version”.
 
-![Alt text](/_astro/submission-5.CRYClWAE_Z1T0z6W.webp "Upload a new version")
+![Upload a new version](/_astro/submission-5.CRYClWAE_Z1T0z6W.webp)
 
 The document identifier and the repository of the submitted article are proposed by default. Indicate the new version to be taken into account.
 
-![Alt text](/_astro/submission-6.BrQDOOuT_1AeIkf.webp "Upload a new version: indicate the new version")
+![Upload a new version: indicate the new version](/_astro/submission-6.BrQDOOuT_1AeIkf.webp)
 
 The new version is sent for review.
 
@@ -1683,11 +1685,11 @@ This option is best used for minor modifications.
 
 Log in to Episciences and go to the article’s page. In the “Revision requests” section, in “Answer this request”, select “Send a temporary version”.
 
-![Alt text](/_astro/submission-7.BQwVDF4M_ZgFYo5.webp "Send a temporary version")
+![Send a temporary version](/_astro/submission-7.BQwVDF4M_ZgFYo5.webp)
 
 Download the temporary version. A comment can also be added to specify the changes made to this version.
 
-![Alt text](/_astro/submission-8.DS5PPfLc_Z1caWKo.webp "Send a temporary version: add a comment")
+![Send a temporary version: add a comment](/_astro/submission-8.DS5PPfLc_Z1caWKo.webp)
 
 This version is only present on Episciences and not visible in the open repository. When the article is validated, the final version must be uploaded to the repository in order to obtain the status “accepted” (see option 1).
 
@@ -1709,9 +1711,9 @@ Tip
 
 Before creating an account for a new user, please check that the user does not already exist in the user database. To check that the user does not already have rights in the journal, enter the person’s name in the search field at the top right of the user list.
 
-![Alt text](/_astro/users-1.VM0iQhPe_5S9f0.webp "Add a new user") It is possible to invite new users (authors, reviewers or editors) to the journal site. To do this, enter the name of the user to be added in the dedicated field. If the search does not return any results, it is possible to create an account for the user by clicking on the “Create a new account” button.
+![Add a new user](/_astro/users-1.VM0iQhPe_5S9f0.webp) It is possible to invite new users (authors, reviewers or editors) to the journal site. To do this, enter the name of the user to be added in the dedicated field. If the search does not return any results, it is possible to create an account for the user by clicking on the “Create a new account” button.
 
-![Alt text](/_astro/users-2.xNOFz0Pn_2nVd59.webp "Create a new account")
+![Create a new account](/_astro/users-2.xNOFz0Pn_2nVd59.webp)
 
 Required fields for account creation:
 
@@ -1728,7 +1730,7 @@ By default, all users have the rights of member, which allows them to submit an 
 
 To add one or more rights, go to the “Rights” column and select the rights from the list.
 
-![Alt text](/_astro/users-3.BBr-Yw3N_ZDn2NG.webp "Add rights")
+![Add rights](/_astro/users-3.BBr-Yw3N_ZDn2NG.webp)
 
 # Volumes
 
@@ -1748,7 +1750,7 @@ It is possible to create standard volumes and special volumes.
 
 To create and manage volumes, go to the menu: Journal management > Journal > Volumes.
 
-![Alt text](/_astro/volumes-1.CW0RB469_ZcEN4s.webp "Volumes")
+![Volumes](/_astro/volumes-1.CW0RB469_ZcEN4s.webp)
 
 Several volumes may be open at the same time. Authors may submit to any open volume. Before publication, the editor may change the volume of an article.
 
@@ -1758,7 +1760,7 @@ After publication, an article cannot be assigned to another volume.
 
 To create a volume, click on “Create a new volume”.
 
-![Alt text](/_astro/volumes-2.CqGisLNb_ZFbBdi.webp "Create a new volume")
+![Create a new volume](/_astro/volumes-2.CqGisLNb_ZFbBdi.webp)
 
 A volume is composed of 10 elements. Fields marked with an asterisk are required:
 
@@ -1804,11 +1806,11 @@ To create a special issue, go to the menu: Journal management > Journal > Volume
 
 Fill in the details and select “Yes” for “Special issue”.
 
-![Alt text](/_astro/volumes-3.D4fe68O8_Z1NGjGD.webp "Create a special issue")
+![Create a special issue](/_astro/volumes-3.D4fe68O8_Z1NGjGD.webp)
 
 If in Journal > Settings > Special issues settings you have selected the item “Restrict submission in special issues with an access code”, the code is displayed in the list of volumes.
 
-![Alt text](/_astro/volumes-4.Dxfx9idu_v1DO1.webp "Create a special issue: access code")
+![Create a special issue: access code](/_astro/volumes-4.Dxfx9idu_v1DO1.webp)
 
 This code is sent to contributors inviting them to submit an article to the special issue.
 
@@ -1830,7 +1832,7 @@ Now, a new feature allows configuring at the journal level whether volume titles
 
 To change the settings, go to Journal management → Journal → Settings
 
-![Alt text](/_astro/volume_settings-1.CDy4BtGH_1OOdd1.webp "journal settings")
+![journal settings](/_astro/volume_settings-1.CDy4BtGH_1OOdd1.webp)
 
 ## Implemented Features
 
@@ -1842,7 +1844,7 @@ To change the settings, go to Journal management → Journal → Settings
 
 Two new configuration parameters have been added to the “Volume Settings” section in the journal administration interface:
 
-![Alt text](/_astro/volume_settings-2.DMXJM5RF_Z2j3Bii.webp "volumes settings")
+![volumes settings](/_astro/volume_settings-2.DMXJM5RF_Z2j3Bii.webp)
 
 ## 1. Parameter “Allow displaying empty volumes”
 
@@ -1900,7 +1902,7 @@ This parameter allows editing the title of a volume containing published article
 * The title of a volume **cannot** be edited if the volume contains published articles
 * Behavior identical to the previous system
 
-![Alt text](/_astro/volume_settings-3.DSQiu5Wl_Z1brJS7.webp "volume title")
+![volume title](/_astro/volume_settings-3.DSQiu5Wl_Z1brJS7.webp)
 
 #### When the parameter is enabled (value: 1)
 
@@ -1909,7 +1911,7 @@ This parameter allows editing the title of a volume containing published article
 * The title of a volume can be edited even if it contains published articles
 * Provides increased flexibility for volume management
 
-![Alt text](/_astro/volume_settings-4.d4CfuWYi_2qbYfV.webp "volume title")
+![volume title](/_astro/volume_settings-4.d4CfuWYi_2qbYfV.webp)
 
 Important Notes
 
@@ -1944,7 +1946,7 @@ Six configurable options are available:
 
 The “General” option allows you to define the interface languages. Currently, there are two possible choices: French and English.
 
-![Alt text](/_astro/website-1.BHOM9P3Y_385wX.webp "Choice of languages for the interface")
+![Choice of languages for the interface](/_astro/website-1.BHOM9P3Y_385wX.webp)
 
 Select the desired languages by clicking on their labels (click and press Ctrl or Cmd to select the second language, if your site is bilingual).
 
@@ -1969,9 +1971,9 @@ The “Style” option allows you to define the display of the site. You can cho
 
 You can choose between a vertical menu (which is displayed on the left of the page) or a horizontal menu (which is displayed at the top of the page, below the title bar). You can also choose the “folded” option for each of these two orientations.
 
-![Alt text](/_astro/website-2.YUVMSidH_xUnuY.webp "Vertical folded")
+![Vertical folded](/_astro/website-2.YUVMSidH_xUnuY.webp)
 
-![Alt text](/_astro/website-3.DSQot9I7_ZhFTo5.webp "Horizontal folded")
+![Horizontal folded](/_astro/website-3.DSQot9I7_ZhFTo5.webp)
 
 ### Width of the main zone
 
@@ -1990,9 +1992,9 @@ The breadcrumb trail makes it possible to know at any time which page of the sit
 
 The breadcrumb trail is displayed at the top of the page either directly under the banner (in the case of a vertical menu) or under the menu (in the case of a horizontal menu).
 
-![Alt text](/_astro/website-4.B4lM8TrP_2uuUs8.webp "Breadcrumb trail in vertical menu")
+![Breadcrumb trail in vertical menu](/_astro/website-4.B4lM8TrP_2uuUs8.webp)
 
-![Alt text](/_astro/website-5.jvSk7dPQ_ZaXLTX.webp "Breadcrumb trail in horizontal menu")
+![Breadcrumb trail in horizontal menu](/_astro/website-5.jvSk7dPQ_ZaXLTX.webp)
 
 ### Customisation type
 
@@ -2002,15 +2004,15 @@ There are three ways to customise your site: one-click, simple or advanced.
 
 By selecting the “1-click” option, you can choose between two predefined templates (template 1 and template 2).
 
-![Alt text](/_astro/website-6.DajKAAC1_1pIimf.webp "Type of customisation in 1 click")
+![Type of customisation in 1 click](/_astro/website-6.DajKAAC1_1pIimf.webp)
 
 By selecting the “Simple” option, you can configure the background colours of the page, the colours of the main area, the text and links, choose the font and size of the text, titles, etc.
 
-![Alt text](/_astro/website-7.DxrzMYYv_ZgduOa.webp "Simple customisation type")
+![Simple customisation type](/_astro/website-7.DxrzMYYv_ZgduOa.webp)
 
 By selecting the “Advanced” option, you can directly edit the CSS.
 
-![Alt text](/_astro/website-8.CRv_1ZT-_Z1lYXVD.webp "Advanced customisation type")
+![Advanced customisation type](/_astro/website-8.CRv_1ZT-_Z1lYXVD.webp)
 
 You can call on the Episciences team to help you choose the right fonts and colours to make your site accessible.
 
@@ -2024,11 +2026,11 @@ Click on the “Add a logo” button. If you wish to enter a text in the header,
 
 If you have chosen advanced customisation, you can add a style by specifying the CSS classes and styles to be assigned to the title.
 
-![Alt text](/_astro/website-9.D9eOR6Sw_Zn4of9.webp "Add text in the header")
+![Add text in the header](/_astro/website-9.D9eOR6Sw_Zn4of9.webp)
 
 If you wish to add an image, select “Image” from the drop-down menu in the “Type” field and upload the file after selecting it with “Browse”.
 
-![Alt text](/_astro/website-10.DEBLqF5G_ZT9fiL.webp "Add an image in the header")
+![Add an image in the header](/_astro/website-10.DEBLqF5G_ZT9fiL.webp)
 
 Click on “Save” to save the settings.
 
@@ -2056,13 +2058,13 @@ There are nine types of pages:
 
 To create a page, select its type from the drop-down menu and then click on the “Add page” button.
 
-![Alt text](/_astro/website-11.2qYJzYe7_Z351TQ.webp "Add page")
+![Add page](/_astro/website-11.2qYJzYe7_Z351TQ.webp)
 
 Give your page a short title: this will act as a permalink and will appear in the URL.
 
 If your site is bilingual, remember to specify the title of the page in both languages.
 
-![Alt text](/_astro/website-12.Cb4ZFkko_ZroCgR.webp "Create a customisable page")
+![Create a customisable page](/_astro/website-12.Cb4ZFkko_ZroCgR.webp)
 
 If you enter “contact” in the “Permanent link” field, the page name will be: journalsname.episciences.org/contact
 
@@ -2074,13 +2076,13 @@ You can decide whether the pages are public, private (Members only) or only visi
 
 It is possible to create folders to group several pages together. To create a folder, click on “Add folder”.
 
-![Alt text](/_astro/website-13.78YWt9h9_Z1U9LON.webp "Add folder")
+![Add folder](/_astro/website-13.78YWt9h9_Z1U9LON.webp)
 
 If your site is bilingual, remember to specify the title of the folder in both languages.
 
 An example of a menu where the different pages have been organised into folders: “The journal” for the pages presenting the functioning of the publication (Editorial line, Committees, Operating charter, Evaluation process, etc.), “Contribute” for the pages intended for authors wishing to publish in the journal (Ethical charter, Submission procedures, Recommendations to authors, etc.) and “Information” for the pages presenting the general presentation of the journal (Calls for contributions, Publication policies, Credits).
 
-![Alt text](/_astro/website-14.Bf6qjVN__Z2cmKAa.webp "Example of menu")
+![Example of menu](/_astro/website-14.Bf6qjVN__Z2cmKAa.webp)
 
 ### Edit a page
 
@@ -2088,7 +2090,7 @@ An example of a menu where the different pages have been organised into folders:
 
 To add or edit content on a page, go to the page and click on “Edit content page”.
 
-![Alt text](/_astro/website-15.BMzQ9CKY_1EVXuk.webp "Edit a page")
+![Edit a page](/_astro/website-15.BMzQ9CKY_1EVXuk.webp)
 
 ## News
 

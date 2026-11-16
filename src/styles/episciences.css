@@ -92,31 +92,58 @@ header.header .social-icons::after {
   border-inline-end: 1px solid rgba(255, 255, 255, 0.2) !important;
 }
 
-/* Search button in header: solid white field so it stands out on the navy bar */
+/* Search button in header */
 header.header site-search button {
+  border-radius: 0.5rem !important;
+}
+
+/* Light theme: solid white field so it stands out on the navy bar */
+:root:not([data-theme="dark"]) header.header site-search button {
   background-color: #ffffff !important;
   border: 1px solid #ffffff !important;
   color: #3d3d5c !important; /* ~10:1 on white */
-  border-radius: 0.5rem !important;
   transition:
     box-shadow 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
 }
 
-header.header site-search button svg {
+:root:not([data-theme="dark"]) header.header site-search button svg {
   color: #00005f !important;
 }
 
-header.header site-search button kbd {
+:root:not([data-theme="dark"]) header.header site-search button > kbd {
   background-color: #e8f2fa !important;
   color: #00005f !important;
   border-color: #c5d3e8 !important;
 }
 
-header.header site-search button:hover {
+:root:not([data-theme="dark"]) header.header site-search button:hover {
   border-color: #0aa0be !important;
   box-shadow: 0 0 0 3px rgba(10, 160, 190, 0.45) !important;
   color: #00005f !important;
+}
+
+/* Dark theme: translucent field on the navy bar */
+:root[data-theme="dark"] header.header site-search button {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border-color: rgba(255, 255, 255, 0.2) !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+:root[data-theme="dark"] header.header site-search button svg {
+  color: #ffffff !important;
+}
+
+:root[data-theme="dark"] header.header site-search button > kbd {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+:root[data-theme="dark"] header.header site-search button:hover {
+  background-color: rgba(255, 255, 255, 0.18) !important;
+  border-color: rgba(255, 255, 255, 0.4) !important;
+  color: #ffffff !important;
 }
 
 /* Focus ring on the navy header (same in both themes, the header stays navy).

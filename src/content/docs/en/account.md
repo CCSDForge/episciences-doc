@@ -17,11 +17,11 @@ There are two steps to creating an account:
 
 On the journal’s website, click on "+ Create account" at the top right.
 
-![Alt text](img/account-0.png "Create account")
+![Create account](img/account-0.png)
 
 Fields marked with an asterisk are required.
 
-![Alt text](img/account-1.png "Create account: form")
+![Create account: form](img/account-1.png)
 
 Enter the information:
 
@@ -41,7 +41,7 @@ Enter the information:
 
 Check the box “I am human” in order to validate the information.
 
-![Alt text](img/account-2.png "Validate the creation of the account")
+![Validate the creation of the account](img/account-2.png)
 
 To finalise the account creation stage, validate it by activating the link received by e-mail. Please note that the account activation e-mail is not sent immediately (it may take some time to receive it). Remember to check that the e-mail has not arrived in the spam folder.
 
@@ -51,7 +51,7 @@ Once the account is created, you can connect to the website.
 
 To modify your profile, log in and click on “Edit profile” at the top right.
 
-![Alt text](img/account-3.png "Edit profile")
+![Edit profile](img/account-3.png)
 
 The following information can be added to your account after its creation:
 
@@ -65,7 +65,7 @@ You can also add your **ORCID**, fill in your **affiliations**, your **Mastodon,
 
 To change your password, log in and click on “Change my password” in the top right-hand corner.
 
-![Alt text](img/account-4.png "Change my password")
+![Change my password](img/account-4.png)
 
 It is necessary to enter your current password in order to change it.
 
@@ -75,7 +75,7 @@ The new password must be at least 7 characters long.
 
 If you have forgotten your password or login, click on “Forgotten password?” or “Forgotten username?” at the top right of the “Sign in” button.
 
-![Alt text](img/account-5.png "Forgotten username or password")
+![Forgotten username or password](img/account-5.png)
 
 - If you have forgotten your **password**, enter your login and click on “Ask for a new password”. You will receive an e-mail with a link to a page where you can create a new password.
 - If you have forgotten your **username** (login), enter the e-mail address associated with your account and click on

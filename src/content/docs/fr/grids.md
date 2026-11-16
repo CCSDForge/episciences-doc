@@ -5,9 +5,9 @@ title: "Grille de relecture"
 <div class="roles-container not-content" role="region" aria-label="Rôles concernés">
   <span class="roles-label">Rôles :</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">administrateur</li>
-    <li role="listitem">rédacteur en chef</li>
-    <li role="listitem">secrétaire de rédaction</li>
+    <li>administrateur</li>
+    <li>rédacteur en chef</li>
+    <li>secrétaire de rédaction</li>
   </ul>
 </div>
 
@@ -58,7 +58,7 @@ Une fois les champs complétés, cliquer sur “Valider” pour enregistrer le c
 
 Pour organiser les critères de la grille, il est possible d’ajouter un ou plusieurs séparateurs. Les séparateurs permettent de structurer la grille en différentes parties, par exemple : “Qualité”, “Intérêt du sujet”, etc. Pour créer un séparateur, cliquer sur “Ajouter un séparateur”.
 
-![Alt text](img/grids-3.png "Ajouter un séparateur")
+![Ajouter un séparateur](img/grids-3.png)
 
 Les champs marqués d’un astérisque sont obligatoires :
 
@@ -75,7 +75,7 @@ Une fois les champs complétés, cliquer sur “Valider” pour enregistrer le s
 
 En cliquant sur “Visualiser la grille”, la grille telle qu’elle sera proposée aux relecteurs s’affiche.
 
-![Alt text](img/grids-4.png "Visualiser la grille")
+![Visualiser la grille](img/grids-4.png)
 
 Une icône de couleur précise la visibilité du critère :
 
@@ -90,9 +90,9 @@ Il faut d’abord [créer un volume](https://doc.episciences.org/fr/volumes/ "Cr
 Aller ensuite dans Gérer la revue > Revue > Grilles de relecture où se trouvent toutes les grilles existantes.
 
 Se rendre en bas de la page “Créer une grille pour le volume” et choisir le volume concerné parmi ceux de la liste déroulante qui contient tous les volumes qui ne sont pas associés à une grille spécifique (rappel : sans grille spécifique, un volume utilise la grille par défaut).
-![Alt text](img/grids-5.png "Créer une grille pour le volume")
+![Créer une grille pour le volume](img/grids-5.png)
 
 Cliquer sur le bouton “Créer la grille” : la nouvelle grille apparaît parmi les autres grilles (il peut être nécessaire de scroller dans la page). Par défaut, elle est vide : il faut donc soit ajouter de nouveaux critères, soit copier la grille par défaut. Il est alors possible de modifier cette grille en lui ajoutant ou retranchant des critères, séparateurs de parties, etc.
-![Alt text](img/grids-6.png "Nouvelle grille pour un volume")
+![Nouvelle grille pour un volume](img/grids-6.png)
 
 Attention : la grille qui est utilisée pour évaluer un article est celle qui est en place au moment de la soumission de l’article (les modifications ultérieures sur cette grille ne seront pas prises en compte pour cet article).

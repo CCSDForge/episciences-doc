@@ -5,8 +5,8 @@ title: "Préparation de copie"
 <div class="roles-container not-content" role="region" aria-label="Rôles concernés">
   <span class="roles-label">Rôles :</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">auteur</li>
-    <li role="listitem">préparateur de copie</li>
+    <li>auteur</li>
+    <li>préparateur de copie</li>
   </ul>
 </div>
 
@@ -30,7 +30,7 @@ Le rôle de préparateur de copie peut être attribué à une ou plusieurs perso
 
 La personne disposant du rôle de préparateur de copie doit ensuite être ajoutée aux articles sur lesquels elle doit intervenir.
 
-![Alt text](img/copyediting-1.png "Ajouter un préparateur de copie à l’article")
+![Ajouter un préparateur de copie à l’article](img/copyediting-1.png)
 
 ## Activité du préparateur de copie
 
@@ -40,7 +40,7 @@ Le premier choix à faire sur un article accepté est de sélectionner le type d
   s’occupera de la mise en forme de la version finale ;
 - **Option 2** : l’auteur met lui-même en forme la version finale.
 
-![Alt text](img/copyediting-2.png "Changer le statut de l’article")
+![Changer le statut de l’article](img/copyediting-2.png)
 
 ### Option 1 : la revue prend en charge la préparation de copie
 
@@ -50,7 +50,7 @@ Une fenêtre permet de personnaliser le message à envoyer à l’auteur pour lu
 
 Dès que l’auteur a déposé ses sources, un mail est envoyé au préparateur de copie lui permettant de récupérer les fichiers sur le site. Si les fichiers ne conviennent pas, il est possible de demander d’autres sources à l’auteur. Pour cela, dans “Statut de l’article”, sélectionner “Redemander à l’auteur ses sources (À mettre en forme par la revue)”.
 
-![Alt text](img/copyediting-6.png "Redemander à l’auteur ses sources")
+![Redemander à l’auteur ses sources](img/copyediting-6.png)
 
 Si tout est correct, télécharger les fichiers, procéder à la mise en forme et valider en sélectionnant “Mise en forme revue terminée, demander la version finale”. Ceci permet d’envoyer un message à l’auteur.
 
@@ -62,15 +62,15 @@ Le travail de préparation de copie est alors terminé.
 
 Pour téléverser les fichiers sources, cliquer sur le bouton “Ajouter les fichiers sources”.
 
-![Alt text](img/copyediting-3.png "Ajouter les fichiers sources")
+![Ajouter les fichiers sources](img/copyediting-3.png)
 
 Il est possible de modifier le message prédéfini.
 
-![Alt text](img/copyediting-4.png "Modification du message prédéfini")
+![Modification du message prédéfini](img/copyediting-4.png)
 
 Une fois le(s) fichier(s) sélectionné(s), cliquer sur “Envoyer” pour les transmettre. Un récapitulatif du mail et des fichiers envoyés s’affiche alors.
 
-![Alt text](img/copyediting-5.png "Récapitulatif des sources déposées")
+![Récapitulatif des sources déposées](img/copyediting-5.png)
 
 Si besoin, d’autres envois ultérieurs sont possibles avec d’autres fichiers. À chaque fois, une notification est envoyée au préparateur de copie.
 
@@ -82,7 +82,7 @@ Une fenêtre permet de personnaliser le message à envoyer à l’auteur. Le mes
 
 Les informations présentes dans le message doivent permettre à l’auteur d’avoir accès à toutes les données nécessaires pour mettre en forme son article.
 
-![Alt text](img/copyediting-7.png "Exemple de message prêt à envoyer à l’auteur pour lui demander de formater son article")
+![Exemple de message prêt à envoyer à l’auteur pour lui demander de formater son article](img/copyediting-7.png)
 
 > **Important**
 > L’administrateur du site doit avoir créé au préalable une archive .zip (nommé selon le format : titre_court_de_la_revue_episciences.zip) dans le répertoire “Ressources” (Gérer la revue > Site web > Ressources). Cette archive contient les fichiers à utiliser pour la mise en forme, par exemple les différents éléments graphiques, la feuille de style etc.
@@ -93,7 +93,7 @@ C’est ensuite à l’auteur de téléverser ses sources.
 
 L’auteur téléverse sa version formatée sur le site.
 
-![Alt text](img/copyediting-8.png "Ajouter la version formatée")
+![Ajouter la version formatée](img/copyediting-8.png)
 
 Une fois le fichier sélectionné, cliquer sur “Envoyer” pour le transmettre. Un récapitulatif du mail et du fichier envoyé s’affiche.
 

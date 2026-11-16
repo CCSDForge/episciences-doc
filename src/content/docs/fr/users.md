@@ -5,9 +5,9 @@ title: "Gestion des utilisateurs"
 <div class="roles-container not-content" role="region" aria-label="Rôles concernés">
   <span class="roles-label">Rôles :</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">administrateur</li>
-    <li role="listitem">rédacteur en chef</li>
-    <li role="listitem">secrétaire de rédaction</li>
+    <li>administrateur</li>
+    <li>rédacteur en chef</li>
+    <li>secrétaire de rédaction</li>
   </ul>
 </div>
 
@@ -17,10 +17,10 @@ Pour gérer les utilisateurs de la revue (création de compte, ajout de rôles, 
 Avant de créer un compte pour un nouvel utilisateur, veuillez vérifier que celui-ci n’existe pas déjà dans la base des utilisateurs. Pour vérifier que l’utilisateur n’a pas déjà des droits dans la revue, renseignez le nom de la personne dans le champ de recherche situé en haut à droite de la liste des utilisateurs.
 :::
 
-![Alt text](img/users-1.png "Ajouter un utilisateur")
+![Ajouter un utilisateur](img/users-1.png)
 Il est possible d’inviter de nouveaux utilisateurs (auteurs, relecteurs ou rédacteurs) sur le site de la revue. Pour cela, indiquez le nom de l’utilisateur à ajouter dans le champ dédié. Si la recherche ne retourne aucun résultat, il est possible de créer un compte pour l’utilisateur en cliquant sur le bouton “Créer un nouveau compte”.
 
-![Alt text](img/users-2.png "Créer un compte")
+![Créer un compte](img/users-2.png)
 
 Champs obligatoires pour la création d’un compte :
 
@@ -38,4 +38,4 @@ Par défaut, tout utilisateur a le rôle de _membre_, ce qui lui permet de soume
 
 Pour ajouter un ou des rôles, se positionner dans la colonne “Rôles” puis sélectionner le ou les rôles choisis parmi ceux proposés dans la liste.
 
-![Alt text](img/users-3.png "Ajouter un rôle")
+![Ajouter un rôle](img/users-3.png)

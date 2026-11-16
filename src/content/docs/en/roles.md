@@ -6,7 +6,7 @@ There are **fourteen roles** in Episciences, nine with rights associated with fe
 
 The roles associated with the profile are displayed in the top right-hand corner when you hover the mouse over your username and in the Dashboard section.
 
-![Alt text](img/roles-1.png "My account")
+![My account](img/roles-1.png)
 
 Please note: the semantics of roles in Episciences is not necessarily adapted to the organisation of each journal. Thus, a user can have several roles in a journal, to be assigned according to the functionalities he/she has to use.
 
@@ -39,4 +39,4 @@ There are also five roles without associated rights. They can be combined with t
 
 The functionalities linked to each role are summarised in a table, accessible in connected mode: My Account > Permissions
 
-![Alt text](img/roles-2.png "Permissions")
+![Permissions](img/roles-2.png)

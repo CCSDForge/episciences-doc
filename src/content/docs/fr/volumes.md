@@ -5,9 +5,9 @@ title: "Volumes"
 <div class="roles-container not-content" role="region" aria-label="Rôles concernés">
   <span class="roles-label">Rôles :</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">administrateur</li>
-    <li role="listitem">rédacteur en chef</li>
-    <li role="listitem">secrétaire de rédaction</li>
+    <li>administrateur</li>
+    <li>rédacteur en chef</li>
+    <li>secrétaire de rédaction</li>
   </ul>
 </div>
 
@@ -19,7 +19,7 @@ Il est possible de créer des volumes courants et des volumes spéciaux.
 
 Pour créer et gérer les volumes, aller dans : Gérer la revue > Revue > Volumes.
 
-![Alt text](img/volumes-1.png "Créer un volume")
+![Créer un volume](img/volumes-1.png)
 
 Plusieurs volumes peuvent être ouverts en même temps. Les auteurs peuvent soumettre à n’importe quel volume ouvert. Avant publication, le rédacteur en chef peut modifier le volume d’un article.
 
@@ -29,7 +29,7 @@ Après publication, un article ne peut être affecté à un autre volume.
 
 Pour créer un volume, cliquer sur “Créer un volume”.
 
-![Alt text](img/volumes-2.png "Créer un volume : formulaire")
+![Créer un volume : formulaire](img/volumes-2.png)
 
 Un volume est composé de 10 éléments. Les champs marqués d’un astérisque sont obligatoires :
 
@@ -78,10 +78,10 @@ Pour créer un volume spécial, aller dans : Gérer la revue > Revue > Volumes p
 
 Renseigner les éléments et sélectionner “Oui” pour “Volume spécial”.
 
-![Alt text](img/volumes-3.png "Créer un volume spécial")
+![Créer un volume spécial](img/volumes-3.png)
 
 Si dans Revue > Paramètres > Paramètres des volumes spéciaux, vous avez sélectionné l’item “Protéger la soumission dans les volumes spéciaux par un code d’accès”, le code s’affiche dans la liste des volumes.
 
-![Alt text](img/volumes-4.png "Volume spécial : code d’accès")
+![Volume spécial : code d’accès](img/volumes-4.png)
 
 Ce code est envoyé aux contributeurs pour les inviter à soumettre un article dans le volume spécial.

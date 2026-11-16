@@ -5,7 +5,7 @@ title: "Journal settings"
 <div class="roles-container not-content" role="region" aria-label="Required rights">
   <span class="roles-label">Rights:</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">Administrator</li>
+    <li>Administrator</li>
   </ul>
 </div>
 
@@ -15,7 +15,7 @@ Fields marked with an asterisk are required.
 
 ## General settings (displayed in the footer)
 
-![Alt text](img/settings-1.png "General settings")
+![General settings](img/settings-1.png)
 
 - **eISSN (online)**: To be completed with the e-ISSN of the journal (XXXX-XXXX)
 - **ISSN (print)**: To be completed with the ISSN of the journal (XXXX-XXXX)
@@ -30,7 +30,7 @@ Fields marked with an asterisk are required.
 
 ## Submission parameters
 
-![Alt text](img/settings-2.png "Submission parameters")
+![Submission parameters](img/settings-2.png)
 
 **Repositories\***: Select the repository(ies) available(s) for article submission. To select more than one: hold down the Ctrl key and click.
 
@@ -66,7 +66,7 @@ A new option allows the author to delegate to the journal the updating of their 
 
 ## Rating settings
 
-![Alt text](img/settings-3.png "Rating settings")
+![Rating settings](img/settings-3.png)
 
 For each option, indicate a number of day(s)/week(s)/month(s).
 
@@ -89,7 +89,7 @@ Automatically reassign the same reviewers when a new version is submitted:
 
 ## Editors settings
 
-![Alt text](img/settings-4.png "Editors settings")
+![Editors settings](img/settings-4.png)
 
 **Minimum ratings count**: indicate here the minimum number of reviews before an article can be accepted.
 

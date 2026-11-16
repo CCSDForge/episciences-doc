@@ -5,15 +5,15 @@ title: "Rubriques"
 <div class="roles-container not-content" role="region" aria-label="Rôles concernés">
   <span class="roles-label">Rôles :</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">administrateur</li>
-    <li role="listitem">rédacteur en chef</li>
-    <li role="listitem">secrétaire de rédaction</li>
+    <li>administrateur</li>
+    <li>rédacteur en chef</li>
+    <li>secrétaire de rédaction</li>
   </ul>
 </div>
 
 Pour créer et gérer les rubriques, aller dans Gérer la revue > Revue > Rubriques.
 
-![Alt text](img/sections-1.png "Créer une rubrique")
+![Créer une rubrique](img/sections-1.png)
 
 Plusieurs rubriques peuvent être ouvertes en même temps. Un auteur peut soumettre un article dans n’importe quelle rubrique.
 
@@ -23,7 +23,7 @@ Un article ne peut être soumis à une rubrique de statut “fermé”.
 
 Le nombre de rubriques n’est pas limité.
 
-![Alt text](img/sections-2.png "Créer une rubrique : champs à renseigner")
+![Créer une rubrique : champs à renseigner](img/sections-2.png)
 
 Les métadonnées d’une rubrique :
 

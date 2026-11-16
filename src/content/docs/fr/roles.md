@@ -6,7 +6,7 @@ Il existe **quatorze rôles** dans Episciences, neuf ayant des droits associés 
 
 Les rôles associés au profil s’affichent en haut à droite lorsque l’on passe la souris sur son nom d’utilisateur et dans le Tableau de bord, dans la partie “Mon compte”.
 
-![Alt text](img/roles-1.png "Mes rôles")
+![Mes rôles](img/roles-1.png)
 
 À noter : la sémantique des rôles dans Episciences n’est pas forcément adaptée à l’organisation de chaque revue. Ainsi, un utilisateur peut avoir plusieurs rôles dans une revue, à attribuer en fonction des fonctionnalités qu’il a à utiliser.
 
@@ -33,4 +33,4 @@ Il existe également cinq rôles sans droits associés. Ils peuvent se combiner 
 Les fonctionnalités liées à chaque rôle sont mentionnées de façon synthétique dans un tableau, accessible en mode
 connecté : Mon espace > Permissions
 
-![Alt text](img/roles-2.png "Permissions")
+![Permissions](img/roles-2.png)

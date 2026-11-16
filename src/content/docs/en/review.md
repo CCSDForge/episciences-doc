@@ -5,7 +5,7 @@ title: "Reviewer guidelines"
 <div class="roles-container not-content" role="region" aria-label="Required rights">
   <span class="roles-label">Rights:</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">Reviewer</li>
+    <li>Reviewer</li>
   </ul>
 </div>
 
@@ -16,7 +16,7 @@ The reviewer receives an invitation by e-mail. The message contains the title of
 The invitation is time-limited: the response time is specified in the e-mail.
 
 By clicking on the link, the response form to the invitation is displayed:
-![Alt text](img/review-1.png "Invitation to review an article")
+![Invitation to review an article](img/review-1.png)
 
 Click on the required answer.
 
@@ -26,7 +26,7 @@ To decline the invitation, click on “I don’t want to review this article”.
 
 It is then possible to suggest the name of another reviewer and to specify the reasons for the refusal.
 
-![Alt text](img/review-2.png "Details of the answer")
+![Details of the answer](img/review-2.png)
 
 In some cases, the journal may ask to declare whether the reviewer has competing interests with the article under review. If this is the case, it is considered a reason for rejection.
 
@@ -48,7 +48,7 @@ Note: it is not necessary to open several accounts on Episciences if the reviewe
 
 The dashboard displays the current actions on the site: reviews but also articles if the user has submitted any.
 
-![Alt text](img/review-3.png "Dashboard")
+![Dashboard](img/review-3.png)
 
 Click on “Rate articles” to access the articles.
 
@@ -58,7 +58,7 @@ Each article has a status: pending reviews appear at the top of the table.
 
 The user can filter by article status, review status, volume, section, editors, DOI and repositories.
 
-![Alt text](img/review-4.png "My reviewings")
+![My reviewings](img/review-4.png)
 
 ## Processus
 
@@ -77,7 +77,7 @@ Depending on the journal, the reviewer can complete the grid with a comment and 
 
 The exchanges between the reviewer and the author are saved on the platform. By default, the reviewer is anonymous. If he/she wishes, he/she can lift the anonymity by adding his/her name in the “Comment” space.
 
-![Alt text](img/review-5.png "Send a message to the author")
+![Send a message to the author](img/review-5.png)
 
 ### Validation of reviewing
 

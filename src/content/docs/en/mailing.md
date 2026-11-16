@@ -5,11 +5,11 @@ title: "Mailing module"
 <div class="roles-container not-content" role="region" aria-label="Required rights">
   <span class="roles-label">Rights:</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">Administrator</li>
-    <li role="listitem">Editor</li>
-    <li role="listitem">Editor in Chief</li>
-    <li role="listitem">Editorial secretary</li>
-    <li role="listitem">Webmaster</li>
+    <li>Administrator</li>
+    <li>Editor</li>
+    <li>Editor in Chief</li>
+    <li>Editorial secretary</li>
+    <li>Webmaster</li>
   </ul>
 </div>
 
@@ -17,13 +17,13 @@ title: "Mailing module"
 
 To manage the sending of emails to certain roles, go to: Journal management > Mail > Mailing.
 
-![Alt text](img/mailing-1.png "Mailing")
+![Mailing](img/mailing-1.png)
 
 A message can be sent to a specific recipient or to a group of recipients selected according to their role in the journal. The selectable roles are: editor in chief, editors, guest editors, editorial secretary, webmasters, proofreaders.
 
 To select the recipient(s), click on “To”, “Cc” or “Bcc” and then on “All contacts”.
 
-![Alt text](img/mailing-2.png "Select the recipients")
+![Select the recipients](img/mailing-2.png)
 
 ## Templates
 
@@ -31,13 +31,13 @@ A number of pre-configured emails (templates) are available on the site.
 
 To consult and modify these templates, go to: Journal management > Mail > Templates.
 
-![Alt text](img/mailing-3.png "List of templates")
+![List of templates](img/mailing-3.png)
 
 To modify a template, click on the “Edit” button.
 
 The name of the template, its subject and its content can be customised.
 
-![Alt text](img/mailing-4.png "Modify the template")
+![Modify the template](img/mailing-4.png)
 
 To customise the templates, see the list of variables to be inserted in the templates.
 

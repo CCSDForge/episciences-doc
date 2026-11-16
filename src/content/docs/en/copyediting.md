@@ -5,8 +5,8 @@ title: "Copy editing"
 <div class="roles-container not-content" role="region" aria-label="Required rights">
   <span class="roles-label">Rights:</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">Author</li>
-    <li role="listitem">Copy editor</li>
+    <li>Author</li>
+    <li>Copy editor</li>
   </ul>
 </div>
 
@@ -30,7 +30,7 @@ The copy editor role can be assigned to one or more people. To add this role to 
 
 The person with the copy editor role should then be added to the articles on which they have to work.
 
-![Alt text](img/copyediting-1.png "Add a copy editor")
+![Add a copy editor](img/copyediting-1.png)
 
 ## Activity of the copy editor
 
@@ -39,7 +39,7 @@ The first choice to be made on an accepted article is to select the type of work
 - **Option 1**: the journal does the formatting. The author provides the sources to the copy editor who will edit the final version;
 - **Option 2**: the author formats the final version themself.
 
-![Alt text](img/copyediting-2.png "Change article status")
+![Change article status](img/copyediting-2.png)
 
 ### Option 1: The journal takes care of the copy editing
 
@@ -49,7 +49,7 @@ A window allows you to customise the message to be sent to the author to ask him
 
 As soon as the author has uploaded their sources, an e-mail is sent to the copy editor allowing them to retrieve the files from the site. If the files are not suitable, it is possible to request other sources from the author. To do this, in “Article status”, select “Ask for the author’s sources again (To be formatted by the journal)”.
 
-![Alt text](img/copyediting-6.png "Ask for the author’s sources again")
+![Ask for the author’s sources again](img/copyediting-6.png)
 
 If everything is correct, upload the files, proceed with the formatting and validate by selecting “Copy editing by the journal completed, ask for the final version”. This sends a message to the author.
 
@@ -61,15 +61,15 @@ The work of copy editing is then complete.
 
 To upload the sources files, click on the “Add source files” button.
 
-![Alt text](img/copyediting-3.png "Add source files")
+![Add source files](img/copyediting-3.png)
 
 The predefined message can be changed.
 
-![Alt text](img/copyediting-4.png "Modify the message")
+![Modify the message](img/copyediting-4.png)
 
 Once you have selected the file(s), click on “Send” to send them. A summary of the e-mail and the files sent will be displayed.
 
-![Alt text](img/copyediting-5.png "Summary of deposited sources")
+![Summary of deposited sources](img/copyediting-5.png)
 
 If necessary, further shipments are possible with other files. Each time, a notification is sent to the copy editor.
 
@@ -81,7 +81,7 @@ A window allows you to customise the message to be sent to the author. The messa
 
 The information in the message should allow the author to have access to all the data needed to format the article.
 
-![Alt text](img/copyediting-7.png "Example of a message ready to be sent to the author to ask them to format their article")
+![Example of a message ready to be sent to the author to ask them to format their article](img/copyediting-7.png)
 
 > **Important** The site administrator must have previously created a .zip archive (named according to the format:
 > short_journal_title.zip) in the “Resources” directory (Journal management > Website > Resources). This archive contains the files to be used for the formatting, for example the different graphic elements, the style sheet, etc.

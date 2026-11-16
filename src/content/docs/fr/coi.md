@@ -5,11 +5,11 @@ title: "Conflit d’intérêt"
 <div class="roles-container not-content" role="region" aria-label="Rôles concernés">
   <span class="roles-label">Rôles :</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">administrateur</li>
-    <li role="listitem">rédacteur</li>
-    <li role="listitem">rédacteur en chef</li>
-    <li role="listitem">rédacteur invité</li>
-    <li role="listitem">secrétaire de rédaction</li>
+    <li>administrateur</li>
+    <li>rédacteur</li>
+    <li>rédacteur en chef</li>
+    <li>rédacteur invité</li>
+    <li>secrétaire de rédaction</li>
   </ul>
 </div>
 
@@ -32,7 +32,7 @@ Cette option doit rester active durant tout le processus éditorial d’un artic
 
 Lorsque la personne chargée de la soumission (rédacteur, rédacteur en chef, rédacteur invité ou secrétaire de rédaction) se rend sur la page de suivi, elle n’a pas immédiatement accès à la page de gestion de la soumission. Elle doit préciser au préalable si elle a un conflit d’intérêt.
 
-![Alt text](img/coi-1.png "Déclarer un conflit avec une soumission")
+![Déclarer un conflit avec une soumission](img/coi-1.png)
 
 Trois possibilités :
 
@@ -41,12 +41,12 @@ Trois possibilités :
    souhaite préciser la raison du conflit d’intérêt, il doit renseigner le champ “Commentaire facultatif” avant de cliquer sur le bouton.
 3. “Décider plus tard” (bouton blanc), permet de revenir sur la page de présentation de la soumission.
 
-![Alt text](img/coi-2.png "Options de déclaration de conflit d’intérêt")
+![Options de déclaration de conflit d’intérêt](img/coi-2.png)
 
 Dans le tableau de bord, une icône orange à gauche de l’identifiant permanent indique qu’au moins un conflit a été
 signalé pour l’article.
 
-![Alt text](img/coi-4.png "Indication de conflit d’intérêt")
+![Indication de conflit d’intérêt](img/coi-4.png)
 
 ## Supprimer un conflit d’intérêt
 
@@ -54,4 +54,4 @@ Seuls les rédacteurs en chef, les secrétaires de rédaction ou les administrat
 
 Pour supprimer un conflit d’intérêt sur une soumission, se rendre sur la page de gestion de la soumission. Dans l’onglet “Gestion des conflits”, cliquer sur l’icône poubelle correspondant au conflit d’intérêt que l’on souhaite supprimer.
 
-![Alt text](img/coi-3.png "Supprimer un conflit d’intérêt")
+![Supprimer un conflit d’intérêt](img/coi-3.png)

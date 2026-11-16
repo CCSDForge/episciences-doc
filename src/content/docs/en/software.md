@@ -5,7 +5,7 @@ title: "Linking publications/data/software"
 <div class="roles-container not-content" role="region" aria-label="Required rights">
   <span class="roles-label">Rights:</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">Author</li>
+    <li>Author</li>
   </ul>
 </div>
 

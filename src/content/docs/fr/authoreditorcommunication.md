@@ -7,9 +7,9 @@ Ce guide explique comment configurer et utiliser le système de communication en
 <div class="roles-container not-content" role="region" aria-label="Rôles concernés">
   <span class="roles-label">Rôles :</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">administrateur</li>
-    <li role="listitem">secrétaire de rédaction</li>
-    <li role="listitem">rédacteur en chef</li>
+    <li>administrateur</li>
+    <li>secrétaire de rédaction</li>
+    <li>rédacteur en chef</li>
   </ul>
 </div>
 

@@ -5,7 +5,7 @@ title: "Relire un article"
 <div class="roles-container not-content" role="region" aria-label="Rôles concernés">
   <span class="roles-label">Rôle :</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">relecteur</li>
+    <li>relecteur</li>
   </ul>
 </div>
 
@@ -16,7 +16,7 @@ Le relecteur reçoit une invitation par mail. Le message contient le titre de l�
 L’invitation a une durée limitée : le délai de réponse est précisé dans le mail.
 
 En cliquant sur le lien, le formulaire de réponse à l’invitation s’affiche :
-![Alt text](img/review-1.png "Invitation à la relecture d’un article")
+![Invitation à la relecture d’un article](img/review-1.png)
 
 Cliquer sur la réponse souhaitée.
 
@@ -26,7 +26,7 @@ Pour décliner l’invitation, cliquer sur “Je refuse de relire cet article”
 
 Il est alors possible de suggérer le nom d’un autre relecteur ainsi que de préciser les raisons du refus.
 
-![Alt text](img/review-2.png "Détails de la réponse")
+![Détails de la réponse](img/review-2.png)
 
 Dans certains cas, la revue peut demander de déclarer si le relecteur a des intérêts en concurrence avec l’article en cours de révision. Si tel est le cas, cela est considéré comme un motif de refus.
 
@@ -49,7 +49,7 @@ revues hébergées sur la plateforme.
 
 Le tableau de bord affiche les actions en cours sur le site : les relectures mais également les articles si l’utilisateur en a soumis.
 
-![Alt text](img/review-3.png "Tableau de bord")
+![Tableau de bord](img/review-3.png)
 
 Cliquer sur “Relire les articles” pour accéder aux articles.
 
@@ -59,7 +59,7 @@ Chaque article a un statut : les relectures en attente apparaissent en haut du t
 
 L’utilisateur peut filtrer par statut de l’article, état de relecture, volume, rubrique, rédacteurs et DOI.
 
-![Alt text](img/review-4.png "Mes relectures")
+![Mes relectures](img/review-4.png)
 
 ## Processus
 
@@ -78,7 +78,7 @@ En fonction des revues, le relecteur peut compléter l’évaluation par un comm
 
 Les échanges entre le relecteur et l’auteur sont sauvegardés sur la plateforme. Par défaut, le relecteur est anonyme. S’il le souhaite, il peut lever l’anonymat en ajoutant son nom dans l’espace “Commentaire”.
 
-![Alt text](img/review-5.png "Envoyer un message à l’auteur")
+![Envoyer un message à l’auteur](img/review-5.png)
 
 ### Validation de l’évaluation
 

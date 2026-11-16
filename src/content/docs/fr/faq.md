@@ -2,7 +2,7 @@
 title: "FAQ"
 ---
 
-##Comment sont numérotées les versions d’un document ?
+## Comment sont numérotées les versions d’un document ?
 Il existe deux types de numérotation de versions de documents :
 
 1. versions de l’archive ;

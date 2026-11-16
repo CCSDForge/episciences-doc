@@ -5,7 +5,7 @@ title: "Submission"
 <div class="roles-container not-content" role="region" aria-label="Required rights">
   <span class="roles-label">Rights:</span>
   <ul class="roles-list" role="list">
-    <li role="listitem">Author</li>
+    <li>Author</li>
   </ul>
 </div>
 
@@ -39,7 +39,7 @@ To connect to a journal’s website, click on the “Sign in” button at the to
 
 Once logged in, click on the “Submit a document” tab.
 
-![Alt text](img/submission-1.png "Submit a document")
+![Submit a document](img/submission-1.png)
 
 - **Repository**: select the open repository in which the document to be submitted to the journal is located;
 - **Document identifier**: indicate the document identifier on the open repository (e.g. hal-0000000 for HAL; 0000.0000
@@ -52,7 +52,7 @@ Depending on the settings of the site, it is possible to propose the article for
 
 The free field “Comment” allows you to add a note to the editorial team of the journal (this comment will be visible to the editors, writers and reviewers).
 
-![Alt text](img/submission-2.png "Submit a document: optional fields")
+![Submit a document: optional fields](img/submission-2.png)
 
 In order to be able to submit the document, it is necessary to certify:
 
@@ -71,7 +71,7 @@ For details on how to do this, see [Linking publications/data/software](https://
 
 If you have been invited to contribute to a special issue, an access code has been sent to you by email. The procedure is the same as for submitting a document, but you must first enter the access code in the corresponding field.
 
-![Alt text](img/submission-3.png "Submit a document to a special issue")
+![Submit a document to a special issue](img/submission-3.png)
 
 After entering the access code, the corresponding issue is displayed.
 
@@ -87,15 +87,15 @@ There are two options: either the author deposits a revised version of the artic
 
 Connect on HAL and go on the initial deposit. Click on the button “+ Deposit a new version” in the right hand side.
 
-![Alt text](img/submission-4.png "Deposit a new version")
+![Deposit a new version](img/submission-4.png)
 
 Once the new version has been moderated, log in to Episciences and go to the article’s page. In the “Revision requests” section, in “Answer this request”, select “Upload a new version”.
 
-![Alt text](img/submission-5.png "Upload a new version")
+![Upload a new version](img/submission-5.png)
 
 The document identifier and the repository of the submitted article are proposed by default. Indicate the new version to be taken into account.
 
-![Alt text](img/submission-6.png "Upload a new version: indicate the new version")
+![Upload a new version: indicate the new version](img/submission-6.png)
 
 The new version is sent for review.
 
@@ -105,11 +105,11 @@ This option is best used for minor modifications.
 
 Log in to Episciences and go to the article’s page. In the “Revision requests” section, in “Answer this request”, select "Send a temporary version".
 
-![Alt text](img/submission-7.png "Send a temporary version")
+![Send a temporary version](img/submission-7.png)
 
 Download the temporary version. A comment can also be added to specify the changes made to this version.
 
-![Alt text](img/submission-8.png "Send a temporary version: add a comment")
+![Send a temporary version: add a comment](img/submission-8.png)
 
 This version is only present on Episciences and not visible in the open repository. When the article is validated, the final version must be uploaded to the repository in order to obtain the status “accepted” (see option 1).
 

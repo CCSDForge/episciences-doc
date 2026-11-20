@@ -32,7 +32,7 @@ Fritsch, en anglais) :
 ### Se connecter au site
 
 Le compte HAL est utilisé pour se connecter sur les sites des revues. En cas de premier dépôt ou si vous ne disposez
-pas de compte HAL, vous devez vous [créer un compte](https://doc.episciences.org/fr/account/ "Créer un compte sur un
+pas de compte HAL, vous devez vous [créer un compte](/fr/account/ "Créer un compte sur un
 site de revue").
 
 Pour se connecter au site d’une revue, cliquer sur le bouton “Connexion” en haut à droite.
@@ -68,7 +68,7 @@ Cliquer sur “Proposer cet article” pour valider le dépôt de la soumission.
 
 Après le dépôt du document, il est possible de lui ajouter un jeu de données, un logiciel ou une autre publication.
 
-Pour consulter le détail de la procédure, consulter la page [Lien publications / données / logiciels](https://doc.episciences.org/fr/software/ "Lien publications / données / logiciels").
+Pour consulter le détail de la procédure, consulter la page [Lien publications / données / logiciels](/fr/software/ "Lien publications / données / logiciels").
 
 Pour soumettre un jeu de données ou un logiciel en tant que soumission à part entière (avec un data paper), consulter la page [Jeux de données et data papers](/fr/datadescriptor/).
 

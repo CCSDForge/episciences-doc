@@ -77,7 +77,7 @@ A coloured icon indicates the visibility of the criterion:
 
 ## Linking a grid to a volume
 
-First of all, you need to [create a volume](https://doc.episciences.org/volumes/ "Create a volume").
+First of all, you need to [create a volume](/en/volumes/ "Create a volume").
 
 Then go to Journal management > Journal > Review grid where all the existing grids are located.
 

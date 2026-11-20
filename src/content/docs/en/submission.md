@@ -31,7 +31,7 @@ To help you upload a document, we have produced a series of video tutorials (pro
 
 ### Login to the website
 
-The HAL account is used to connect to the journal websites. If this is your first submission or you do not have a HAL account, you will need to [create an account](https://doc.episciences.org/account/ "Create an account").
+The HAL account is used to connect to the journal websites. If this is your first submission or you do not have a HAL account, you will need to [create an account](/en/account/ "Create an account").
 
 To connect to a journal’s website, click on the “Sign in” button at the top right.
 
@@ -65,7 +65,9 @@ Click on “Submit this article” to validate the submission.
 
 Once a document has been submitted, it can be linked to a dataset, software or other publication.
 
-For details on how to do this, see [Linking publications/data/software](https://doc.episciences.org/software/ "Linking publications/data/software").
+For details on how to do this, see [Linking publications/data/software](/en/software/ "Linking publications/data/software").
+
+To submit a dataset or software as the submission itself (with a data descriptor), see [Datasets and data descriptors](/en/datadescriptor/).
 
 ## Submit a document to a special issue
 

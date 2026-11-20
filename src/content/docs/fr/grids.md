@@ -85,7 +85,7 @@ Une icône de couleur précise la visibilité du critère :
 
 ## Associer une grille à un volume
 
-Il faut d’abord [créer un volume](https://doc.episciences.org/fr/volumes/ "Créer un volume").
+Il faut d’abord [créer un volume](/fr/volumes/ "Créer un volume").
 
 Aller ensuite dans Gérer la revue > Revue > Grilles de relecture où se trouvent toutes les grilles existantes.
 

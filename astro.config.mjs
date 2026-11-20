@@ -104,6 +104,8 @@ export default defineConfig({
             { slug: "copyediting" },
             { slug: "citations" },
             { slug: "software" },
+            // 6. Datasets & software as submissions
+            { slug: "datadescriptor" },
           ],
         },
         {

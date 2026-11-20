@@ -5,6 +5,7 @@ import starlightImageZoom from "starlight-image-zoom";
 import starlightScrollToTop from "starlight-scroll-to-top";
 import starlightLinksValidator from "starlight-links-validator";
 import starlightLlmsTxt from "starlight-llms-txt";
+import mermaid from "astro-mermaid";
 
 // https://astro.build/config
 export default defineConfig({
@@ -13,6 +14,8 @@ export default defineConfig({
     "/": "/en/",
   },
   integrations: [
+    // Must be declared before Starlight so Expressive Code does not render mermaid blocks as code
+    mermaid({ autoTheme: true }),
     starlight({
       title: {
         en: "Episciences documentation",

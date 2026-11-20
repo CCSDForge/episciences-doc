@@ -10,6 +10,8 @@ import mermaid from "astro-mermaid";
 // https://astro.build/config
 export default defineConfig({
   site: "https://doc.episciences.org",
+  // Avoid "/en" links: Apache redirects them to http:// (mixed content)
+  trailingSlash: "always",
   redirects: {
     "/": "/en/",
   },

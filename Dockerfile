@@ -1,4 +1,4 @@
-FROM node:22-alpine
+FROM node:24-alpine
 
 LABEL maintainer="CCSD <contact@episciences.org>"
 LABEL description="Starlight build and dev environment for Episciences documentation"

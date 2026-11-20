@@ -70,6 +70,8 @@ Après le dépôt du document, il est possible de lui ajouter un jeu de données
 
 Pour consulter le détail de la procédure, consulter la page [Lien publications / données / logiciels](https://doc.episciences.org/fr/software/ "Lien publications / données / logiciels").
 
+Pour soumettre un jeu de données ou un logiciel en tant que soumission à part entière (avec un data paper), consulter la page [Jeux de données et data papers](/fr/datadescriptor/).
+
 ## Soumettre un document dans un volume spécial
 
 Si vous avez été invité-e à contribuer à un volume spécial, un code d’accès vous a été envoyé par mail. La procédure

@@ -67,6 +67,8 @@ Once a document has been submitted, it can be linked to a dataset, software or o
 
 For details on how to do this, see [Linking publications/data/software](https://doc.episciences.org/software/ "Linking publications/data/software").
 
+To submit a dataset or software as the submission itself (with a data descriptor), see [Datasets and data descriptors](/en/datadescriptor/).
+
 ## Submit a document to a special issue
 
 If you have been invited to contribute to a special issue, an access code has been sent to you by email. The procedure is the same as for submitting a document, but you must first enter the access code in the corresponding field.

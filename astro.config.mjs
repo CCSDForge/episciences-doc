@@ -17,7 +17,12 @@ export default defineConfig({
   },
   integrations: [
     // Must be declared before Starlight so Expressive Code does not render mermaid blocks as code
-    mermaid({ autoTheme: true }),
+    mermaid({
+      autoTheme: true,
+      // SVG text labels: HTML labels (foreignObject) can be measured before layout
+      // is ready, which clips multi-line node text to a single line
+      mermaidConfig: { htmlLabels: false },
+    }),
     starlight({
       title: {
         en: "Episciences documentation",

@@ -1,5 +1,5 @@
 ---
-title: "Episciences Insights : tableau de bord statistique"
+title: "Tableau de bord statistique"
 ---
 
 <div class="roles-container not-content" role="region" aria-label="Accès">

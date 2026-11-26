@@ -121,14 +121,14 @@ export default defineConfig({
           items: [{ slug: "website" }],
         },
         {
-            label: "Episciences Insights",
-            translations: { fr: "Episciences Insights" },
-            items: [{ slug: "insights" }],
-        },
-        {
           label: "Help & FAQ",
           translations: { fr: "Aide & FAQ" },
           items: [{ slug: "faq" }],
+        },
+        {
+          label: "Episciences Insights",
+          translations: { fr: "Episciences Insights" },
+          items: [{ slug: "insights" }],
         },
       ],
       plugins: [

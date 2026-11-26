@@ -1,5 +1,5 @@
 ---
-title: "Episciences Insights: statistics dashboard"
+title: "Statistics dashboard"
 ---
 
 <div class="roles-container not-content" role="region" aria-label="Access">

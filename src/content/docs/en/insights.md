@@ -12,6 +12,7 @@ title: "Statistics dashboard"
 ## About this website 
 
 Episciences Insights is a public dashboard of metrics related to diamond open-access publications hosted by the Episciences platform. The data comes exclusively from open infrastructures (Episciences, OpenAlex, OpenAIRE Graph, ROR, zbMATH Open, and Episciences user journals) and is updated monthly. In accordance with the DORA and CoARA principles, no proprietary metrics such as the impact factor are displayed.
+
 The website is available in three languages (English, French, Spanish).
 
 ***
@@ -52,11 +53,12 @@ To return to the full view, click the “Reset” button.
 
 ### Search for a journal (Journal Statistics page)
 
-![Journal selector](img/insights-2.png)
-
 The “Journal Statistics” page is designed for journal editorial boards. To search for a specific journal:
 
 1. Open the journals page from the home page or from the navigation menu that remains displayed at the top of each page;
+
+![Journal selector](img/insights-2.png)
+
 2. Use the journal selector in the filter bar to select the relevant journal from the drop-down list, which is organized alphabetically;
 3. All metrics on the page are then recalculated for that specific journal.\
 
@@ -77,9 +79,10 @@ The metrics provided for a journal include, among others:
 
 The “Institution statistics” page allows you to measure an institution’s presence in Episciences publications. To search for an organization:
 
+1. Open the page dedicated to institutions from the home page or from the navigation menu that remains displayed at the top of the pages;
+
 ![Institution selector](img/insights-3.png)
 
-1. Open the page dedicated to institutions from the home page or from the navigation menu that remains displayed at the top of the pages;
 2. Click the “Institution” dropdown in the filter bar;
 3. Enter the name of the organization (e.g., CNRS, Inria, Oxford) or a country in the search field that appears. The list is filtered as you type. The search for an organization’s name is based on the name recorded in the ROR. Acronyms are not always supported (e.g., Inria can only be found by using “Institut national de recherche en sciences et technologies du numérique”).
 4. Select the desired organization. Each entry lists its country, its ROR identifier (if applicable), as well as the number of unique publications and the number of author affiliations associated with it;

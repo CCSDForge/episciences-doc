@@ -12,6 +12,7 @@ title: "Tableau de bord statistique"
 ## À propos du site
 
 Episciences Insights est un tableau de bord public d'indicateurs portant sur les publications en libre accès diamant hébergées par la plateforme Episciences. Les données proviennent exclusivement d'infrastructures ouvertes (Episciences, OpenAlex, OpenAIRE Graph, ROR, zbMATH Open, journaux d'usage Episciences) et sont mises à jour mensuellement. Conformément aux principes de DORA et de CoARA, aucun indicateur propriétaire tel que le facteur d'impact n'est affiché.
+
 Le site est disponible en trois langues (anglais, français, espagnol).
 
 ***
